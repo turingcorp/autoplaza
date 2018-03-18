@@ -141,8 +141,8 @@
 		DA140AB6205E689C00451711 /* Structure */ = {
 			isa = PBXGroup;
 			children = (
-				DA140AB7205E68A800451711 /* StructureController.swift */,
 				DA140AB9205E6A1900451711 /* Structure.swift */,
+				DA140AB7205E68A800451711 /* StructureController.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";

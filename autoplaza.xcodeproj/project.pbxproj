@@ -6,22 +6,8 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		DA140A7F205E61F800451711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140A7E205E61F800451711 /* AppDelegate.swift */; };
-		DA140A81205E61F800451711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140A80205E61F800451711 /* ViewController.swift */; };
-		DA140A84205E61F800451711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA140A82205E61F800451711 /* Main.storyboard */; };
-		DA140A86205E61F800451711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA140A85205E61F800451711 /* Assets.xcassets */; };
-		DA140A89205E61F800451711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA140A87205E61F800451711 /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		DA140A7B205E61F800451711 /* autoplaza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoplaza.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA140A7E205E61F800451711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA140A80205E61F800451711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA140A83205E61F800451711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA140A85205E61F800451711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA140A88205E61F800451711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DA140A8A205E61F800451711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +24,6 @@
 		DA140A72205E61F800451711 = {
 			isa = PBXGroup;
 			children = (
-				DA140A7D205E61F800451711 /* autoplaza */,
 				DA140A7C205E61F800451711 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,19 +34,6 @@
 				DA140A7B205E61F800451711 /* autoplaza.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DA140A7D205E61F800451711 /* autoplaza */ = {
-			isa = PBXGroup;
-			children = (
-				DA140A7E205E61F800451711 /* AppDelegate.swift */,
-				DA140A80205E61F800451711 /* ViewController.swift */,
-				DA140A82205E61F800451711 /* Main.storyboard */,
-				DA140A85205E61F800451711 /* Assets.xcassets */,
-				DA140A87205E61F800451711 /* LaunchScreen.storyboard */,
-				DA140A8A205E61F800451711 /* Info.plist */,
-			);
-			path = autoplaza;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +95,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA140A89205E61F800451711 /* LaunchScreen.storyboard in Resources */,
-				DA140A86205E61F800451711 /* Assets.xcassets in Resources */,
-				DA140A84205E61F800451711 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +105,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA140A81205E61F800451711 /* ViewController.swift in Sources */,
-				DA140A7F205E61F800451711 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DA140A82205E61F800451711 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA140A83205E61F800451711 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DA140A87205E61F800451711 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA140A88205E61F800451711 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DA140A8B205E61F800451711 /* Debug */ = {

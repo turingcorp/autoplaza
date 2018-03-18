@@ -1,4 +1,5 @@
+StructureNavigatorView_title="Autoplaza";
 StructureNavigatorView_buttonFavourites="Favourites";
 StructureNavigatorView_buttonFilters="Filters";
 StructureNavigatorView_buttonGuide="Price Comparison";
-StructureItemExplore_title="Explore";
+StructureNavigatorView_buttonExplore="Explore";

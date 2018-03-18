@@ -17,6 +17,6 @@ class StructureController:UIPageViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addNavigationView()
+        self.start()
     }
 }

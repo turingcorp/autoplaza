@@ -18,4 +18,17 @@ class TestStructure:XCTestCase {
         let items:[StructureItemProtocol] = Structure.factoryItems()
         XCTAssertGreaterThan(items.count, 0, "Factorised items is empty")
     }
+    
+    func testItemsIndex() {
+        guard
+            let items:[StructureItemProtocol] = self.structure?.items
+        else {
+            return
+        }
+        var previousIndex:Int = -1
+        for item:StructureItemProtocol in items {
+            XCTAssertGreaterThan(item.index, previousIndex, "Item index is not in order")
+            previousIndex = item.index
+        }
+    }
 }

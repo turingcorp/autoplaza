@@ -17,6 +17,7 @@
 		DA140ABA205E6A1900451711 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AB9205E6A1900451711 /* Structure.swift */; };
 		DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ABC205E6A4700451711 /* TestStructure.swift */; };
 		DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ABE205E736D00451711 /* StructureItemProtocol.swift */; };
+		DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC0205E73B900451711 /* Structure+Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DA140AB9205E6A1900451711 /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
 		DA140ABC205E6A4700451711 /* TestStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructure.swift; sourceTree = "<group>"; };
 		DA140ABE205E736D00451711 /* StructureItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureItemProtocol.swift; sourceTree = "<group>"; };
+		DA140AC0205E73B900451711 /* Structure+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure+Factory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				DA140AB9205E6A1900451711 /* Structure.swift */,
+				DA140AC0205E73B900451711 /* Structure+Factory.swift */,
 				DA140ABE205E736D00451711 /* StructureItemProtocol.swift */,
 				DA140AB7205E68A800451711 /* StructureController.swift */,
 			);
@@ -267,6 +270,7 @@
 				DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */,
 				DA140AB5205E65A000451711 /* Application.swift in Sources */,
 				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
+				DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */,
 				DA140ABA205E6A1900451711 /* Structure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

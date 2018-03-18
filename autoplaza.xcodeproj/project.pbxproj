@@ -6,12 +6,46 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DA140AAA205E64BE00451711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA140A9F205E64BE00451711 /* LaunchScreen.storyboard */; };
+		DA140AAB205E64BE00451711 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA0205E64BE00451711 /* README.md */; };
+		DA140AAC205E64BE00451711 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA1205E64BE00451711 /* LICENSE */; };
+		DA140AAD205E64BE00451711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA3205E64BE00451711 /* InfoPlist.strings */; };
+		DA140AB0205E64BE00451711 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA9205E64BE00451711 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA140A99205E644000451711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA140A73205E61F800451711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA140A7A205E61F800451711;
+			remoteInfo = autoplaza;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		DA140A7B205E61F800451711 /* autoplaza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoplaza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA140A94205E644000451711 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA140A9F205E64BE00451711 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA140AA0205E64BE00451711 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA140AA1205E64BE00451711 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA140AA4205E64BE00451711 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA140AA6205E64BE00451711 /* unitTestsInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = unitTestsInfo.plist; sourceTree = "<group>"; };
+		DA140AA7205E64BE00451711 /* autoplazaInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = autoplazaInfo.plist; sourceTree = "<group>"; };
+		DA140AA9205E64BE00451711 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA140AB2205E64DE00451711 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DA140A78205E61F800451711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA140A91205E644000451711 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -24,6 +58,15 @@
 		DA140A72205E61F800451711 = {
 			isa = PBXGroup;
 			children = (
+				DA140A9E205E64BE00451711 /* Assets */,
+				DA140AA5205E64BE00451711 /* Configuration */,
+				DA140AA2205E64BE00451711 /* Resources */,
+				DA140AA8205E64BE00451711 /* Source */,
+				DA140AB1205E64CB00451711 /* UnitTests */,
+				DA140AB2205E64DE00451711 /* Scripts */,
+				DA140AA1205E64BE00451711 /* LICENSE */,
+				DA140AA0205E64BE00451711 /* README.md */,
+				DA140AA9205E64BE00451711 /* .gitignore */,
 				DA140A7C205E61F800451711 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -32,8 +75,48 @@
 			isa = PBXGroup;
 			children = (
 				DA140A7B205E61F800451711 /* autoplaza.app */,
+				DA140A94205E644000451711 /* UnitTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DA140A9E205E64BE00451711 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DA140A9F205E64BE00451711 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DA140AA2205E64BE00451711 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA140AA3205E64BE00451711 /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA140AA5205E64BE00451711 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DA140AA6205E64BE00451711 /* unitTestsInfo.plist */,
+				DA140AA7205E64BE00451711 /* autoplazaInfo.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DA140AA8205E64BE00451711 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DA140AB1205E64CB00451711 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -56,6 +139,24 @@
 			productReference = DA140A7B205E61F800451711 /* autoplaza.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DA140A93205E644000451711 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA140A9B205E644000451711 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				DA140A90205E644000451711 /* Sources */,
+				DA140A91205E644000451711 /* Frameworks */,
+				DA140A92205E644000451711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA140A9A205E644000451711 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = DA140A94205E644000451711 /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -69,6 +170,11 @@
 					DA140A7A205E61F800451711 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					DA140A93205E644000451711 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA140A7A205E61F800451711;
 					};
 				};
 			};
@@ -86,12 +192,25 @@
 			projectRoot = "";
 			targets = (
 				DA140A7A205E61F800451711 /* autoplaza */,
+				DA140A93205E644000451711 /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DA140A79205E61F800451711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA140AAC205E64BE00451711 /* LICENSE in Resources */,
+				DA140AB0205E64BE00451711 /* .gitignore in Resources */,
+				DA140AAD205E64BE00451711 /* InfoPlist.strings in Resources */,
+				DA140AAB205E64BE00451711 /* README.md in Resources */,
+				DA140AAA205E64BE00451711 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA140A92205E644000451711 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,7 +227,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA140A90205E644000451711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA140A9A205E644000451711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA140A7A205E61F800451711 /* autoplaza */;
+			targetProxy = DA140A99205E644000451711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA140AA3205E64BE00451711 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA140AA4205E64BE00451711 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DA140A8B205E61F800451711 /* Debug */ = {
@@ -248,6 +393,38 @@
 			};
 			name = Release;
 		};
+		DA140A9C205E644000451711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AMWG3RLHN;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iturbide.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoplaza.app/autoplaza";
+			};
+			name = Debug;
+		};
+		DA140A9D205E644000451711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AMWG3RLHN;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iturbide.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoplaza.app/autoplaza";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -265,6 +442,15 @@
 			buildConfigurations = (
 				DA140A8E205E61F800451711 /* Debug */,
 				DA140A8F205E61F800451711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA140A9B205E644000451711 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA140A9C205E644000451711 /* Debug */,
+				DA140A9D205E644000451711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

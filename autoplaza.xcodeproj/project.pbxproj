@@ -19,6 +19,7 @@
 		DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ABE205E736D00451711 /* StructureItemProtocol.swift */; };
 		DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC0205E73B900451711 /* Structure+Factory.swift */; };
 		DA140AC4205E76E400451711 /* TestApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC3205E76E400451711 /* TestApplication.swift */; };
+		DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC5205E77B100451711 /* TestStructureController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DA140ABE205E736D00451711 /* StructureItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureItemProtocol.swift; sourceTree = "<group>"; };
 		DA140AC0205E73B900451711 /* Structure+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure+Factory.swift"; sourceTree = "<group>"; };
 		DA140AC3205E76E400451711 /* TestApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApplication.swift; sourceTree = "<group>"; };
+		DA140AC5205E77B100451711 /* TestStructureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				DA140ABC205E6A4700451711 /* TestStructure.swift */,
+				DA140AC5205E77B100451711 /* TestStructureController.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,
 				DA140AC4205E76E400451711 /* TestApplication.swift in Sources */,
 				DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */,
 			);

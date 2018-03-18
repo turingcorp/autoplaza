@@ -2,7 +2,7 @@ import XCTest
 @testable import autoplaza
 
 class TestStructure:XCTestCase {
-    private var structure:Structure?
+    private var structure:Structure!
     
     override func setUp() {
         super.setUp()
@@ -11,7 +11,7 @@ class TestStructure:XCTestCase {
     
     func testInit() {
         XCTAssertNotNil(self.structure, "Failed to load structure")
-        XCTAssertNotNil(self.structure?.items, "Structure has no items")
+        XCTAssertNotNil(self.structure.items, "Structure has no items")
     }
     
     func testFactory() {
@@ -20,15 +20,15 @@ class TestStructure:XCTestCase {
     }
     
     func testItemsIndex() {
-        guard
-            let items:[StructureItemProtocol] = self.structure?.items
-        else {
-            return
-        }
         var previousIndex:Int = -1
-        for item:StructureItemProtocol in items {
+        for item:StructureItemProtocol in self.structure.items {
             XCTAssertGreaterThan(item.index, previousIndex, "Item index is not in order")
             previousIndex = item.index
         }
+    }
+    
+    func testInitialIndex() {
+        XCTAssertLessThan(Structure.Constants.initialIndex, self.structure.items.count,
+                          "Initial index greater than total items")
     }
 }

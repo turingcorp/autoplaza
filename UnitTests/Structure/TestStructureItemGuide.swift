@@ -1,12 +1,12 @@
 import XCTest
 @testable import autoplaza
 
-class TestStructureItemExplore:XCTestCase {
-    private var item:StructureItemExplore!
+class TestStructureItemGuide:XCTestCase {
+    private var item:StructureItemGuide!
     
     override func setUp() {
         super.setUp()
-        self.item = StructureItemExplore(index:0)
+        self.item = StructureItemGuide(index:0)
     }
     
     func testInit() {

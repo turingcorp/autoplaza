@@ -2,7 +2,7 @@ import XCTest
 @testable import autoplaza
 
 class TestStructureController:XCTestCase {
-    private var controller:StructureController?
+    private var controller:StructureController!
     
     override func setUp() {
         super.setUp()
@@ -11,6 +11,6 @@ class TestStructureController:XCTestCase {
     
     func testInit() {
         XCTAssertNotNil(self.controller, "Failed to load controller")
-        XCTAssertNotNil(self.controller?.model, "Failed to load model")
+        XCTAssertNotNil(self.controller.model, "Failed to load model")
     }
 }

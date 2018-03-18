@@ -4,6 +4,7 @@ extension Structure {
     private static var types:[StructureItemProtocol.Type] {
         get {
             return [
+                StructureItemGuide.self,
                 StructureItemExplore.self]
         }
     }

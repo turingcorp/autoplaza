@@ -22,6 +22,9 @@
 		DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC5205E77B100451711 /* TestStructureController.swift */; };
 		DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC7205E786400451711 /* TestStructureItemExplore.swift */; };
 		DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC9205E78B000451711 /* StructureItemExplore.swift */; };
+		DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACB205E7A6600451711 /* Structure+Constants.swift */; };
+		DA140ACE205E7B5C00451711 /* StructureItemGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACD205E7B5C00451711 /* StructureItemGuide.swift */; };
+		DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		DA140AC5205E77B100451711 /* TestStructureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureController.swift; sourceTree = "<group>"; };
 		DA140AC7205E786400451711 /* TestStructureItemExplore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureItemExplore.swift; sourceTree = "<group>"; };
 		DA140AC9205E78B000451711 /* StructureItemExplore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureItemExplore.swift; sourceTree = "<group>"; };
+		DA140ACB205E7A6600451711 /* Structure+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure+Constants.swift"; sourceTree = "<group>"; };
+		DA140ACD205E7B5C00451711 /* StructureItemGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureItemGuide.swift; sourceTree = "<group>"; };
+		DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureItemGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,9 +161,11 @@
 			isa = PBXGroup;
 			children = (
 				DA140AB9205E6A1900451711 /* Structure.swift */,
+				DA140ACB205E7A6600451711 /* Structure+Constants.swift */,
 				DA140AC0205E73B900451711 /* Structure+Factory.swift */,
 				DA140ABE205E736D00451711 /* StructureItemProtocol.swift */,
 				DA140AC9205E78B000451711 /* StructureItemExplore.swift */,
+				DA140ACD205E7B5C00451711 /* StructureItemGuide.swift */,
 				DA140AB7205E68A800451711 /* StructureController.swift */,
 			);
 			path = Structure;
@@ -169,6 +177,7 @@
 				DA140ABC205E6A4700451711 /* TestStructure.swift */,
 				DA140AC5205E77B100451711 /* TestStructureController.swift */,
 				DA140AC7205E786400451711 /* TestStructureItemExplore.swift */,
+				DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
@@ -288,10 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */,
+				DA140ACE205E7B5C00451711 /* StructureItemGuide.swift in Sources */,
 				DA140AB5205E65A000451711 /* Application.swift in Sources */,
 				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
 				DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */,
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
+				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
 				DA140ABA205E6A1900451711 /* Structure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +313,7 @@
 			files = (
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,
+				DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */,
 				DA140AC4205E76E400451711 /* TestApplication.swift in Sources */,
 				DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */,
 			);

@@ -13,6 +13,7 @@
 		DA140AAD205E64BE00451711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA3205E64BE00451711 /* InfoPlist.strings */; };
 		DA140AB0205E64BE00451711 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA9205E64BE00451711 /* .gitignore */; };
 		DA140AB5205E65A000451711 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AB4205E65A000451711 /* Application.swift */; };
+		DA140AB8205E68A800451711 /* StructureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AB7205E68A800451711 /* StructureController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		DA140AA9205E64BE00451711 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DA140AB2205E64DE00451711 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
 		DA140AB4205E65A000451711 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		DA140AB7205E68A800451711 /* StructureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		DA140AA8205E64BE00451711 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				DA140AB6205E689C00451711 /* Structure */,
 				DA140AB3205E659300451711 /* Application */,
 			);
 			path = Source;
@@ -128,6 +131,14 @@
 				DA140AB4205E65A000451711 /* Application.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		DA140AB6205E689C00451711 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				DA140AB7205E68A800451711 /* StructureController.swift */,
+			);
+			path = Structure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA140AB5205E65A000451711 /* Application.swift in Sources */,
+				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

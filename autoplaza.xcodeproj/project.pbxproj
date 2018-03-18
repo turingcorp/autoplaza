@@ -12,6 +12,7 @@
 		DA140AAC205E64BE00451711 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA1205E64BE00451711 /* LICENSE */; };
 		DA140AAD205E64BE00451711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA3205E64BE00451711 /* InfoPlist.strings */; };
 		DA140AB0205E64BE00451711 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA140AA9205E64BE00451711 /* .gitignore */; };
+		DA140AB5205E65A000451711 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AB4205E65A000451711 /* Application.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		DA140AA7205E64BE00451711 /* autoplazaInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = autoplazaInfo.plist; sourceTree = "<group>"; };
 		DA140AA9205E64BE00451711 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DA140AB2205E64DE00451711 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
+		DA140AB4205E65A000451711 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		DA140AA8205E64BE00451711 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				DA140AB3205E659300451711 /* Application */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -117,6 +120,14 @@
 			children = (
 			);
 			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		DA140AB3205E659300451711 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DA140AB4205E65A000451711 /* Application.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				TargetAttributes = {
 					DA140A7A205E61F800451711 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					DA140A93205E644000451711 = {
@@ -224,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA140AB5205E65A000451711 /* Application.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,12 +380,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AMWG3RLHN;
 				INFOPLIST_FILE = autoplaza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iturbide.autoplaza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AMWG3RLHN;
 				INFOPLIST_FILE = autoplaza/Info.plist;
@@ -396,6 +412,7 @@
 		DA140A9C205E644000451711 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AMWG3RLHN;
@@ -412,6 +429,7 @@
 		DA140A9D205E644000451711 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AMWG3RLHN;

@@ -39,6 +39,7 @@
 		DA2DF21A205E82B500A50D77 /* ExtensionNSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF210205E82B500A50D77 /* ExtensionNSManagedObject.swift */; };
 		DA2DF21B205E82B500A50D77 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF211205E82B500A50D77 /* ExtensionString.swift */; };
 		DA2DF21C205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF212205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift */; };
+		DA2DF21F205E8C8500A50D77 /* brand.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2DF21E205E8C8500A50D77 /* brand.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		DA2DF211205E82B500A50D77 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
 		DA2DF212205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutHorizontal.swift"; sourceTree = "<group>"; };
 		DA2DF21D205E8BCA00A50D77 /* Design */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Design; sourceTree = "<group>"; };
+		DA2DF21E205E8C8500A50D77 /* brand.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = brand.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				DA140A9F205E64BE00451711 /* LaunchScreen.storyboard */,
+				DA2DF21E205E8C8500A50D77 /* brand.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				DA140AAD205E64BE00451711 /* InfoPlist.strings in Resources */,
 				DA140AAB205E64BE00451711 /* README.md in Resources */,
 				DA140AAA205E64BE00451711 /* LaunchScreen.storyboard in Resources */,
+				DA2DF21F205E8C8500A50D77 /* brand.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +525,7 @@
 		DA140A8E205E61F800451711 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AMWG3RLHN;
@@ -537,6 +542,7 @@
 		DA140A8F205E61F800451711 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AMWG3RLHN;

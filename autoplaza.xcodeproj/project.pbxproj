@@ -46,7 +46,6 @@
 		DA2DF229205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF228205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift */; };
 		DA2DF230205E9F1E00A50D77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA2DF22E205E9F1E00A50D77 /* InfoPlist.strings */; };
 		DA2DF233205E9F2A00A50D77 /* LocalizableNavigation.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA2DF231205E9F2A00A50D77 /* LocalizableNavigation.strings */; };
-		DA7A19A9205EB59200071EFC /* StructureController+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19A8205EB59200071EFC /* StructureController+Start.swift */; };
 		DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AD205EB84A00071EFC /* ExploreController.swift */; };
 		DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AF205EB87400071EFC /* FavouritesController.swift */; };
 		DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B1205EB88200071EFC /* FiltersController.swift */; };
@@ -109,7 +108,6 @@
 		DA2DF228205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorViewButton+Constants.swift"; sourceTree = "<group>"; };
 		DA7A19A6205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA7A19A7205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableNavigation.strings; sourceTree = "<group>"; };
-		DA7A19A8205EB59200071EFC /* StructureController+Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Start.swift"; sourceTree = "<group>"; };
 		DA7A19AD205EB84A00071EFC /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		DA7A19AF205EB87400071EFC /* FavouritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesController.swift; sourceTree = "<group>"; };
 		DA7A19B1205EB88200071EFC /* FiltersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersController.swift; sourceTree = "<group>"; };
@@ -231,7 +229,6 @@
 				DA140AB7205E68A800451711 /* StructureController.swift */,
 				DA2DF206205E825100A50D77 /* StructureController+Constants.swift */,
 				DA2DF204205E81F000A50D77 /* StructureController+Navigation.swift */,
-				DA7A19A8205EB59200071EFC /* StructureController+Start.swift */,
 				DA140AD3205E805B00451711 /* StructureNavigatorView.swift */,
 				DA2DF222205E9AC200A50D77 /* StructureNavigatorView+Constants.swift */,
 				DA2DF224205E9B1C00A50D77 /* StructureNavigatorViewButton.swift */,
@@ -440,7 +437,6 @@
 				DA2DF205205E81F000A50D77 /* StructureController+Navigation.swift in Sources */,
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
-				DA7A19A9205EB59200071EFC /* StructureController+Start.swift in Sources */,
 				DA2DF214205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift in Sources */,
 				DA2DF229205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift in Sources */,
 				DA2DF21C205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift in Sources */,

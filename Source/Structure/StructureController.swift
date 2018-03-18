@@ -17,6 +17,10 @@ class StructureController:UIPageViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.start()
+        self.addNavigationView()
+        self.scrollTo(
+            item:self.model.selected,
+            direction:UIPageViewControllerNavigationDirection.forward,
+            animated:false)
     }
 }

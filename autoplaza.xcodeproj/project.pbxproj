@@ -25,6 +25,8 @@
 		DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACB205E7A6600451711 /* Structure+Constants.swift */; };
 		DA140ACE205E7B5C00451711 /* StructureItemGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACD205E7B5C00451711 /* StructureItemGuide.swift */; };
 		DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */; };
+		DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */; };
+		DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AD3205E805B00451711 /* StructureNavigatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		DA140ACB205E7A6600451711 /* Structure+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure+Constants.swift"; sourceTree = "<group>"; };
 		DA140ACD205E7B5C00451711 /* StructureItemGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureItemGuide.swift; sourceTree = "<group>"; };
 		DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureItemGuide.swift; sourceTree = "<group>"; };
+		DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureNavigatorView.swift; sourceTree = "<group>"; };
+		DA140AD3205E805B00451711 /* StructureNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 				DA140AC9205E78B000451711 /* StructureItemExplore.swift */,
 				DA140ACD205E7B5C00451711 /* StructureItemGuide.swift */,
 				DA140AB7205E68A800451711 /* StructureController.swift */,
+				DA140AD3205E805B00451711 /* StructureNavigatorView.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				DA140AC5205E77B100451711 /* TestStructureController.swift */,
 				DA140AC7205E786400451711 /* TestStructureItemExplore.swift */,
 				DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */,
+				DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
 				DA140ABA205E6A1900451711 /* Structure.swift in Sources */,
+				DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
+				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
 				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,
 				DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */,
 				DA140AC4205E76E400451711 /* TestApplication.swift in Sources */,

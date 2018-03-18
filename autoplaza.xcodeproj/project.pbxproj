@@ -18,6 +18,7 @@
 		DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ABC205E6A4700451711 /* TestStructure.swift */; };
 		DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ABE205E736D00451711 /* StructureItemProtocol.swift */; };
 		DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC0205E73B900451711 /* Structure+Factory.swift */; };
+		DA140AC4205E76E400451711 /* TestApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC3205E76E400451711 /* TestApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA140ABC205E6A4700451711 /* TestStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructure.swift; sourceTree = "<group>"; };
 		DA140ABE205E736D00451711 /* StructureItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureItemProtocol.swift; sourceTree = "<group>"; };
 		DA140AC0205E73B900451711 /* Structure+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure+Factory.swift"; sourceTree = "<group>"; };
+		DA140AC3205E76E400451711 /* TestApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		DA140AB1205E64CB00451711 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				DA140AC2205E76DA00451711 /* Application */,
 				DA140ABB205E6A3400451711 /* Structure */,
 			);
 			path = UnitTests;
@@ -159,6 +162,14 @@
 				DA140ABC205E6A4700451711 /* TestStructure.swift */,
 			);
 			path = Structure;
+			sourceTree = "<group>";
+		};
+		DA140AC2205E76DA00451711 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DA140AC3205E76E400451711 /* TestApplication.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA140AC4205E76E400451711 /* TestApplication.swift in Sources */,
 				DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

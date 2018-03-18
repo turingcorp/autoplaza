@@ -1,6 +1,7 @@
 import UIKit
 
 class StructureController:UIPageViewController {
+    var navigationView:StructureNavigatorView!
     let model:Structure
     
     init() {
@@ -12,5 +13,10 @@ class StructureController:UIPageViewController {
     
     required init?(coder:NSCoder) {
         return nil
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.addNavigationView()
     }
 }

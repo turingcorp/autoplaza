@@ -27,6 +27,18 @@
 		DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */; };
 		DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */; };
 		DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AD3205E805B00451711 /* StructureNavigatorView.swift */; };
+		DA2DF205205E81F000A50D77 /* StructureController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF204205E81F000A50D77 /* StructureController+Navigation.swift */; };
+		DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF206205E825100A50D77 /* StructureController+Constants.swift */; };
+		DA2DF213205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF209205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift */; };
+		DA2DF214205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF20A205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift */; };
+		DA2DF215205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF20B205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift */; };
+		DA2DF216205E82B500A50D77 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF20C205E82B500A50D77 /* ExtensionUIColor.swift */; };
+		DA2DF217205E82B500A50D77 /* ExtensionUIView+LayoutEquals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF20D205E82B500A50D77 /* ExtensionUIView+LayoutEquals.swift */; };
+		DA2DF218205E82B500A50D77 /* ExtensionFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF20E205E82B500A50D77 /* ExtensionFileManager.swift */; };
+		DA2DF219205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF20F205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift */; };
+		DA2DF21A205E82B500A50D77 /* ExtensionNSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF210205E82B500A50D77 /* ExtensionNSManagedObject.swift */; };
+		DA2DF21B205E82B500A50D77 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF211205E82B500A50D77 /* ExtensionString.swift */; };
+		DA2DF21C205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF212205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +77,18 @@
 		DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureItemGuide.swift; sourceTree = "<group>"; };
 		DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureNavigatorView.swift; sourceTree = "<group>"; };
 		DA140AD3205E805B00451711 /* StructureNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorView.swift; sourceTree = "<group>"; };
+		DA2DF204205E81F000A50D77 /* StructureController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Navigation.swift"; sourceTree = "<group>"; };
+		DA2DF206205E825100A50D77 /* StructureController+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Constants.swift"; sourceTree = "<group>"; };
+		DA2DF209205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutWidth.swift"; sourceTree = "<group>"; };
+		DA2DF20A205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutHeight.swift"; sourceTree = "<group>"; };
+		DA2DF20B205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutSize.swift"; sourceTree = "<group>"; };
+		DA2DF20C205E82B500A50D77 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		DA2DF20D205E82B500A50D77 /* ExtensionUIView+LayoutEquals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutEquals.swift"; sourceTree = "<group>"; };
+		DA2DF20E205E82B500A50D77 /* ExtensionFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFileManager.swift; sourceTree = "<group>"; };
+		DA2DF20F205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutVertical.swift"; sourceTree = "<group>"; };
+		DA2DF210205E82B500A50D77 /* ExtensionNSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionNSManagedObject.swift; sourceTree = "<group>"; };
+		DA2DF211205E82B500A50D77 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		DA2DF212205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutHorizontal.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +162,9 @@
 		DA140AA8205E64BE00451711 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DA140AB6205E689C00451711 /* Structure */,
 				DA140AB3205E659300451711 /* Application */,
+				DA140AB6205E689C00451711 /* Structure */,
+				DA2DF208205E82B500A50D77 /* Extensions */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -171,6 +196,8 @@
 				DA140AC9205E78B000451711 /* StructureItemExplore.swift */,
 				DA140ACD205E7B5C00451711 /* StructureItemGuide.swift */,
 				DA140AB7205E68A800451711 /* StructureController.swift */,
+				DA2DF206205E825100A50D77 /* StructureController+Constants.swift */,
+				DA2DF204205E81F000A50D77 /* StructureController+Navigation.swift */,
 				DA140AD3205E805B00451711 /* StructureNavigatorView.swift */,
 			);
 			path = Structure;
@@ -194,6 +221,23 @@
 				DA140AC3205E76E400451711 /* TestApplication.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		DA2DF208205E82B500A50D77 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DF210205E82B500A50D77 /* ExtensionNSManagedObject.swift */,
+				DA2DF20E205E82B500A50D77 /* ExtensionFileManager.swift */,
+				DA2DF20C205E82B500A50D77 /* ExtensionUIColor.swift */,
+				DA2DF211205E82B500A50D77 /* ExtensionString.swift */,
+				DA2DF209205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift */,
+				DA2DF20A205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift */,
+				DA2DF20B205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift */,
+				DA2DF20D205E82B500A50D77 /* ExtensionUIView+LayoutEquals.swift */,
+				DA2DF20F205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift */,
+				DA2DF212205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,14 +346,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2DF21B205E82B500A50D77 /* ExtensionString.swift in Sources */,
+				DA2DF215205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift in Sources */,
+				DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */,
+				DA2DF218205E82B500A50D77 /* ExtensionFileManager.swift in Sources */,
+				DA2DF213205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift in Sources */,
+				DA2DF217205E82B500A50D77 /* ExtensionUIView+LayoutEquals.swift in Sources */,
 				DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */,
 				DA140ACE205E7B5C00451711 /* StructureItemGuide.swift in Sources */,
 				DA140AB5205E65A000451711 /* Application.swift in Sources */,
+				DA2DF21A205E82B500A50D77 /* ExtensionNSManagedObject.swift in Sources */,
 				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
 				DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */,
+				DA2DF219205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift in Sources */,
+				DA2DF205205E81F000A50D77 /* StructureController+Navigation.swift in Sources */,
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
+				DA2DF214205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift in Sources */,
+				DA2DF21C205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift in Sources */,
 				DA140ABA205E6A1900451711 /* Structure.swift in Sources */,
+				DA2DF216205E82B500A50D77 /* ExtensionUIColor.swift in Sources */,
 				DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,6 +20,8 @@
 		DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC0205E73B900451711 /* Structure+Factory.swift */; };
 		DA140AC4205E76E400451711 /* TestApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC3205E76E400451711 /* TestApplication.swift */; };
 		DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC5205E77B100451711 /* TestStructureController.swift */; };
+		DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC7205E786400451711 /* TestStructureItemExplore.swift */; };
+		DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AC9205E78B000451711 /* StructureItemExplore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DA140AC0205E73B900451711 /* Structure+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure+Factory.swift"; sourceTree = "<group>"; };
 		DA140AC3205E76E400451711 /* TestApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApplication.swift; sourceTree = "<group>"; };
 		DA140AC5205E77B100451711 /* TestStructureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureController.swift; sourceTree = "<group>"; };
+		DA140AC7205E786400451711 /* TestStructureItemExplore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureItemExplore.swift; sourceTree = "<group>"; };
+		DA140AC9205E78B000451711 /* StructureItemExplore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureItemExplore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,7 @@
 				DA140AB9205E6A1900451711 /* Structure.swift */,
 				DA140AC0205E73B900451711 /* Structure+Factory.swift */,
 				DA140ABE205E736D00451711 /* StructureItemProtocol.swift */,
+				DA140AC9205E78B000451711 /* StructureItemExplore.swift */,
 				DA140AB7205E68A800451711 /* StructureController.swift */,
 			);
 			path = Structure;
@@ -163,6 +168,7 @@
 			children = (
 				DA140ABC205E6A4700451711 /* TestStructure.swift */,
 				DA140AC5205E77B100451711 /* TestStructureController.swift */,
+				DA140AC7205E786400451711 /* TestStructureItemExplore.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
@@ -285,6 +291,7 @@
 				DA140AB5205E65A000451711 /* Application.swift in Sources */,
 				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
 				DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */,
+				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
 				DA140ABA205E6A1900451711 /* Structure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,
 				DA140AC4205E76E400451711 /* TestApplication.swift in Sources */,
 				DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */,

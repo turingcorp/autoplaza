@@ -11,5 +11,6 @@ class TestStructureController:XCTestCase {
     
     func testInit() {
         XCTAssertNotNil(self.controller, "Failed to load controller")
+        XCTAssertNotNil(self.controller?.model, "Failed to load model")
     }
 }

@@ -89,6 +89,7 @@
 		DA2DF210205E82B500A50D77 /* ExtensionNSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionNSManagedObject.swift; sourceTree = "<group>"; };
 		DA2DF211205E82B500A50D77 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
 		DA2DF212205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutHorizontal.swift"; sourceTree = "<group>"; };
+		DA2DF21D205E8BCA00A50D77 /* Design */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Design; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 				DA140AA8205E64BE00451711 /* Source */,
 				DA140AB1205E64CB00451711 /* UnitTests */,
 				DA140AB2205E64DE00451711 /* Scripts */,
+				DA2DF21D205E8BCA00A50D77 /* Design */,
 				DA140AA1205E64BE00451711 /* LICENSE */,
 				DA140AA0205E64BE00451711 /* README.md */,
 				DA140AA9205E64BE00451711 /* .gitignore */,

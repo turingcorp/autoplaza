@@ -6,11 +6,10 @@ class TestGuideController: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        self.controller - GuideController()
+        self.controller = GuideController()
     }
     
     func testInit() {
         XCTAssertNotNil(self.controller, "Failed to load controller")
     }
-    
 }

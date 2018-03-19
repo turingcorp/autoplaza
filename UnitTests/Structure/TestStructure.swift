@@ -31,4 +31,8 @@ class TestStructure:XCTestCase {
         XCTAssertLessThan(Structure.Constants.initialIndex, self.structure.items.count,
                           "Initial index greater than total items")
     }
+    
+    func testSelected() {
+        XCTAssertNotNil(self.structure.selected, "Failed to assign selected item to structure")
+    }
 }

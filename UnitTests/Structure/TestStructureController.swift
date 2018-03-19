@@ -29,6 +29,9 @@ class TestStructureController:XCTestCase {
         let item:StructureItemExplore = StructureItemExplore(index:0)
         self.scrollToItem(item:item)
         self.validateCurrentControllerIs(controllerType:item.controllerType)
+        let newItem:StructureItemGuide = StructureItemGuide(index:0)
+        self.scrollToItem(item:newItem)
+        self.validateCurrentControllerIs(controllerType:newItem.controllerType)
     }
     
     private func scrollToItem(item:StructureItemProtocol) {

@@ -30,8 +30,8 @@ extension StructureController {
     
     func scrollTo(item:StructureItemProtocol, direction:UIPageViewControllerNavigationDirection, animated:Bool) {
         let controller:UIViewController = item.controllerType.init()
-        self.setViewControllers([controller], direction:direction, animated:animated, completion:nil)
         self.updateNavigatorView(item:item)
+        self.setViewControllers([controller], direction:direction, animated:animated, completion:nil)
     }
     
     private func updateNavigatorView(item:StructureItemProtocol) {

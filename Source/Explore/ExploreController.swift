@@ -12,8 +12,11 @@ class ExploreController:UIViewController {
         return nil
     }
     
+    override func loadView() {
+        self.view = ExploreView()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.red
     }
 }

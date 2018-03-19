@@ -54,6 +54,9 @@
 		DA40B85B205FB37800CFF383 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B85A205FB37800CFF383 /* Explore.swift */; };
 		DA40B85D205FB39500CFF383 /* TestExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B85C205FB39500CFF383 /* TestExplore.swift */; };
 		DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B85E205FB42B00CFF383 /* TestExploreController.swift */; };
+		DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BCD20600FEB00DF1BAB /* ExploreView.swift */; };
+		DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */; };
+		DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */; };
 		DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AD205EB84A00071EFC /* ExploreController.swift */; };
 		DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AF205EB87400071EFC /* FavouritesController.swift */; };
 		DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B1205EB88200071EFC /* FiltersController.swift */; };
@@ -122,6 +125,9 @@
 		DA40B85A205FB37800CFF383 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
 		DA40B85C205FB39500CFF383 /* TestExplore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExplore.swift; sourceTree = "<group>"; };
 		DA40B85E205FB42B00CFF383 /* TestExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreController.swift; sourceTree = "<group>"; };
+		DA730BCD20600FEB00DF1BAB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
+		DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfiguration.swift; sourceTree = "<group>"; };
 		DA7A19A6205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA7A19A7205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableNavigation.strings; sourceTree = "<group>"; };
 		DA7A19AD205EB84A00071EFC /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
@@ -205,6 +211,7 @@
 		DA140AA8205E64BE00451711 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				DA730BCF2060199100DF1BAB /* SearchConfiguration */,
 				DA140AB3205E659300451711 /* Application */,
 				DA7A19B3205EB89900071EFC /* Guide */,
 				DA7A19AB205EB83800071EFC /* Explore */,
@@ -219,6 +226,7 @@
 		DA140AB1205E64CB00451711 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				DA730BD02060199A00DF1BAB /* SearchConfiguration */,
 				DA40B84C205F973600CFF383 /* Explore */,
 				DA40B84F205F973600CFF383 /* Favourites */,
 				DA40B84E205F973600CFF383 /* Filters */,
@@ -330,6 +338,22 @@
 			path = Favourites;
 			sourceTree = "<group>";
 		};
+		DA730BCF2060199100DF1BAB /* SearchConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */,
+			);
+			path = SearchConfiguration;
+			sourceTree = "<group>";
+		};
+		DA730BD02060199A00DF1BAB /* SearchConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */,
+			);
+			path = SearchConfiguration;
+			sourceTree = "<group>";
+		};
 		DA7A19AA205EB83800071EFC /* Favourites */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,8 +365,9 @@
 		DA7A19AB205EB83800071EFC /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				DA7A19AD205EB84A00071EFC /* ExploreController.swift */,
 				DA40B85A205FB37800CFF383 /* Explore.swift */,
+				DA7A19AD205EB84A00071EFC /* ExploreController.swift */,
+				DA730BCD20600FEB00DF1BAB /* ExploreView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -472,6 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */,
 				DA2DF223205E9AC200A50D77 /* StructureNavigatorView+Constants.swift in Sources */,
 				DA2DF21B205E82B500A50D77 /* ExtensionString.swift in Sources */,
 				DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */,
@@ -494,6 +520,7 @@
 				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
 				DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */,
 				DA2DF219205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift in Sources */,
+				DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */,
 				DA2DF205205E81F000A50D77 /* StructureController+Navigator.swift in Sources */,
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
@@ -513,6 +540,7 @@
 			files = (
 				DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */,
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
+				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
 				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,

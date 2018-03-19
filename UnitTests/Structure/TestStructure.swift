@@ -35,4 +35,14 @@ class TestStructure:XCTestCase {
     func testSelected() {
         XCTAssertNotNil(self.structure.selected, "Failed to assign selected item to structure")
     }
+    
+    func testItemForType() {
+        let itemExplore:StructureItemExplore? = self.getItemForType(
+            type:StructureItemExplore.self) as? StructureItemExplore
+        XCTAssertNotNil(itemExplore, "Failed to get item explore")
+    }
+    
+    private func getItemForType(type:StructureItemProtocol.Type) -> StructureItemProtocol? {
+        return self.structure.itemFor(itemType:type)
+    }
 }

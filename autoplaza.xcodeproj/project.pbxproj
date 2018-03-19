@@ -46,6 +46,7 @@
 		DA2DF229205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF228205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift */; };
 		DA2DF230205E9F1E00A50D77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA2DF22E205E9F1E00A50D77 /* InfoPlist.strings */; };
 		DA2DF233205E9F2A00A50D77 /* LocalizableNavigation.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA2DF231205E9F2A00A50D77 /* LocalizableNavigation.strings */; };
+		DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B850205F974200CFF383 /* TestGuideController.swift */; };
 		DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AD205EB84A00071EFC /* ExploreController.swift */; };
 		DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AF205EB87400071EFC /* FavouritesController.swift */; };
 		DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B1205EB88200071EFC /* FiltersController.swift */; };
@@ -106,6 +107,7 @@
 		DA2DF224205E9B1C00A50D77 /* StructureNavigatorViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorViewButton.swift; sourceTree = "<group>"; };
 		DA2DF226205E9B9600A50D77 /* TestStructureNavigatorViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureNavigatorViewButton.swift; sourceTree = "<group>"; };
 		DA2DF228205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorViewButton+Constants.swift"; sourceTree = "<group>"; };
+		DA40B850205F974200CFF383 /* TestGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGuideController.swift; sourceTree = "<group>"; };
 		DA7A19A6205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA7A19A7205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableNavigation.strings; sourceTree = "<group>"; };
 		DA7A19AD205EB84A00071EFC /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
@@ -203,6 +205,10 @@
 		DA140AB1205E64CB00451711 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				DA40B84C205F973600CFF383 /* Explore */,
+				DA40B84F205F973600CFF383 /* Favourites */,
+				DA40B84E205F973600CFF383 /* Filters */,
+				DA40B84D205F973600CFF383 /* Guide */,
 				DA140AC2205E76DA00451711 /* Application */,
 				DA140ABB205E6A3400451711 /* Structure */,
 			);
@@ -273,6 +279,35 @@
 				DA2DF212205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA40B84C205F973600CFF383 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		DA40B84D205F973600CFF383 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				DA40B850205F974200CFF383 /* TestGuideController.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		DA40B84E205F973600CFF383 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		DA40B84F205F973600CFF383 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favourites;
 			sourceTree = "<group>";
 		};
 		DA7A19AA205EB83800071EFC /* Favourites */ = {
@@ -457,6 +492,7 @@
 				DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */,
 				DA2DF227205E9B9600A50D77 /* TestStructureNavigatorViewButton.swift in Sources */,
 				DA140AC4205E76E400451711 /* TestApplication.swift in Sources */,
+				DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */,
 				DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

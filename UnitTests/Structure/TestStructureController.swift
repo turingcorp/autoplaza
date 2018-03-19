@@ -34,6 +34,14 @@ class TestStructureController:XCTestCase {
         self.validateCurrentControllerIs(controllerType:newItem.controllerType)
     }
     
+    func testNavigateToItem() {
+        let newItem:StructureItemGuide = StructureItemGuide(index:0)
+        self.controller.navigateToItem(item:newItem)
+        let selectedType:StructureItemProtocol.Type = type(of:self.controller.model.selected)
+        let newItemType:StructureItemProtocol.Type = type(of:newItem)
+        XCTAssertTrue(selectedType == newItemType, "Failed to change current item")
+    }
+    
     private func scrollToItem(item:StructureItemProtocol) {
         self.controller.scrollTo(
             item:item,

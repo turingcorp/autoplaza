@@ -26,12 +26,22 @@ extension StructureController {
     
     @objc
     private func selectorGuide(sender button:UIButton) {
-        
+        guard
+            let item:StructureItemProtocol = self.model.itemFor(itemType:StructureItemGuide.self)
+        else {
+            return
+        }
+        self.navigateToItem(item:item)
     }
     
     @objc
     private func selectorExplore(sender button:UIButton) {
-        
+        guard
+            let item:StructureItemProtocol = self.model.itemFor(itemType:StructureItemExplore.self)
+        else {
+            return
+        }
+        self.navigateToItem(item:item)
     }
     
     @objc

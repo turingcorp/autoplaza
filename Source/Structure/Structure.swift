@@ -16,7 +16,6 @@ class Structure {
                 return item
             }
         }
-        
         return nil
     }
 }

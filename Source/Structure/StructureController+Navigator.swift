@@ -14,6 +14,20 @@ extension StructureController {
         self.assignSelectors()
     }
     
+    func navigateToItem(item:StructureItemProtocol) {
+        let direction:UIPageViewControllerNavigationDirection = self.factoryNavigationDirectionFor(item:item)
+        self.scrollTo(item:item, direction:direction, animated:true)
+        self.model.selected = item
+    }
+    
+    private func factoryNavigationDirectionFor(
+        item:StructureItemProtocol) -> UIPageViewControllerNavigationDirection {
+        if item.index >= self.model.selected.index {
+            return UIPageViewControllerNavigationDirection.forward
+        }
+        return UIPageViewControllerNavigationDirection.reverse
+    }
+    
     func scrollTo(item:StructureItemProtocol, direction:UIPageViewControllerNavigationDirection, animated:Bool) {
         let controller:UIViewController = item.controllerType.init()
         self.setViewControllers([controller], direction:direction, animated:animated, completion:nil)

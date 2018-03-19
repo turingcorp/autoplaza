@@ -50,6 +50,7 @@
 		DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */; };
 		DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */; };
 		DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B856205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift */; };
+		DA40B859205FAA1100CFF383 /* StructureController+Selectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B858205FAA1100CFF383 /* StructureController+Selectors.swift */; };
 		DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AD205EB84A00071EFC /* ExploreController.swift */; };
 		DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AF205EB87400071EFC /* FavouritesController.swift */; };
 		DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B1205EB88200071EFC /* FiltersController.swift */; };
@@ -114,6 +115,7 @@
 		DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorView+Configuration.swift"; sourceTree = "<group>"; };
 		DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
 		DA40B856205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
+		DA40B858205FAA1100CFF383 /* StructureController+Selectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Selectors.swift"; sourceTree = "<group>"; };
 		DA7A19A6205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA7A19A7205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableNavigation.strings; sourceTree = "<group>"; };
 		DA7A19AD205EB84A00071EFC /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				DA140AB7205E68A800451711 /* StructureController.swift */,
 				DA2DF206205E825100A50D77 /* StructureController+Constants.swift */,
 				DA2DF204205E81F000A50D77 /* StructureController+Navigator.swift */,
+				DA40B858205FAA1100CFF383 /* StructureController+Selectors.swift */,
 				DA140AD3205E805B00451711 /* StructureNavigatorView.swift */,
 				DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */,
 				DA2DF222205E9AC200A50D77 /* StructureNavigatorView+Constants.swift */,
@@ -473,6 +476,7 @@
 				DA2DF217205E82B500A50D77 /* ExtensionUIView+LayoutEquals.swift in Sources */,
 				DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */,
 				DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */,
+				DA40B859205FAA1100CFF383 /* StructureController+Selectors.swift in Sources */,
 				DA7A19B5205EB8A400071EFC /* GuideController.swift in Sources */,
 				DA140ACE205E7B5C00451711 /* StructureItemGuide.swift in Sources */,
 				DA140AB5205E65A000451711 /* Application.swift in Sources */,

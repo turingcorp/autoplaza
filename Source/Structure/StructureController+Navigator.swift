@@ -10,6 +10,8 @@ extension StructureController {
         navigatorView.layoutTopToTop(view:self.view)
         navigatorView.layoutHeight(constant:Constants.navigatorViewHeight)
         navigatorView.layoutEqualsHorizontal(view:self.view)
+        
+        self.assignSelectors()
     }
     
     func scrollTo(item:StructureItemProtocol, direction:UIPageViewControllerNavigationDirection, animated:Bool) {

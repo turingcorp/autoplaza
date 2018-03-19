@@ -16,7 +16,7 @@ class TestStructureController:XCTestCase {
     
     func testNavigationView() {
         XCTAssertNotNil(self.controller.view, "Failed loading controller view")
-        XCTAssertNotNil(self.controller.navigationView, "Failed to load navigation view")
+        XCTAssertNotNil(self.controller.navigatorView, "Failed to load navigator view")
     }
     
     func testScroll() {

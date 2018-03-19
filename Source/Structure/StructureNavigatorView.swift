@@ -1,7 +1,7 @@
 import UIKit
 
 class StructureNavigatorView:UIView {
-    private(set) var titleView:UILabel!
+    private(set) var titleView:StructureNavigatorViewTitle!
     private(set) var buttonFavourites:StructureNavigatorViewButton!
     private(set) var buttonFilters:StructureNavigatorViewButton!
     private(set) var buttonGuide:StructureNavigatorViewButton!
@@ -21,44 +21,38 @@ class StructureNavigatorView:UIView {
     }
     
     private func factoryButtons() {
-        let titleView:UILabel = UILabel()
-        titleView.isUserInteractionEnabled = false
-        titleView.translatesAutoresizingMaskIntoConstraints = false
-        titleView.backgroundColor = UIColor.clear
-        titleView.font = UIFont.systemFont(ofSize:Constants.titleFontSize, weight:UIFont.Weight.medium)
-        titleView.textColor = UIColor.black
-        titleView.textAlignment = NSTextAlignment.center
-        titleView.text = String.localizedNavigation(key:"StructureNavigatorView_title")
+        let titleView:StructureNavigatorViewTitle = StructureNavigatorViewTitle()
+        titleView.updateTitle(title:String.localizedNavigation(key:"StructureNavigatorView_title"))
         self.titleView = titleView
         
         let buttonFavourites:StructureNavigatorViewButton = StructureNavigatorViewButton(
             image:#imageLiteral(resourceName: "assetFavourites"),
             title:String.localizedNavigation(key:"StructureNavigatorView_buttonFavourites"))
-        buttonFavourites.isHidden = true
+        buttonFavourites.alpha = 0
         self.buttonFavourites = buttonFavourites
         
         let buttonFilters:StructureNavigatorViewButton = StructureNavigatorViewButton(
             image:#imageLiteral(resourceName: "assetFilters"),
             title:String.localizedNavigation(key:"StructureNavigatorView_buttonFilters"))
-        buttonFilters.isHidden = true
+        buttonFilters.alpha = 0
         self.buttonFilters = buttonFilters
         
         let buttonGuide:StructureNavigatorViewButton = StructureNavigatorViewButton(
             image:#imageLiteral(resourceName: "assetGuide"),
             title:String.localizedNavigation(key:"StructureNavigatorView_buttonGuide"))
-        buttonGuide.isHidden = true
+        buttonGuide.alpha = 0
         self.buttonGuide = buttonGuide
         
         let buttonExploreLeft:StructureNavigatorViewButton = StructureNavigatorViewButton(
             image:#imageLiteral(resourceName: "assetExplore"),
             title:String.localizedNavigation(key:"StructureNavigatorView_buttonExplore"))
-        buttonExploreLeft.isHidden = true
+        buttonExploreLeft.alpha = 0
         self.buttonExploreLeft = buttonExploreLeft
         
         let buttonExploreRight:StructureNavigatorViewButton = StructureNavigatorViewButton(
             image:#imageLiteral(resourceName: "assetExplore"),
             title:String.localizedNavigation(key:"StructureNavigatorView_buttonExplore"))
-        buttonExploreRight.isHidden = true
+        buttonExploreRight.alpha = 0
         self.buttonExploreRight = buttonExploreRight
         
         let borderView:UIView = UIView()

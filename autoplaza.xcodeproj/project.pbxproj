@@ -26,7 +26,7 @@
 		DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */; };
 		DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */; };
 		DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AD3205E805B00451711 /* StructureNavigatorView.swift */; };
-		DA2DF205205E81F000A50D77 /* StructureController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF204205E81F000A50D77 /* StructureController+Navigation.swift */; };
+		DA2DF205205E81F000A50D77 /* StructureController+Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF204205E81F000A50D77 /* StructureController+Navigator.swift */; };
 		DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF206205E825100A50D77 /* StructureController+Constants.swift */; };
 		DA2DF213205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF209205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift */; };
 		DA2DF214205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF20A205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift */; };
@@ -48,6 +48,8 @@
 		DA2DF233205E9F2A00A50D77 /* LocalizableNavigation.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA2DF231205E9F2A00A50D77 /* LocalizableNavigation.strings */; };
 		DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B850205F974200CFF383 /* TestGuideController.swift */; };
 		DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */; };
+		DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */; };
+		DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B856205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift */; };
 		DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AD205EB84A00071EFC /* ExploreController.swift */; };
 		DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AF205EB87400071EFC /* FavouritesController.swift */; };
 		DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B1205EB88200071EFC /* FiltersController.swift */; };
@@ -89,7 +91,7 @@
 		DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureItemGuide.swift; sourceTree = "<group>"; };
 		DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureNavigatorView.swift; sourceTree = "<group>"; };
 		DA140AD3205E805B00451711 /* StructureNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorView.swift; sourceTree = "<group>"; };
-		DA2DF204205E81F000A50D77 /* StructureController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Navigation.swift"; sourceTree = "<group>"; };
+		DA2DF204205E81F000A50D77 /* StructureController+Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Navigator.swift"; sourceTree = "<group>"; };
 		DA2DF206205E825100A50D77 /* StructureController+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Constants.swift"; sourceTree = "<group>"; };
 		DA2DF209205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutWidth.swift"; sourceTree = "<group>"; };
 		DA2DF20A205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutHeight.swift"; sourceTree = "<group>"; };
@@ -110,6 +112,8 @@
 		DA2DF228205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorViewButton+Constants.swift"; sourceTree = "<group>"; };
 		DA40B850205F974200CFF383 /* TestGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGuideController.swift; sourceTree = "<group>"; };
 		DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorView+Configuration.swift"; sourceTree = "<group>"; };
+		DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
+		DA40B856205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
 		DA7A19A6205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA7A19A7205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableNavigation.strings; sourceTree = "<group>"; };
 		DA7A19AD205EB84A00071EFC /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
@@ -236,12 +240,13 @@
 				DA140ACD205E7B5C00451711 /* StructureItemGuide.swift */,
 				DA140AB7205E68A800451711 /* StructureController.swift */,
 				DA2DF206205E825100A50D77 /* StructureController+Constants.swift */,
-				DA2DF204205E81F000A50D77 /* StructureController+Navigation.swift */,
+				DA2DF204205E81F000A50D77 /* StructureController+Navigator.swift */,
 				DA140AD3205E805B00451711 /* StructureNavigatorView.swift */,
 				DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */,
 				DA2DF222205E9AC200A50D77 /* StructureNavigatorView+Constants.swift */,
 				DA2DF224205E9B1C00A50D77 /* StructureNavigatorViewButton.swift */,
 				DA2DF228205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift */,
+				DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */,
 				DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */,
 				DA2DF226205E9B9600A50D77 /* TestStructureNavigatorViewButton.swift */,
+				DA40B856205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
@@ -465,6 +471,7 @@
 				DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */,
 				DA2DF213205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift in Sources */,
 				DA2DF217205E82B500A50D77 /* ExtensionUIView+LayoutEquals.swift in Sources */,
+				DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */,
 				DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */,
 				DA7A19B5205EB8A400071EFC /* GuideController.swift in Sources */,
 				DA140ACE205E7B5C00451711 /* StructureItemGuide.swift in Sources */,
@@ -473,7 +480,7 @@
 				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
 				DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */,
 				DA2DF219205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift in Sources */,
-				DA2DF205205E81F000A50D77 /* StructureController+Navigation.swift in Sources */,
+				DA2DF205205E81F000A50D77 /* StructureController+Navigator.swift in Sources */,
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
 				DA2DF214205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift in Sources */,
@@ -491,6 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
+				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
 				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,
 				DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */,

@@ -1,7 +1,7 @@
 import UIKit
 
 class StructureController:UIPageViewController {
-    var navigationView:StructureNavigatorView!
+    var navigatorView:StructureNavigatorView!
     let model:Structure
     
     init() {
@@ -17,7 +17,7 @@ class StructureController:UIPageViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addNavigationView()
+        self.addNavigatorView()
         self.scrollTo(
             item:self.model.selected,
             direction:UIPageViewControllerNavigationDirection.forward,

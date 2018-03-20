@@ -25,6 +25,16 @@ class TestCoredata:XCTestCase {
         XCTAssertNotNil(self.coredata, "Failed to load Coredata")
     }
     
+    func testSave() {
+        self.startExpectation()
+        
+        self.save { [weak self] in
+            self?.expect?.fulfill()
+        }
+        
+        self.waitExpectation()
+    }
+    
     func testCreate() {
         self.startExpectation()
         
@@ -72,5 +82,9 @@ class TestCoredata:XCTestCase {
     private func load<Entity:NSManagedObject>(entityType:Entity.Type, completion:@escaping(([Entity]) -> ())) {
         let fetchRequest:NSFetchRequest<Entity> = Coredata.factoryFetchRequest()
         self.coredata.load(request:fetchRequest, completion:completion)
+    }
+    
+    private func save(completion:@escaping(() -> ())) {
+        self.coredata.save(completion:completion)
     }
 }

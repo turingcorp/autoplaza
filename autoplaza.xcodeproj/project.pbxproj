@@ -57,6 +57,8 @@
 		DA4256712060E75B00F89C69 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256702060E75B00F89C69 /* DatabaseProtocol.swift */; };
 		DA4256732060E7D600F89C69 /* Coredata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256722060E7D600F89C69 /* Coredata.swift */; };
 		DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256742060E7F100F89C69 /* TestCoredata.swift */; };
+		DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256762060E8F100F89C69 /* TestCoredata_Factory.swift */; };
+		DA4256792060E99F00F89C69 /* Coredata+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256782060E99F00F89C69 /* Coredata+Factory.swift */; };
 		DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BCD20600FEB00DF1BAB /* ExploreView.swift */; };
 		DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */; };
 		DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */; };
@@ -131,6 +133,8 @@
 		DA4256702060E75B00F89C69 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
 		DA4256722060E7D600F89C69 /* Coredata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coredata.swift; sourceTree = "<group>"; };
 		DA4256742060E7F100F89C69 /* TestCoredata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata.swift; sourceTree = "<group>"; };
+		DA4256762060E8F100F89C69 /* TestCoredata_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata_Factory.swift; sourceTree = "<group>"; };
+		DA4256782060E99F00F89C69 /* Coredata+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Factory.swift"; sourceTree = "<group>"; };
 		DA730BCD20600FEB00DF1BAB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
 		DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfiguration.swift; sourceTree = "<group>"; };
@@ -360,6 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				DA4256722060E7D600F89C69 /* Coredata.swift */,
+				DA4256782060E99F00F89C69 /* Coredata+Factory.swift */,
 			);
 			path = Coredata;
 			sourceTree = "<group>";
@@ -368,6 +373,7 @@
 			isa = PBXGroup;
 			children = (
 				DA4256742060E7F100F89C69 /* TestCoredata.swift */,
+				DA4256762060E8F100F89C69 /* TestCoredata_Factory.swift */,
 			);
 			path = Coredata;
 			sourceTree = "<group>";
@@ -555,6 +561,7 @@
 				DA2DF217205E82B500A50D77 /* ExtensionUIView+LayoutEquals.swift in Sources */,
 				DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */,
 				DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */,
+				DA4256792060E99F00F89C69 /* Coredata+Factory.swift in Sources */,
 				DA40B859205FAA1100CFF383 /* StructureController+Selectors.swift in Sources */,
 				DA7A19B5205EB8A400071EFC /* GuideController.swift in Sources */,
 				DA140ACE205E7B5C00451711 /* StructureItemGuide.swift in Sources */,
@@ -582,6 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */,
+				DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */,
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,

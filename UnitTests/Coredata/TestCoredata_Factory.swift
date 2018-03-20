@@ -3,9 +3,18 @@ import CoreData
 @testable import autoplaza
 
 class TestCoredata_Factory:XCTestCase {
-    func testFactoryContext() {
+    private var context:NSManagedObjectContext!
+    override func setUp() {
+        super.setUp()
         let bundle:Bundle = Bundle(for:TestCoredata_Factory.self)
-        let context:NSManagedObjectContext? = Coredata.factoryContext(bundle:bundle)
-        XCTAssertNotNil(context, "Failed to factory context")
+        self.context = Coredata.factoryContext(bundle:bundle)
+    }
+    
+    func testFactory() {
+        XCTAssertNotNil(self.context, "Failed to factory context")
+    }
+    
+    func testStoreCoordinator() {
+        XCTAssertNotNil(self.context.persistentStoreCoordinator, "Context doesn't have store coordinator")
     }
 }

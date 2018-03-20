@@ -59,6 +59,8 @@
 		DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256742060E7F100F89C69 /* TestCoredata.swift */; };
 		DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256762060E8F100F89C69 /* TestCoredata_Factory.swift */; };
 		DA4256792060E99F00F89C69 /* Coredata+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256782060E99F00F89C69 /* Coredata+Factory.swift */; };
+		DA42567B2060EDE100F89C69 /* Coredata+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42567A2060EDE100F89C69 /* Coredata+Constants.swift */; };
+		DA42567E2060EF1000F89C69 /* Autoplaza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA42567C2060EF1000F89C69 /* Autoplaza.xcdatamodeld */; };
 		DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BCD20600FEB00DF1BAB /* ExploreView.swift */; };
 		DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */; };
 		DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */; };
@@ -135,6 +137,8 @@
 		DA4256742060E7F100F89C69 /* TestCoredata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata.swift; sourceTree = "<group>"; };
 		DA4256762060E8F100F89C69 /* TestCoredata_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata_Factory.swift; sourceTree = "<group>"; };
 		DA4256782060E99F00F89C69 /* Coredata+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Factory.swift"; sourceTree = "<group>"; };
+		DA42567A2060EDE100F89C69 /* Coredata+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Constants.swift"; sourceTree = "<group>"; };
+		DA42567D2060EF1000F89C69 /* Autoplaza.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Autoplaza.xcdatamodel; sourceTree = "<group>"; };
 		DA730BCD20600FEB00DF1BAB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
 		DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfiguration.swift; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 			children = (
 				DA2DF22E205E9F1E00A50D77 /* InfoPlist.strings */,
 				DA2DF231205E9F2A00A50D77 /* LocalizableNavigation.strings */,
+				DA42567C2060EF1000F89C69 /* Autoplaza.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 			isa = PBXGroup;
 			children = (
 				DA4256722060E7D600F89C69 /* Coredata.swift */,
+				DA42567A2060EDE100F89C69 /* Coredata+Constants.swift */,
 				DA4256782060E99F00F89C69 /* Coredata+Factory.swift */,
 			);
 			path = Coredata;
@@ -549,6 +555,7 @@
 				DA2DF21B205E82B500A50D77 /* ExtensionString.swift in Sources */,
 				DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */,
 				DA2DF215205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift in Sources */,
+				DA42567E2060EF1000F89C69 /* Autoplaza.xcdatamodeld in Sources */,
 				DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */,
 				DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */,
 				DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */,
@@ -578,6 +585,7 @@
 				DA2DF229205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift in Sources */,
 				DA2DF21C205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift in Sources */,
 				DA140ABA205E6A1900451711 /* Structure.swift in Sources */,
+				DA42567B2060EDE100F89C69 /* Coredata+Constants.swift in Sources */,
 				DA2DF216205E82B500A50D77 /* ExtensionUIColor.swift in Sources */,
 				DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */,
 				DA2DF225205E9B1C00A50D77 /* StructureNavigatorViewButton.swift in Sources */,
@@ -849,6 +857,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA42567C2060EF1000F89C69 /* Autoplaza.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA42567D2060EF1000F89C69 /* Autoplaza.xcdatamodel */,
+			);
+			currentVersion = DA42567D2060EF1000F89C69 /* Autoplaza.xcdatamodel */;
+			path = Autoplaza.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DA140A73205E61F800451711 /* Project object */;
 }

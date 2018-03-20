@@ -65,6 +65,7 @@
 		DA4256822060F25000F89C69 /* TestSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256812060F25000F89C69 /* TestSearchConfiguration_Factory.swift */; };
 		DA4256842060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */; };
 		DA4256862060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256852060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift */; };
+		DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */; };
 		DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BCD20600FEB00DF1BAB /* ExploreView.swift */; };
 		DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */; };
 		DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */; };
@@ -147,6 +148,7 @@
 		DA4256812060F25000F89C69 /* TestSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
 		DA4256852060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
+		DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
 		DA730BCD20600FEB00DF1BAB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
 		DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfiguration.swift; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 				DA40B85C205FB39500CFF383 /* TestExplore.swift */,
 				DA40B85E205FB42B00CFF383 /* TestExploreController.swift */,
 				DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */,
+				DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -613,6 +616,7 @@
 				DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */,
 				DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */,
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
+				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,

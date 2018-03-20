@@ -3,6 +3,7 @@ import XCTest
 
 class TestExplore:XCTestCase {
     private var explore:Explore!
+    private var searchConfigurationLoader:MockExploreSearchConfigurationLoader!
     private var expect:XCTestExpectation?
     private struct Constants {
         static let expectationWait:TimeInterval = 0.5
@@ -11,15 +12,16 @@ class TestExplore:XCTestCase {
     override func setUp() {
         super.setUp()
         self.explore = Explore()
+        self.searchConfigurationLoader = MockExploreSearchConfigurationLoader()
     }
     
     func testInit() {
         XCTAssertNotNil(self.explore, "Failed to load explore")
     }
     
-    func testLoadFilters() {
+    func testLoadSearchConfiguration() {
         self.startExpectation()
-        self.loadFilters()
+        self.loadSearchConfiguration()
         self.waitExpectation()
     }
     
@@ -31,9 +33,9 @@ class TestExplore:XCTestCase {
         waitForExpectations(timeout:Constants.expectationWait) { (error:Error?) in }
     }
     
-    private func loadFilters() {
-        self.explore.loadSearchConfiguration { [weak self] in
-            XCTAssertNotNil(self?.explore.searchConfiguration, "Failed to load search configuration")
+    private func loadSearchConfiguration() {
+        self.explore.loadSearchConfiguration(
+        searchConfigurationLoader:self.searchConfigurationLoader) { [weak self] in
             self?.expect?.fulfill()
         }
     }

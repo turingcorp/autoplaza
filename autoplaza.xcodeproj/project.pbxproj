@@ -66,6 +66,8 @@
 		DA4256842060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */; };
 		DA4256862060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256852060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift */; };
 		DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */; };
+		DA42568A2060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256892060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift */; };
+		DA42568C2060FCAF00F89C69 /* Coredata+Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42568B2060FCAF00F89C69 /* Coredata+Database.swift */; };
 		DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BCD20600FEB00DF1BAB /* ExploreView.swift */; };
 		DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */; };
 		DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */; };
@@ -149,6 +151,8 @@
 		DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
 		DA4256852060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
 		DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
+		DA4256892060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDatabase_SearchConfiguration.swift; sourceTree = "<group>"; };
+		DA42568B2060FCAF00F89C69 /* Coredata+Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Database.swift"; sourceTree = "<group>"; };
 		DA730BCD20600FEB00DF1BAB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
 		DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfiguration.swift; sourceTree = "<group>"; };
@@ -383,6 +387,7 @@
 				DA4256722060E7D600F89C69 /* Coredata.swift */,
 				DA42567A2060EDE100F89C69 /* Coredata+Constants.swift */,
 				DA4256782060E99F00F89C69 /* Coredata+Factory.swift */,
+				DA42568B2060FCAF00F89C69 /* Coredata+Database.swift */,
 			);
 			path = Coredata;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 		DA42566F2060E5F600F89C69 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				DA4256892060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -598,6 +604,7 @@
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
 				DA4256802060F23C00F89C69 /* SearchConfiguration+Factory.swift in Sources */,
 				DA2DF214205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift in Sources */,
+				DA42568C2060FCAF00F89C69 /* Coredata+Database.swift in Sources */,
 				DA2DF229205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift in Sources */,
 				DA4256862060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift in Sources */,
 				DA2DF21C205E82B500A50D77 /* ExtensionUIView+LayoutHorizontal.swift in Sources */,
@@ -618,6 +625,7 @@
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
+				DA42568A2060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift in Sources */,
 				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,

@@ -34,9 +34,15 @@ class TestExplore:XCTestCase {
     }
     
     private func loadSearchConfiguration() {
+        let currentConfiguration:SearchConfiguration = self.explore.searchConfiguration
         self.explore.loadSearchConfiguration(
         searchConfigurationLoader:self.searchConfigurationLoader) { [weak self] in
+            self?.compareConfigurations(previous:currentConfiguration)
             self?.expect?.fulfill()
         }
+    }
+    
+    private func compareConfigurations(previous:SearchConfiguration) {
+        XCTAssertFalse(previous === self.explore.searchConfiguration, "Configuration didn't change")
     }
 }

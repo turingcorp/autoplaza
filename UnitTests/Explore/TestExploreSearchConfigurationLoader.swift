@@ -3,6 +3,7 @@ import XCTest
 
 class TestExploreSearchConfigurationLoader:XCTestCase {
     private var loader:ExploreSearchConfigurationLoader!
+    private var database:MockDatabase_SearchConfiguration!
     private var expect:XCTestExpectation?
     private struct Constants {
         static let expectationWait:TimeInterval = 0.5
@@ -11,6 +12,7 @@ class TestExploreSearchConfigurationLoader:XCTestCase {
     override func setUp() {
         super.setUp()
         self.loader = ExploreSearchConfigurationLoader()
+        self.database = MockDatabase_SearchConfiguration()
     }
     
     func testInit() {
@@ -19,14 +21,14 @@ class TestExploreSearchConfigurationLoader:XCTestCase {
     
     func testLoad() {
         self.startExpectation()
-        self.loader.load { [weak self] (configuration:SearchConfiguration) in
+        self.loader.load(database:self.database) { [weak self] (configuration:SearchConfiguration) in
             self?.expect?.fulfill()
         }
         self.waitExpectation()
     }
     
     private func startExpectation() {
-        self.expect = XCTestExpectation(description:"Wait for expectation")
+        self.expect = expectation(description:"Wait for expectation")
     }
     
     private func waitExpectation() {

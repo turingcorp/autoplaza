@@ -17,6 +17,11 @@ class TestCoredata_Factory:XCTestCase {
         self.context = Coredata.factoryContext(bundle:self.bundle)
     }
     
+    override func tearDown() {
+        super.tearDown()
+        Coredata.removeStoreIn(bundle:self.bundle)
+    }
+    
     func testFactory() {
         XCTAssertNotNil(self.context, "Failed to factory context")
     }

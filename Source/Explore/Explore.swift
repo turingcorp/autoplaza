@@ -1,9 +1,9 @@
 import Foundation
 
 class Explore {
-    var searchConfiguration:SearchConfiguration?
+    var searchConfiguration:SearchConfiguration
     
-    func loadSearchConfiguration(completion:@escaping(() -> ())) {
-        
+    init() {
+        self.searchConfiguration = SearchConfiguration.factoryBasic()
     }
 }

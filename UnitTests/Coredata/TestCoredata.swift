@@ -25,4 +25,22 @@ class TestCoredata:XCTestCase {
     func testInit() {
         XCTAssertNotNil(self.coredata, "Failed to load Coredata")
     }
+    
+    func testCreate() {
+        self.startExpectation()
+        
+        self.coredata.create { [weak self] (configuration:CoredataSearchConfiguration) in
+            self?.expect?.fulfill()
+        }
+        
+        self.waitExpectation()
+    }
+    
+    private func startExpectation() {
+        self.expect = expectation(description:"Wait for expectation")
+    }
+    
+    private func waitExpectation() {
+        waitForExpectations(timeout:Constants.expectationWait) { (error:Error?) in }
+    }
 }

@@ -10,6 +10,21 @@ extension Coredata {
         return context
     }
     
+    class func factoryStoreURL(bundle:Bundle) -> URL {
+        let sqliteFile:String = factorySqliteFile(bundle:bundle)
+        let url:URL = FileManager.default.applicationDirectory.appendingPathComponent(sqliteFile)
+        return url
+    }
+
+    class func removeStoreIn(bundle:Bundle) {
+        let storeURL:URL = factoryStoreURL(bundle:bundle)
+        if FileManager.default.fileExists(atPath:storeURL.path) {
+            do {
+                try FileManager.default.removeItem(at:storeURL)
+            } catch {}
+        }
+    }
+    
     private class func factoryStoreIn(bundle:Bundle) -> NSPersistentStoreCoordinator? {
         guard
             let model:NSManagedObjectModel = factoryModel(),
@@ -41,12 +56,6 @@ extension Coredata {
             return nil
         }
         return store
-    }
-    
-    private class func factoryStoreURL(bundle:Bundle) -> URL {
-        let sqliteFile:String = factorySqliteFile(bundle:bundle)
-        let url:URL = FileManager.default.applicationDirectory.appendingPathComponent(sqliteFile)
-        return url
     }
     
     private class func factorySqliteFile(bundle:Bundle) -> String {

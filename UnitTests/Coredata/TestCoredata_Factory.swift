@@ -4,10 +4,17 @@ import CoreData
 
 class TestCoredata_Factory:XCTestCase {
     private var context:NSManagedObjectContext!
+    private var bundle:Bundle!
+    private var isDataExisiting:Bool {
+        get {
+            let dataURL:URL = Coredata.factoryStoreURL(bundle:self.bundle)
+            return FileManager.default.fileExists(atPath:dataURL.path)
+        }
+    }
     override func setUp() {
         super.setUp()
-        let bundle:Bundle = Bundle(for:TestCoredata_Factory.self)
-        self.context = Coredata.factoryContext(bundle:bundle)
+        self.bundle = Bundle(for:TestCoredata_Factory.self)
+        self.context = Coredata.factoryContext(bundle:self.bundle)
     }
     
     func testFactory() {
@@ -16,5 +23,13 @@ class TestCoredata_Factory:XCTestCase {
     
     func testStoreCoordinator() {
         XCTAssertNotNil(self.context.persistentStoreCoordinator, "Context doesn't have store coordinator")
+    }
+    
+    func testRemoveData() {
+        XCTAssertTrue(self.isDataExisiting, "Data should have been created")
+        
+        Coredata.removeStoreIn(bundle:self.bundle)
+        
+        XCTAssertFalse(self.isDataExisiting, "Data was not removed")
     }
 }

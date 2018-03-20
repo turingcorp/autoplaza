@@ -54,7 +54,9 @@
 		DA40B85B205FB37800CFF383 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B85A205FB37800CFF383 /* Explore.swift */; };
 		DA40B85D205FB39500CFF383 /* TestExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B85C205FB39500CFF383 /* TestExplore.swift */; };
 		DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B85E205FB42B00CFF383 /* TestExploreController.swift */; };
-		DA42566D2060E5EC00F89C69 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42566B2060E5EB00F89C69 /* Database.swift */; };
+		DA4256712060E75B00F89C69 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256702060E75B00F89C69 /* DatabaseProtocol.swift */; };
+		DA4256732060E7D600F89C69 /* Coredata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256722060E7D600F89C69 /* Coredata.swift */; };
+		DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256742060E7F100F89C69 /* TestCoredata.swift */; };
 		DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BCD20600FEB00DF1BAB /* ExploreView.swift */; };
 		DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */; };
 		DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */; };
@@ -126,7 +128,9 @@
 		DA40B85A205FB37800CFF383 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
 		DA40B85C205FB39500CFF383 /* TestExplore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExplore.swift; sourceTree = "<group>"; };
 		DA40B85E205FB42B00CFF383 /* TestExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreController.swift; sourceTree = "<group>"; };
-		DA42566B2060E5EB00F89C69 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		DA4256702060E75B00F89C69 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		DA4256722060E7D600F89C69 /* Coredata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coredata.swift; sourceTree = "<group>"; };
+		DA4256742060E7F100F89C69 /* TestCoredata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata.swift; sourceTree = "<group>"; };
 		DA730BCD20600FEB00DF1BAB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
 		DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfiguration.swift; sourceTree = "<group>"; };
@@ -347,7 +351,7 @@
 		DA42566A2060E5EB00F89C69 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				DA42566B2060E5EB00F89C69 /* Database.swift */,
+				DA4256702060E75B00F89C69 /* DatabaseProtocol.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -355,6 +359,7 @@
 		DA42566C2060E5EB00F89C69 /* Coredata */ = {
 			isa = PBXGroup;
 			children = (
+				DA4256722060E7D600F89C69 /* Coredata.swift */,
 			);
 			path = Coredata;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 		DA42566E2060E5F600F89C69 /* Coredata */ = {
 			isa = PBXGroup;
 			children = (
+				DA4256742060E7F100F89C69 /* TestCoredata.swift */,
 			);
 			path = Coredata;
 			sourceTree = "<group>";
@@ -540,6 +546,8 @@
 				DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */,
 				DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */,
 				DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */,
+				DA4256732060E7D600F89C69 /* Coredata.swift in Sources */,
+				DA4256712060E75B00F89C69 /* DatabaseProtocol.swift in Sources */,
 				DA40B85B205FB37800CFF383 /* Explore.swift in Sources */,
 				DA2DF218205E82B500A50D77 /* ExtensionFileManager.swift in Sources */,
 				DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */,
@@ -565,7 +573,6 @@
 				DA140ABA205E6A1900451711 /* Structure.swift in Sources */,
 				DA2DF216205E82B500A50D77 /* ExtensionUIColor.swift in Sources */,
 				DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */,
-				DA42566D2060E5EC00F89C69 /* Database.swift in Sources */,
 				DA2DF225205E9B1C00A50D77 /* StructureNavigatorViewButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,6 +582,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */,
+				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,

@@ -27,4 +27,18 @@ class Coredata:DatabaseProtocol {
     private func insertEntity(description:NSEntityDescription) -> NSManagedObject? {
         return NSManagedObject(entity:description, insertInto:self.context)
     }
+    
+    func load<Entity:NSManagedObject>(request:NSFetchRequest<Entity>, completion:@escaping(([Entity]) -> ())) {
+        self.context.perform {
+            let data:[NSManagedObject]
+            do {
+                data = try self.context.fetch(request)
+            } catch {
+                return
+            }
+            if let results:[Entity] = data as? [Entity] {
+                completion(results)
+            }
+        }
+    }
 }

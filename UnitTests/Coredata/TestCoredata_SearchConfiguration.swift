@@ -69,10 +69,15 @@ class TestCoredata_SearchConfiguration:XCTestCase {
     }
     
     private func createCoredataSearchConfiguration(completion:@escaping(() -> ())) {
-        
+        self.coredata.createCoredataSearchConfiguration { (configuration:CoredataSearchConfiguration) in
+            completion()
+        }
     }
     
     private func loadCoredataSearchConfiguration() {
-        
+        self.coredata.loadCoredataSearchConfiguration(
+            found: { [weak self] (configuration:CoredataSearchConfiguration) in
+                self?.expect?.fulfill()
+            }, notFound: { })
     }
 }

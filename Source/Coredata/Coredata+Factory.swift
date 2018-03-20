@@ -25,6 +25,12 @@ extension Coredata {
         }
     }
     
+    class func factoryFetchRequest<Entity:NSManagedObject>() -> NSFetchRequest<Entity> {
+        let request:NSFetchRequest<Entity> = NSFetchRequest(entityName:Entity.name)
+        request.returnsObjectsAsFaults = false
+        return request
+    }
+    
     private class func factoryStoreIn(bundle:Bundle) -> NSPersistentStoreCoordinator? {
         guard
             let model:NSManagedObjectModel = factoryModel(),

@@ -37,4 +37,9 @@ class TestCoredata_Factory:XCTestCase {
         
         XCTAssertFalse(self.isDataExisiting, "Data was not removed")
     }
+    
+    func testFactoryFetchRequest() {
+        let fetchRequest:NSFetchRequest? = Coredata.factoryFetchRequest()
+        XCTAssertNotNil(fetchRequest, "Failed to factory fetch request")
+    }
 }

@@ -29,8 +29,22 @@ class TestCoredata:XCTestCase {
     func testCreate() {
         self.startExpectation()
         
-        self.coredata.create { [weak self] (configuration:CoredataSearchConfiguration) in
+        self.create(entityType:CoredataSearchConfiguration.self) { [weak self] in
             self?.expect?.fulfill()
+        }
+        
+        self.waitExpectation()
+    }
+    
+    func testLoad() {
+        self.startExpectation()
+        
+        self.create(entityType:CoredataSearchConfiguration.self) { [weak self] in
+            self?.load(
+            entityType:CoredataSearchConfiguration.self) { [weak self] (entities:[CoredataSearchConfiguration]) in
+                XCTAssertEqual(entities.count, 1, "Incorrect amount of entities loaded")
+                self?.expect?.fulfill()
+            }
         }
         
         self.waitExpectation()
@@ -42,5 +56,16 @@ class TestCoredata:XCTestCase {
     
     private func waitExpectation() {
         waitForExpectations(timeout:Constants.expectationWait) { (error:Error?) in }
+    }
+    
+    private func create<Entity:NSManagedObject>(entityType:Entity.Type, completion:@escaping(() -> ())) {
+        self.coredata.create { (configuration:Entity) in
+            completion()
+        }
+    }
+    
+    private func load<Entity:NSManagedObject>(entityType:Entity.Type, completion:@escaping(([Entity]) -> ())) {
+        let fetchRequest:NSFetchRequest<Entity> = Coredata.factoryFetchRequest()
+        self.coredata.load(request:fetchRequest, completion:completion)
     }
 }

@@ -3,10 +3,10 @@ import Foundation
 extension Coredata {
     func loadSearchConfiguration(completion:@escaping((SearchConfiguration) -> ())) {
         self.loadCoredataSearchConfiguration(found: { [weak self] (configuration:CoredataSearchConfiguration) in
-            self?.translate(configuration:configuration, completion:completion)
+            self?.searchConfigurationLoaded(configuration:configuration, completion:completion)
         }, notFound: { [weak self] in
             self?.createCoredataSearchConfiguration { (configuration:CoredataSearchConfiguration) in
-                self?.translate(configuration:configuration, completion:completion)
+                self?.searchConfigurationLoaded(configuration:configuration, completion:completion)
             }
         })
     }
@@ -18,10 +18,10 @@ extension Coredata {
     }
     
     func createCoredataSearchConfiguration(completion:@escaping((CoredataSearchConfiguration) -> ())) {
-        
+        self.create(completion:completion)
     }
     
-    private func translate(
+    private func searchConfigurationLoaded(
         configuration:CoredataSearchConfiguration,
         completion:@escaping((SearchConfiguration) -> ())) {
         

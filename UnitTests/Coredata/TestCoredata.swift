@@ -13,8 +13,7 @@ class TestCoredata:XCTestCase {
     override func setUp() {
         super.setUp()
         self.bundle = Bundle(for:TestCoredata.self)
-        let context:NSManagedObjectContext = Coredata.factoryContext(bundle:bundle)
-        self.coredata = Coredata(context:context)
+        self.updateContext()
     }
     
     override func tearDown() {
@@ -40,6 +39,7 @@ class TestCoredata:XCTestCase {
         self.startExpectation()
         
         self.create(entityType:CoredataSearchConfiguration.self) { [weak self] in
+            self?.updateContext()
             self?.load(
             entityType:CoredataSearchConfiguration.self) { [weak self] (entities:[CoredataSearchConfiguration]) in
                 XCTAssertEqual(entities.count, 1, "Incorrect amount of entities loaded")
@@ -48,6 +48,11 @@ class TestCoredata:XCTestCase {
         }
         
         self.waitExpectation()
+    }
+    
+    private func updateContext() {
+        let context:NSManagedObjectContext = Coredata.factoryContext(bundle:self.bundle)
+        self.coredata = Coredata(context:context)
     }
     
     private func startExpectation() {

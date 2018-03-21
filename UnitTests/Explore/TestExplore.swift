@@ -17,6 +17,7 @@ class TestExplore:XCTestCase {
     
     func testInit() {
         XCTAssertNotNil(self.explore, "Failed to load explore")
+        XCTAssertNotNil(self.explore.requester, "Failed to load requester")
     }
     
     func testLoadSearchConfiguration() {

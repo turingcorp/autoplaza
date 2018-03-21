@@ -2,9 +2,11 @@ import Foundation
 
 class Explore {
     var searchConfiguration:SearchConfiguration
+    let requester:ExploreRequesterProtocol
     
-    init() {
+    init(requester:ExploreRequesterProtocol = ExploreRequester()) {
         self.searchConfiguration = SearchConfiguration.factoryBaseConfiguration()
+        self.requester = requester
     }
     
     func loadSearchConfiguration(

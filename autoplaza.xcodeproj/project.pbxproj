@@ -82,6 +82,9 @@
 		DA7A19B5205EB8A400071EFC /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B4205EB8A400071EFC /* GuideController.swift */; };
 		DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */; };
 		DAFAEC982062439700F10259 /* TestCoredata_Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC972062439700F10259 /* TestCoredata_Remove.swift */; };
+		DAFAEC9C20624AFD00F10259 /* TestExploreRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */; };
+		DAFAEC9E20624BC100F10259 /* ExploreRequesterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */; };
+		DAFAECA020624BE700F10259 /* ExploreRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +179,9 @@
 		DA7A19B4205EB8A400071EFC /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
 		DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Remove.swift"; sourceTree = "<group>"; };
 		DAFAEC972062439700F10259 /* TestCoredata_Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata_Remove.swift; sourceTree = "<group>"; };
+		DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequester.swift; sourceTree = "<group>"; };
+		DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequesterProtocol.swift; sourceTree = "<group>"; };
+		DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,6 +366,7 @@
 				DA40B85C205FB39500CFF383 /* TestExplore.swift */,
 				DA40B85E205FB42B00CFF383 /* TestExploreController.swift */,
 				DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */,
+				DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */,
 				DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */,
 			);
 			path = Explore;
@@ -463,6 +470,8 @@
 				DA4256852060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift */,
 				DA7A19AD205EB84A00071EFC /* ExploreController.swift */,
 				DA730BCD20600FEB00DF1BAB /* ExploreView.swift */,
+				DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */,
+				DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -594,6 +603,7 @@
 			files = (
 				DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */,
 				DA2DF223205E9AC200A50D77 /* StructureNavigatorView+Constants.swift in Sources */,
+				DAFAEC9E20624BC100F10259 /* ExploreRequesterProtocol.swift in Sources */,
 				DA2DF21B205E82B500A50D77 /* ExtensionString.swift in Sources */,
 				DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */,
 				DA2DF215205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift in Sources */,
@@ -605,6 +615,7 @@
 				DA4256732060E7D600F89C69 /* Coredata.swift in Sources */,
 				DA4256712060E75B00F89C69 /* DatabaseProtocol.swift in Sources */,
 				DA40B85B205FB37800CFF383 /* Explore.swift in Sources */,
+				DAFAECA020624BE700F10259 /* ExploreRequester.swift in Sources */,
 				DA2DF218205E82B500A50D77 /* ExtensionFileManager.swift in Sources */,
 				DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */,
 				DA2DF213205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift in Sources */,
@@ -645,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */,
+				DAFAEC9C20624AFD00F10259 /* TestExploreRequester.swift in Sources */,
 				DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */,
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,

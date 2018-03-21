@@ -85,6 +85,8 @@
 		DAFAEC9C20624AFD00F10259 /* TestExploreRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */; };
 		DAFAEC9E20624BC100F10259 /* ExploreRequesterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */; };
 		DAFAECA020624BE700F10259 /* ExploreRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */; };
+		DAFAECA320624CFB00F10259 /* TestMotor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA220624CFB00F10259 /* TestMotor.swift */; };
+		DAFAECA620624D3A00F10259 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA520624D3A00F10259 /* Motor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +184,8 @@
 		DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequester.swift; sourceTree = "<group>"; };
 		DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequesterProtocol.swift; sourceTree = "<group>"; };
 		DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequester.swift; sourceTree = "<group>"; };
+		DAFAECA220624CFB00F10259 /* TestMotor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMotor.swift; sourceTree = "<group>"; };
+		DAFAECA520624D3A00F10259 /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +264,7 @@
 		DA140AA8205E64BE00451711 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				DAFAECA420624D3100F10259 /* Motor */,
 				DA42566C2060E5EB00F89C69 /* Coredata */,
 				DA42566A2060E5EB00F89C69 /* Database */,
 				DA730BCF2060199100DF1BAB /* SearchConfiguration */,
@@ -277,6 +282,7 @@
 		DA140AB1205E64CB00451711 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				DAFAECA120624CD000F10259 /* Motor */,
 				DA42566E2060E5F600F89C69 /* Coredata */,
 				DA42566F2060E5F600F89C69 /* Database */,
 				DA730BD02060199A00DF1BAB /* SearchConfiguration */,
@@ -492,6 +498,22 @@
 			path = Guide;
 			sourceTree = "<group>";
 		};
+		DAFAECA120624CD000F10259 /* Motor */ = {
+			isa = PBXGroup;
+			children = (
+				DAFAECA220624CFB00F10259 /* TestMotor.swift */,
+			);
+			path = Motor;
+			sourceTree = "<group>";
+		};
+		DAFAECA420624D3100F10259 /* Motor */ = {
+			isa = PBXGroup;
+			children = (
+				DAFAECA520624D3A00F10259 /* Motor.swift */,
+			);
+			path = Motor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -608,6 +630,7 @@
 				DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */,
 				DA2DF215205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift in Sources */,
 				DA42567E2060EF1000F89C69 /* Autoplaza.xcdatamodeld in Sources */,
+				DAFAECA620624D3A00F10259 /* Motor.swift in Sources */,
 				DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */,
 				DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */,
 				DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */,
@@ -658,6 +681,7 @@
 				DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */,
 				DAFAEC9C20624AFD00F10259 /* TestExploreRequester.swift in Sources */,
 				DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */,
+				DAFAECA320624CFB00F10259 /* TestMotor.swift in Sources */,
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,
 				DAFAEC982062439700F10259 /* TestCoredata_Remove.swift in Sources */,

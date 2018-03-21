@@ -2,9 +2,13 @@ import Foundation
 
 class ExploreRequester:ExploreRequesterProtocol {
     let session:URLSession
+    let parser:ExploreRequesterParser
     
-    init(session:URLSession = ExploreRequester.factorySession()) {
+    init(
+        session:URLSession = ExploreRequester.factorySession(),
+        parser:ExploreRequesterParser = ExploreRequesterParser()) {
         self.session = session
+        self.parser = parser
     }
     
     func loadMotors(

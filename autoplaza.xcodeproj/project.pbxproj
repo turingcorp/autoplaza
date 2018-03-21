@@ -88,6 +88,8 @@
 		DAFAECA320624CFB00F10259 /* TestMotorCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA220624CFB00F10259 /* TestMotorCar.swift */; };
 		DAFAECA620624D3A00F10259 /* MotorCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA520624D3A00F10259 /* MotorCar.swift */; };
 		DAFAECA820624D9A00F10259 /* MotorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA720624D9A00F10259 /* MotorProtocol.swift */; };
+		DAFAECAA2062511900F10259 /* TestExploreRequester_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA92062511900F10259 /* TestExploreRequester_Factory.swift */; };
+		DAFAECAC206252AB00F10259 /* ExploreRequester+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECAB206252AB00F10259 /* ExploreRequester+Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +190,8 @@
 		DAFAECA220624CFB00F10259 /* TestMotorCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMotorCar.swift; sourceTree = "<group>"; };
 		DAFAECA520624D3A00F10259 /* MotorCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorCar.swift; sourceTree = "<group>"; };
 		DAFAECA720624D9A00F10259 /* MotorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorProtocol.swift; sourceTree = "<group>"; };
+		DAFAECA92062511900F10259 /* TestExploreRequester_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequester_Factory.swift; sourceTree = "<group>"; };
+		DAFAECAB206252AB00F10259 /* ExploreRequester+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExploreRequester+Factory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -375,6 +379,7 @@
 				DA40B85E205FB42B00CFF383 /* TestExploreController.swift */,
 				DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */,
 				DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */,
+				DAFAECA92062511900F10259 /* TestExploreRequester_Factory.swift */,
 				DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */,
 			);
 			path = Explore;
@@ -480,6 +485,7 @@
 				DA730BCD20600FEB00DF1BAB /* ExploreView.swift */,
 				DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */,
 				DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */,
+				DAFAECAB206252AB00F10259 /* ExploreRequester+Factory.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -637,6 +643,7 @@
 				DAFAECA620624D3A00F10259 /* MotorCar.swift in Sources */,
 				DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */,
 				DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */,
+				DAFAECAC206252AB00F10259 /* ExploreRequester+Factory.swift in Sources */,
 				DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */,
 				DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */,
 				DA4256732060E7D600F89C69 /* Coredata.swift in Sources */,
@@ -695,6 +702,7 @@
 				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
+				DAFAECAA2062511900F10259 /* TestExploreRequester_Factory.swift in Sources */,
 				DA66EBCE206104DD0073EE63 /* TestCoredata_SearchConfiguration.swift in Sources */,
 				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,
 				DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */,

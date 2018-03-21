@@ -8,3 +8,6 @@ class ExploreRequester:ExploreRequesterProtocol {
         
     }
 }
+
+
+// https://api.mercadolibre.com/sites/MLM/search?category=1743&limit=1&offset=0

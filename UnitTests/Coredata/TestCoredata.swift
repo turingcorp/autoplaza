@@ -5,6 +5,7 @@ import CoreData
 class TestCoredata:XCTestCase {
     private var coredata:Coredata!
     private var bundle:Bundle!
+    private var suffix:String!
     private var expect:XCTestExpectation?
     private struct Constants {
         static let expectationWait:TimeInterval = 0.5
@@ -13,12 +14,13 @@ class TestCoredata:XCTestCase {
     override func setUp() {
         super.setUp()
         self.bundle = Bundle(for:TestCoredata.self)
+        self.suffix = UUID().uuidString
         self.updateContext()
     }
     
     override func tearDown() {
         super.tearDown()
-        Coredata.removeStoreIn(bundle:self.bundle)
+        Coredata.removeStoreIn(bundle:self.bundle, suffix:self.suffix)
     }
     
     func testInit() {
@@ -58,7 +60,7 @@ class TestCoredata:XCTestCase {
     }
     
     private func updateContext() {
-        let context:NSManagedObjectContext = Coredata.factoryContext(bundle:self.bundle)
+        let context:NSManagedObjectContext = Coredata.factoryContext(bundle:self.bundle, suffix:self.suffix)
         self.coredata = Coredata(context:context)
     }
     

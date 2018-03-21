@@ -2,21 +2,21 @@ import Foundation
 import CoreData
 
 extension Coredata {
-    class func factoryContext(bundle:Bundle = Bundle.main) -> NSManagedObjectContext {
+    class func factoryContext(bundle:Bundle = Bundle.main, suffix:String = String()) -> NSManagedObjectContext {
         let context:NSManagedObjectContext = NSManagedObjectContext(
             concurrencyType:NSManagedObjectContextConcurrencyType.privateQueueConcurrencyType)
         context.mergePolicy = NSMergePolicy(merge:NSMergePolicyType.mergeByPropertyStoreTrumpMergePolicyType)
-        context.persistentStoreCoordinator = factoryStoreIn(bundle:bundle)
+        context.persistentStoreCoordinator = factoryStoreIn(bundle:bundle, suffix:suffix)
         return context
     }
     
-    class func factoryStoreURL(bundle:Bundle) -> URL {
-        let sqliteFile:String = factorySqliteFile(bundle:bundle)
+    class func factoryStoreURL(bundle:Bundle, suffix:String) -> URL {
+        let sqliteFile:String = factorySqliteFile(bundle:bundle, suffix:suffix)
         let url:URL = FileManager.default.applicationDirectory.appendingPathComponent(sqliteFile)
         return url
     }
     
-    class func factorySqliteFile(bundle:Bundle, suffix:String = String()) -> String {
+    class func factorySqliteFile(bundle:Bundle, suffix:String) -> String {
         var sqliteFile:String = factoryIdentifier(bundle:bundle)
         sqliteFile.append(".")
         sqliteFile.append(Constants.name)
@@ -32,10 +32,10 @@ extension Coredata {
         return request
     }
     
-    private class func factoryStoreIn(bundle:Bundle) -> NSPersistentStoreCoordinator? {
+    private class func factoryStoreIn(bundle:Bundle, suffix:String) -> NSPersistentStoreCoordinator? {
         guard
             let model:NSManagedObjectModel = factoryModel(),
-            let store:NSPersistentStoreCoordinator = factoryStoreIn(bundle:bundle, with:model)
+            let store:NSPersistentStoreCoordinator = factoryStoreIn(bundle:bundle, with:suffix, and:model)
         else {
             return nil
         }
@@ -54,8 +54,9 @@ extension Coredata {
     
     private class func factoryStoreIn(
         bundle:Bundle,
-        with model:NSManagedObjectModel) -> NSPersistentStoreCoordinator? {
-        let url:URL = factoryStoreURL(bundle:bundle)
+        with suffix:String,
+        and model:NSManagedObjectModel) -> NSPersistentStoreCoordinator? {
+        let url:URL = factoryStoreURL(bundle:bundle, suffix:suffix)
         let store:NSPersistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel:model)
         do {
             try store.addPersistentStore(ofType:NSSQLiteStoreType, configurationName:nil, at:url, options:nil)

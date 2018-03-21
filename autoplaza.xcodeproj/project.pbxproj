@@ -81,6 +81,7 @@
 		DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B1205EB88200071EFC /* FiltersController.swift */; };
 		DA7A19B5205EB8A400071EFC /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B4205EB8A400071EFC /* GuideController.swift */; };
 		DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */; };
+		DAFAEC982062439700F10259 /* TestCoredata_Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC972062439700F10259 /* TestCoredata_Remove.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,7 @@
 		DA7A19B1205EB88200071EFC /* FiltersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersController.swift; sourceTree = "<group>"; };
 		DA7A19B4205EB8A400071EFC /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
 		DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Remove.swift"; sourceTree = "<group>"; };
+		DAFAEC972062439700F10259 /* TestCoredata_Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata_Remove.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -412,6 +414,7 @@
 			children = (
 				DA4256742060E7F100F89C69 /* TestCoredata.swift */,
 				DA4256762060E8F100F89C69 /* TestCoredata_Factory.swift */,
+				DAFAEC972062439700F10259 /* TestCoredata_Remove.swift */,
 				DA66EBCD206104DD0073EE63 /* TestCoredata_SearchConfiguration.swift */,
 				DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */,
 				DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */,
@@ -645,6 +648,7 @@
 				DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */,
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,
+				DAFAEC982062439700F10259 /* TestCoredata_Remove.swift in Sources */,
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA42568A2060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift in Sources */,
 				DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */,

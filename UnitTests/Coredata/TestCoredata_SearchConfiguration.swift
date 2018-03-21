@@ -5,21 +5,23 @@ import CoreData
 class TestCoredata_SearchConfiguration:XCTestCase {
     private var coredata:Coredata!
     private var bundle:Bundle!
+    private var suffix:String!
     private var expect:XCTestExpectation?
     private struct Constants {
         static let expectationWait:TimeInterval = 500
     }
     
     override func setUp() {
-        self.bundle = Bundle(for:TestCoredata.self)
-        let context:NSManagedObjectContext = Coredata.factoryContext(bundle:bundle)
-        self.coredata = Coredata(context:context)
         super.setUp()
+        self.suffix = UUID().uuidString
+        self.bundle = Bundle(for:TestCoredata.self)
+        let context:NSManagedObjectContext = Coredata.factoryContext(bundle:bundle, suffix:self.suffix)
+        self.coredata = Coredata(context:context)
     }
     
     override func tearDown() {
-        Coredata.removeStoreIn(bundle:self.bundle)
         super.tearDown()
+        Coredata.removeStoreIn(bundle:self.bundle, suffix:self.suffix)
     }
     
     func testInit() {

@@ -17,6 +17,7 @@ class TestExploreRequester:XCTestCase {
     
     func testInit() {
         XCTAssertNotNil(self.requester, "Failed to load requester")
+        XCTAssertNotNil(self.requester.session, "Failed to load session")
     }
     
     func testLoadMotors() {

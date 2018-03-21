@@ -1,10 +1,16 @@
 import Foundation
 
 class ExploreRequester:ExploreRequesterProtocol {
+    let session:URLSession
+    
+    init(session:URLSession = ExploreRequester.factorySession()) {
+        self.session = session
+    }
+    
     func loadMotors(
         configuration:SearchConfiguration,
         success:@escaping(([MotorProtocol]) -> ()),
-        error:@escaping ((Error) -> ())) {
+        error:@escaping((Error) -> ())) {
         
     }
 }

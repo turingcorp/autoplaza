@@ -2,11 +2,11 @@ import XCTest
 @testable import autoplaza
 
 class TestMotor:XCTestCase {
-    private var motor:Motor!
+    private var motor:MotorCar!
     
     override func setUp() {
         super.setUp()
-        self.motor = Motor()
+        self.motor = MotorCar()
     }
     
     func testInit() {

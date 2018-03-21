@@ -86,7 +86,8 @@
 		DAFAEC9E20624BC100F10259 /* ExploreRequesterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */; };
 		DAFAECA020624BE700F10259 /* ExploreRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */; };
 		DAFAECA320624CFB00F10259 /* TestMotor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA220624CFB00F10259 /* TestMotor.swift */; };
-		DAFAECA620624D3A00F10259 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA520624D3A00F10259 /* Motor.swift */; };
+		DAFAECA620624D3A00F10259 /* MotorCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA520624D3A00F10259 /* MotorCar.swift */; };
+		DAFAECA820624D9A00F10259 /* MotorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA720624D9A00F10259 /* MotorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,7 +186,8 @@
 		DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequesterProtocol.swift; sourceTree = "<group>"; };
 		DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequester.swift; sourceTree = "<group>"; };
 		DAFAECA220624CFB00F10259 /* TestMotor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMotor.swift; sourceTree = "<group>"; };
-		DAFAECA520624D3A00F10259 /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
+		DAFAECA520624D3A00F10259 /* MotorCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorCar.swift; sourceTree = "<group>"; };
+		DAFAECA720624D9A00F10259 /* MotorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -509,7 +511,8 @@
 		DAFAECA420624D3100F10259 /* Motor */ = {
 			isa = PBXGroup;
 			children = (
-				DAFAECA520624D3A00F10259 /* Motor.swift */,
+				DAFAECA720624D9A00F10259 /* MotorProtocol.swift */,
+				DAFAECA520624D3A00F10259 /* MotorCar.swift */,
 			);
 			path = Motor;
 			sourceTree = "<group>";
@@ -623,6 +626,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFAECA820624D9A00F10259 /* MotorProtocol.swift in Sources */,
 				DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */,
 				DA2DF223205E9AC200A50D77 /* StructureNavigatorView+Constants.swift in Sources */,
 				DAFAEC9E20624BC100F10259 /* ExploreRequesterProtocol.swift in Sources */,
@@ -630,7 +634,7 @@
 				DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */,
 				DA2DF215205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift in Sources */,
 				DA42567E2060EF1000F89C69 /* Autoplaza.xcdatamodeld in Sources */,
-				DAFAECA620624D3A00F10259 /* Motor.swift in Sources */,
+				DAFAECA620624D3A00F10259 /* MotorCar.swift in Sources */,
 				DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */,
 				DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */,
 				DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */,

@@ -4,11 +4,15 @@ import XCTest
 class TestExploreRequesterParser:XCTestCase {
     private var parser:ExploreRequesterParser!
     private var json:Data!
+    private var jsonEmpty:Data!
+    private var jsonEmptyDictionary:Data!
     
     override func setUp() {
         super.setUp()
         self.parser = ExploreRequesterParser()
         self.json = JsonMocker.requestSearch01
+        self.jsonEmpty = JsonMocker.empty
+        self.jsonEmptyDictionary = JsonMocker.emptyDictionary
     }
     
     func testInit() {
@@ -16,13 +20,25 @@ class TestExploreRequesterParser:XCTestCase {
         XCTAssertNotNil(self.json, "Failed to load json mock")
     }
     
-    func testParseJson() {
-        let json:Any
+    func testParseNoThrow() {
+        XCTAssertNoThrow(try self.parser.parse(data:self.json), "Failed to parse json")
+    }
+    
+    func testParseEmptyThrow() {
+        XCTAssertThrowsError(try self.parser.parse(data:self.jsonEmpty), "Should throw an error")
+    }
+    
+    func testParseEmptyDictionaryThrow() {
+        XCTAssertThrowsError(try self.parser.parse(data:self.jsonEmptyDictionary), "Should throw an error")
+    }
+    
+    func testParseItems() {
+        let items:[MotorProtocol]
         do {
-            try json = JSONSerialization.jsonObject(with:self.json, options:JSONSerialization.ReadingOptions.allowFragments)
+            try items = self.parser.parse(data:self.json)
         } catch {
             return
         }
-        print(json)
+        XCTAssertEqual(items.count, 1, "Incorrect number of items parsed")
     }
 }

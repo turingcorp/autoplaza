@@ -2,10 +2,14 @@ import Foundation
 
 struct JsonMocker {
     static let requestSearch01:Data? = factoryJson(name:Constants.requestSearch01)
+    static let empty:Data? = factoryJson(name:Constants.empty)
+    static let emptyDictionary:Data? = factoryJson(name:Constants.emptyDictionary)
     
     private struct Constants {
         static let fileExtension:String = "json"
         static let requestSearch01:String = "JsonRequestSearch01"
+        static let empty:String = "JsonEmpty"
+        static let emptyDictionary:String = "JsonEmptyDictionary"
     }
     
     private static func factoryJson(name:String) -> Data? {

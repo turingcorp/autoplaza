@@ -4,6 +4,7 @@ import XCTest
 class TestExploreRequester:XCTestCase {
     private var requester:ExploreRequester!
     private var configuration:SearchConfiguration!
+    private var session:MockURLSessionExplore!
     private var expect:XCTestExpectation?
     private struct Constants {
         static let waitingForExpectation:TimeInterval = 0.5
@@ -11,7 +12,8 @@ class TestExploreRequester:XCTestCase {
     
     override func setUp() {
         super.setUp()
-        self.requester = ExploreRequester()
+        self.session = MockURLSessionExplore()
+        self.requester = ExploreRequester(session:self.session)
         self.configuration = SearchConfiguration.factoryBaseConfiguration()
     }
     
@@ -19,6 +21,7 @@ class TestExploreRequester:XCTestCase {
         XCTAssertNotNil(self.requester, "Failed to load requester")
         XCTAssertNotNil(self.requester.session, "Failed to load session")
         XCTAssertNotNil(self.requester.parser, "Failed to load parser")
+        XCTAssertNotNil(self.session, "Failed to load session")
     }
     
     func testLoadMotors() {

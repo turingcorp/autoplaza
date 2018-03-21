@@ -26,6 +26,8 @@
 		DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */; };
 		DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */; };
 		DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA140AD3205E805B00451711 /* StructureNavigatorView.swift */; };
+		DA1412CB20629E2D00C3EE3D /* MockURLSessionExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1412CA20629E2D00C3EE3D /* MockURLSessionExplore.swift */; };
+		DA1412CD20629FB200C3EE3D /* MockURLSessionDataTaskExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1412CC20629FB200C3EE3D /* MockURLSessionDataTaskExplore.swift */; };
 		DA2DF205205E81F000A50D77 /* StructureController+Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF204205E81F000A50D77 /* StructureController+Navigator.swift */; };
 		DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF206205E825100A50D77 /* StructureController+Constants.swift */; };
 		DA2DF213205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DF209205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift */; };
@@ -129,6 +131,8 @@
 		DA140ACF205E7B7D00451711 /* TestStructureItemGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureItemGuide.swift; sourceTree = "<group>"; };
 		DA140AD1205E7FFB00451711 /* TestStructureNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStructureNavigatorView.swift; sourceTree = "<group>"; };
 		DA140AD3205E805B00451711 /* StructureNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorView.swift; sourceTree = "<group>"; };
+		DA1412CA20629E2D00C3EE3D /* MockURLSessionExplore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionExplore.swift; sourceTree = "<group>"; };
+		DA1412CC20629FB200C3EE3D /* MockURLSessionDataTaskExplore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionDataTaskExplore.swift; sourceTree = "<group>"; };
 		DA2DF204205E81F000A50D77 /* StructureController+Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Navigator.swift"; sourceTree = "<group>"; };
 		DA2DF206205E825100A50D77 /* StructureController+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureController+Constants.swift"; sourceTree = "<group>"; };
 		DA2DF209205E82B500A50D77 /* ExtensionUIView+LayoutWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView+LayoutWidth.swift"; sourceTree = "<group>"; };
@@ -386,6 +390,8 @@
 				DAFAECA92062511900F10259 /* TestExploreRequester_Factory.swift */,
 				DAFAECAF206259C500F10259 /* TestExploreRequesterParser.swift */,
 				DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */,
+				DA1412CA20629E2D00C3EE3D /* MockURLSessionExplore.swift */,
+				DA1412CC20629FB200C3EE3D /* MockURLSessionDataTaskExplore.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -706,6 +712,7 @@
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA42568A2060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift in Sources */,
 				DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */,
+				DA1412CB20629E2D00C3EE3D /* MockURLSessionExplore.swift in Sources */,
 				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
@@ -714,6 +721,7 @@
 				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,
 				DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */,
 				DA4256842060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift in Sources */,
+				DA1412CD20629FB200C3EE3D /* MockURLSessionDataTaskExplore.swift in Sources */,
 				DA40B85D205FB39500CFF383 /* TestExplore.swift in Sources */,
 				DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */,
 				DAFAECB0206259C500F10259 /* TestExploreRequesterParser.swift in Sources */,

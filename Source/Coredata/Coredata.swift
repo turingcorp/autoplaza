@@ -41,4 +41,21 @@ class Coredata:DatabaseProtocol {
             }
         }
     }
+    
+    func save(completion:@escaping(() -> ())) {
+        guard
+            self.context.hasChanges == true
+        else {
+            completion()
+            return
+        }
+        self.context.perform {
+            do {
+                try self.context.save()
+            } catch let error {
+                assertionFailure(error.localizedDescription)
+            }
+            completion()
+        }
+    }
 }

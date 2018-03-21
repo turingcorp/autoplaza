@@ -3,6 +3,6 @@ import Foundation
 protocol ExploreRequesterProtocol {
     func loadMotors(
         configuration:SearchConfiguration,
-        success:@escaping(([MotorProtocol]) -> ()),
-        error:@escaping((Error) -> ()))
+        onSuccess:@escaping(([MotorProtocol]) -> ()),
+        onError:@escaping((Error) -> ()))
 }

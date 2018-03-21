@@ -1,0 +1,1562 @@
+{
+    "site_id": "MLM",
+    "paging": {
+        "total": 110690,
+        "offset": 0,
+        "limit": 1,
+        "primary_results": 100
+    },
+    "results": [
+                {
+                "id": "MLM573494325",
+                "site_id": "MLM",
+                "title": "Spark En Partes Refacciones Originales Piezas Autopartes",
+                "seller": {
+                "id": 33430226,
+                "power_seller_status": "gold",
+                "car_dealer": true,
+                "real_estate_agency": false,
+                "tags": [],
+                "car_dealer_logo": "https://resources.mlstatic.com/classifieds_accounts/MLM_car_dealer/33430226_vip_v2.jpg"
+                },
+                "price": 10000,
+                "currency_id": "MXN",
+                "available_quantity": 1,
+                "sold_quantity": 0,
+                "buying_mode": "classified",
+                "listing_type_id": "gold_premium",
+                "stop_time": "2018-04-28T22:15:03.000Z",
+                "condition": "not_specified",
+                "permalink": "http://vehiculo.mercadolibre.com.mx/MLM-573494325-spark-en-partes-refacciones-originales-piezas-autopartes-_JM",
+                "thumbnail": "http://mlm-s2-p.mlstatic.com/459905-MLM25108916728_102016-I.jpg",
+                "accepts_mercadopago": false,
+                "installments": null,
+                "address": {
+                "state_id": "TUxNUERVUjc3MDc",
+                "state_name": "Durango",
+                "city_id": "TUxNQ0fTTTkxMjE",
+                "city_name": "Gómez Palacio",
+                "area_code": "871",
+                "phone1": "1199507"
+                },
+                "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified"
+                },
+                "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "MX",
+                "name": "Mexico"
+                },
+                "state": {
+                "id": "MX-DUR",
+                "name": "Durango"
+                },
+                "city": {
+                "id": "TUxNQ0fTTTkxMjE",
+                "name": "Gómez Palacio"
+                },
+                "latitude": "",
+                "longitude": ""
+                },
+                "seller_contact": {
+                "contact": "",
+                "other_info": "",
+                "area_code": "871",
+                "phone": "1199507",
+                "area_code2": "",
+                "phone2": null,
+                "email": "",
+                "webpage": ""
+                },
+                "location": {
+                "address_line": "",
+                "zip_code": "",
+                "subneighborhood": null,
+                "neighborhood": {
+                "id": "TUxNQkfTTTY1NjU",
+                "name": "Gómez Palacio Centro"
+                },
+                "city": {
+                "id": "TUxNQ0fTTTkxMjE",
+                "name": "Gómez Palacio"
+                },
+                "state": {
+                "id": "TUxNUERVUjc3MDc",
+                "name": "Durango"
+                },
+                "country": {
+                "id": "MX",
+                "name": "Mexico"
+                },
+                "latitude": "",
+                "longitude": ""
+                },
+                "attributes": [
+                               {
+                               "attribute_group_id": "FIND",
+                               "attribute_group_name": "Ficha técnica",
+                               "id": "VEHICLE_YEAR",
+                               "name": "Año",
+                               "value_id": null,
+                               "value_name": "2015",
+                               "value_struct": null
+                               }
+                               ],
+                "original_price": null,
+                "category_id": "MLM95042",
+                "official_store_id": null,
+                "catalog_product_id": null,
+                "reviews": {}
+                }
+                ],
+    "secondary_results": [],
+    "related_results": [],
+    "sort": {
+        "id": "relevance",
+        "name": "Más relevantes"
+    },
+    "available_sorts": [
+                        {
+                        "id": "price_asc",
+                        "name": "Menor precio"
+                        },
+                        {
+                        "id": "price_desc",
+                        "name": "Mayor precio"
+                        }
+                        ],
+    "filters": [
+                {
+                "id": "category",
+                "name": "Categorías",
+                "type": "text",
+                "values": [
+                           {
+                           "id": "MLM1743",
+                           "name": "Autos, Motos y Otros",
+                           "path_from_root": [
+                                              {
+                                              "id": "MLM1743",
+                                              "name": "Autos, Motos y Otros"
+                                              }
+                                              ]
+                           }
+                           ]
+                }
+                ],
+    "available_filters": [
+                          {
+                          "id": "category",
+                          "name": "Categorías",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "MLM1744",
+                                     "name": "Autos y Camionetas",
+                                     "results": 80010
+                                     },
+                                     {
+                                     "id": "MLM1763",
+                                     "name": "Motos",
+                                     "results": 8173
+                                     },
+                                     {
+                                     "id": "MLM41706",
+                                     "name": "Vehículos Pesados",
+                                     "results": 7454
+                                     },
+                                     {
+                                     "id": "MLM58446",
+                                     "name": "Camiones",
+                                     "results": 3076
+                                     },
+                                     {
+                                     "id": "MLM1745",
+                                     "name": "Autos de Colección",
+                                     "results": 1899
+                                     },
+                                     {
+                                     "id": "MLM103755",
+                                     "name": "Colectivos y Autobuses",
+                                     "results": 462
+                                     },
+                                     {
+                                     "id": "MLM1785",
+                                     "name": "Náutica",
+                                     "results": 434
+                                     },
+                                     {
+                                     "id": "MLM1907",
+                                     "name": "Otros Vehículos",
+                                     "results": 9182
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "official_store",
+                          "name": "Tiendas oficiales",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "all",
+                                     "name": "Todas las tiendas oficiales",
+                                     "results": 5474
+                                     },
+                                     {
+                                     "id": "1001",
+                                     "name": "Mi Auto",
+                                     "results": 418
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "state",
+                          "name": "Ubicación",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "TUxNUERJUzYwOTQ",
+                                     "name": "Distrito Federal",
+                                     "results": 27333
+                                     },
+                                     {
+                                     "id": "TUxNUEVTVDMzMzc",
+                                     "name": "Estado De México",
+                                     "results": 18519
+                                     },
+                                     {
+                                     "id": "TUxNUEpBTDM3MTg",
+                                     "name": "Jalisco",
+                                     "results": 12240
+                                     },
+                                     {
+                                     "id": "TUxNUFBVRTQ4ODM",
+                                     "name": "Puebla",
+                                     "results": 7264
+                                     },
+                                     {
+                                     "id": "TUxNUE5VRTEzNTU",
+                                     "name": "Nuevo León",
+                                     "results": 7090
+                                     },
+                                     {
+                                     "id": "TUxNUFFVRTc3ODg",
+                                     "name": "Querétaro",
+                                     "results": 6505
+                                     },
+                                     {
+                                     "id": "TUxNUEdVQTgzNzk",
+                                     "name": "Guanajuato",
+                                     "results": 5129
+                                     },
+                                     {
+                                     "id": "TUxNUE1PUjI4Njk",
+                                     "name": "Morelos",
+                                     "results": 2292
+                                     },
+                                     {
+                                     "id": "TUxNUFZFUjk2Mjg",
+                                     "name": "Veracruz",
+                                     "results": 2167
+                                     },
+                                     {
+                                     "id": "TUxNUEhJRDM3MzU",
+                                     "name": "Hidalgo",
+                                     "results": 1920
+                                     },
+                                     {
+                                     "id": "TUxNUEFHVTMwNjE",
+                                     "name": "Aguascalientes",
+                                     "results": 1857
+                                     },
+                                     {
+                                     "id": "TUxNUE1JQzg2Nzc",
+                                     "name": "Michoacán",
+                                     "results": 1534
+                                     },
+                                     {
+                                     "id": "TUxNUEJBSjc0NzU",
+                                     "name": "Baja California",
+                                     "results": 1360
+                                     },
+                                     {
+                                     "id": "TUxNUENPQTgwMzE",
+                                     "name": "Coahuila",
+                                     "results": 1318
+                                     },
+                                     {
+                                     "id": "TUxNUENISTgwNDc",
+                                     "name": "Chihuahua",
+                                     "results": 1263
+                                     },
+                                     {
+                                     "id": "TUxNUFNPTjgwMjI",
+                                     "name": "Sonora",
+                                     "results": 1142
+                                     },
+                                     {
+                                     "id": "TUxNUFNJTjU3NzY",
+                                     "name": "Sinaloa",
+                                     "results": 1136
+                                     },
+                                     {
+                                     "id": "TUxNUFNBTjk2ODI",
+                                     "name": "San Luis Potosí",
+                                     "results": 1112
+                                     },
+                                     {
+                                     "id": "TUxNUFFVSTcyNjE",
+                                     "name": "Quintana Roo",
+                                     "results": 1042
+                                     },
+                                     {
+                                     "id": "TUxNUFRBTTYwMjc",
+                                     "name": "Tamaulipas",
+                                     "results": 1017
+                                     },
+                                     {
+                                     "id": "TUxNUFlVQzc1OTk",
+                                     "name": "Yucatán",
+                                     "results": 1000
+                                     },
+                                     {
+                                     "id": "TUxNUFRBQjQwNTc",
+                                     "name": "Tabasco",
+                                     "results": 534
+                                     },
+                                     {
+                                     "id": "TUxNUENISTM5NjI",
+                                     "name": "Chiapas",
+                                     "results": 532
+                                     },
+                                     {
+                                     "id": "TUxNUEdVRTM0NTA",
+                                     "name": "Guerrero",
+                                     "results": 530
+                                     },
+                                     {
+                                     "id": "TUxNUE9BWDUzNzE",
+                                     "name": "Oaxaca",
+                                     "results": 462
+                                     },
+                                     {
+                                     "id": "TUxNUFRMQTY5ODY",
+                                     "name": "Tlaxcala",
+                                     "results": 398
+                                     },
+                                     {
+                                     "id": "TUxNUENPTDQzNTc",
+                                     "name": "Colima",
+                                     "results": 384
+                                     },
+                                     {
+                                     "id": "TUxNUFpBQzYxMTk",
+                                     "name": "Zacatecas",
+                                     "results": 318
+                                     },
+                                     {
+                                     "id": "TUxNUERVUjc3MDc",
+                                     "name": "Durango",
+                                     "results": 296
+                                     },
+                                     {
+                                     "id": "TUxNUE5BWTMzOTg",
+                                     "name": "Nayarit",
+                                     "results": 218
+                                     },
+                                     {
+                                     "id": "TUxNUENBTTY3NjU",
+                                     "name": "Campeche",
+                                     "results": 134
+                                     },
+                                     {
+                                     "id": "TUxNUEJBSjI3NTY",
+                                     "name": "Baja California Sur",
+                                     "results": 112
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "price",
+                          "name": "Precio",
+                          "type": "range",
+                          "values": [
+                                     {
+                                     "id": "*-100000.0",
+                                     "name": "Hasta $100,000",
+                                     "results": 34319
+                                     },
+                                     {
+                                     "id": "100000.0-200000.0",
+                                     "name": "$100,000 a $200,000",
+                                     "results": 34223
+                                     },
+                                     {
+                                     "id": "200000.0-*",
+                                     "name": "Más de $200,000",
+                                     "results": 42148
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "accepts_mercadopago",
+                          "name": "Filtro por MercadoPago",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "Con MercadoPago",
+                                     "results": 2
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "installments",
+                          "name": "Pago",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "En mensualidades",
+                                     "results": 2
+                                     },
+                                     {
+                                     "id": "no_interest",
+                                     "name": "Meses sin intereses",
+                                     "results": 2
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "condition",
+                          "name": "Condición",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "new",
+                                     "name": "Nuevo",
+                                     "results": 2465
+                                     },
+                                     {
+                                     "id": "used",
+                                     "name": "Usado",
+                                     "results": 108225
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "power_seller",
+                          "name": "Filtro por calidad de vendedores",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "Mejores vendedores",
+                                     "results": 504
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "buying_mode",
+                          "name": "Filtro por tipo de venta",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "buy_it_now",
+                                     "name": "Compra inmediata",
+                                     "results": 110690
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "since",
+                          "name": "Filtro por fecha de comienzo",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "today",
+                                     "name": "Publicados hoy",
+                                     "results": 3564
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "until",
+                          "name": "Filtro por fecha de finalización",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "today",
+                                     "name": "Finalizan hoy",
+                                     "results": 1835
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "has_video",
+                          "name": "Filtro por publicaciones con video",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "Publicaciones con video",
+                                     "results": 3110
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "has_pictures",
+                          "name": "Filtro por publicaciones con imágenes",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "Con fotos",
+                                     "results": 110282
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "product",
+                          "name": "Producto",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "MLM8032104",
+                                     "name": "Volkswagen Jetta 2.5 Sport At 2013",
+                                     "results": 57
+                                     },
+                                     {
+                                     "id": "MLM8028972",
+                                     "name": "Jeep Patriot 2.4 Sport 4x2 At 2016",
+                                     "results": 37
+                                     },
+                                     {
+                                     "id": "MLM8037654",
+                                     "name": "Seat Leon 1.4 Fr T 140 Hp Dsg 2015",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "MLM8023627",
+                                     "name": "Dodge Journey 2.4 Sxt 5 Pasj At 2009",
+                                     "results": 21
+                                     },
+                                     {
+                                     "id": "MLM8042213",
+                                     "name": "Chevrolet Aveo 1.6 D Ee At 2012",
+                                     "results": 21
+                                     },
+                                     {
+                                     "id": "MLM8022795",
+                                     "name": "Dodge Journey 2.4 Se L4 5pas At 2015",
+                                     "results": 17
+                                     },
+                                     {
+                                     "id": "MLM8040923",
+                                     "name": "Chevrolet Captiva 3.6 C Sport Aa R-17 At 2008",
+                                     "results": 17
+                                     },
+                                     {
+                                     "id": "MLM8021714",
+                                     "name": "Volkswagen Jetta 2.0 Gli Dsg Turbo Piel At 2012",
+                                     "results": 13
+                                     },
+                                     {
+                                     "id": "MLM8031203",
+                                     "name": "Mazda Mazda 3 2.5 S 6vel Qc Abs R-17 Mt 2010",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "MLM8038672",
+                                     "name": "Jeep Liberty 3.7 Sport 4x2 Mt 2003",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "MLM8041981",
+                                     "name": "Chevrolet Camaro 6.2 Ss - V8 At 2016",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "MLM8032429",
+                                     "name": "Volkswagen Jetta 2.0 Gli At 2013",
+                                     "results": 9
+                                     },
+                                     {
+                                     "id": "MLM8023666",
+                                     "name": "Honda Civic D Ex Sedan 5vel Mt 2007",
+                                     "results": 7
+                                     },
+                                     {
+                                     "id": "MLM8030780",
+                                     "name": "Jeep Wrangler X Unlimited 4x2 At 2008",
+                                     "results": 7
+                                     },
+                                     {
+                                     "id": "MLM8038043",
+                                     "name": "Mazda 3 2.5 S 6vel Qc Abs R-17 Mt 2012",
+                                     "results": 7
+                                     },
+                                     {
+                                     "id": "MLM8040682",
+                                     "name": "BMW Serie 1 1.6 5p 118i Sport At 2012",
+                                     "results": 7
+                                     },
+                                     {
+                                     "id": "MLM8021785",
+                                     "name": "Lincoln Mark LT 5.0l Doble Cabina V8/ 4x4 At 2012",
+                                     "results": 5
+                                     },
+                                     {
+                                     "id": "MLM8022878",
+                                     "name": "BMW Serie 3 2.5 325i Coupe Fórmula 1 At 2001",
+                                     "results": 5
+                                     },
+                                     {
+                                     "id": "MLM8040289",
+                                     "name": "Chrysler Cirrus 2.4 Lxi Mt 2005",
+                                     "results": 5
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "ARMORED",
+                          "name": "Blindado",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "242085",
+                                     "name": "Con blindado",
+                                     "results": 368
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "COLOR",
+                          "name": "Color",
+                          "type": "list",
+                          "values": [
+                                     {
+                                     "id": "52055",
+                                     "name": "Blanco",
+                                     "results": 13604
+                                     },
+                                     {
+                                     "id": "52049",
+                                     "name": "Negro",
+                                     "results": 6867
+                                     },
+                                     {
+                                     "id": "51993",
+                                     "name": "Rojo",
+                                     "results": 6831
+                                     },
+                                     {
+                                     "id": "52053",
+                                     "name": "Plateado",
+                                     "results": 6154
+                                     },
+                                     {
+                                     "id": "52051",
+                                     "name": "Gris oscuro",
+                                     "results": 4313
+                                     },
+                                     {
+                                     "id": "283165",
+                                     "name": "Gris claro",
+                                     "results": 3148
+                                     },
+                                     {
+                                     "id": "52028",
+                                     "name": "Azul",
+                                     "results": 2209
+                                     },
+                                     {
+                                     "id": "283164",
+                                     "name": "Dorado",
+                                     "results": 855
+                                     },
+                                     {
+                                     "id": "52001",
+                                     "name": "Beige",
+                                     "results": 807
+                                     },
+                                     {
+                                     "id": "283161",
+                                     "name": "Azul marino",
+                                     "results": 796
+                                     },
+                                     {
+                                     "id": "52031",
+                                     "name": "Azul acero",
+                                     "results": 594
+                                     },
+                                     {
+                                     "id": "52014",
+                                     "name": "Verde",
+                                     "results": 594
+                                     },
+                                     {
+                                     "id": "52000",
+                                     "name": "Naranja",
+                                     "results": 570
+                                     },
+                                     {
+                                     "id": "52007",
+                                     "name": "Amarillo",
+                                     "results": 499
+                                     },
+                                     {
+                                     "id": "52033",
+                                     "name": "Azul oscuro",
+                                     "results": 427
+                                     },
+                                     {
+                                     "id": "52029",
+                                     "name": "Azul claro",
+                                     "results": 344
+                                     },
+                                     {
+                                     "id": "283152",
+                                     "name": "Chocolate",
+                                     "results": 237
+                                     },
+                                     {
+                                     "id": "52019",
+                                     "name": "Verde oscuro",
+                                     "results": 237
+                                     },
+                                     {
+                                     "id": "52005",
+                                     "name": "Marrón",
+                                     "results": 190
+                                     },
+                                     {
+                                     "id": "283156",
+                                     "name": "Caqui",
+                                     "results": 154
+                                     },
+                                     {
+                                     "id": "52024",
+                                     "name": "Azul petróleo",
+                                     "results": 142
+                                     },
+                                     {
+                                     "id": "52008",
+                                     "name": "Crema",
+                                     "results": 142
+                                     },
+                                     {
+                                     "id": "283155",
+                                     "name": "Marrón oscuro",
+                                     "results": 142
+                                     },
+                                     {
+                                     "id": "51998",
+                                     "name": "Bordó",
+                                     "results": 130
+                                     },
+                                     {
+                                     "id": "52012",
+                                     "name": "Dorado oscuro",
+                                     "results": 130
+                                     },
+                                     {
+                                     "id": "283160",
+                                     "name": "Turquesa",
+                                     "results": 83
+                                     },
+                                     {
+                                     "id": "52047",
+                                     "name": "Violeta oscuro",
+                                     "results": 83
+                                     },
+                                     {
+                                     "id": "283150",
+                                     "name": "Naranja claro",
+                                     "results": 83
+                                     },
+                                     {
+                                     "id": "283157",
+                                     "name": "Verde limón",
+                                     "results": 71
+                                     },
+                                     {
+                                     "id": "283151",
+                                     "name": "Naranja oscuro",
+                                     "results": 59
+                                     },
+                                     {
+                                     "id": "51994",
+                                     "name": "Rosa",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "52010",
+                                     "name": "Ocre",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "52015",
+                                     "name": "Verde claro",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "51996",
+                                     "name": "Terracota",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "283154",
+                                     "name": "Marrón claro",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "52021",
+                                     "name": "Celeste",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "52035",
+                                     "name": "Violeta",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "283162",
+                                     "name": "Índigo",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "283149",
+                                     "name": "Coral",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "283148",
+                                     "name": "Coral claro",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "52036",
+                                     "name": "Lavanda",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "52043",
+                                     "name": "Rosa claro",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "283163",
+                                     "name": "Rosa chicle",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "283158",
+                                     "name": "Verde musgo",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "52003",
+                                     "name": "Piel",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "283153",
+                                     "name": "Suela",
+                                     "results": 11
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "DOORS",
+                          "name": "Puertas",
+                          "type": "range",
+                          "values": [
+                                     {
+                                     "id": "1-1",
+                                     "name": "1",
+                                     "results": 35
+                                     },
+                                     {
+                                     "id": "2-2",
+                                     "name": "2",
+                                     "results": 11667
+                                     },
+                                     {
+                                     "id": "3-3",
+                                     "name": "3",
+                                     "results": 3065
+                                     },
+                                     {
+                                     "id": "4-4",
+                                     "name": "4",
+                                     "results": 37249
+                                     },
+                                     {
+                                     "id": "5-5",
+                                     "name": "5",
+                                     "results": 30654
+                                     },
+                                     {
+                                     "id": "6-6",
+                                     "name": "6",
+                                     "results": 118
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "FUEL_TYPE",
+                          "name": "Tipo de combustible",
+                          "type": "STRING",
+                          "values": [
+                                     {
+                                     "id": "64364",
+                                     "name": "Gasolina",
+                                     "results": 80118
+                                     },
+                                     {
+                                     "id": "60406",
+                                     "name": "Diesel",
+                                     "results": 2637
+                                     },
+                                     {
+                                     "id": "61257",
+                                     "name": "Híbrido",
+                                     "results": 522
+                                     },
+                                     {
+                                     "id": "64051",
+                                     "name": "Eléctrico",
+                                     "results": 142
+                                     },
+                                     {
+                                     "id": "479463",
+                                     "name": "Premium",
+                                     "results": 71
+                                     },
+                                     {
+                                     "id": "479462",
+                                     "name": "Magna",
+                                     "results": 35
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "HAS_ABS_BRAKES",
+                          "name": "Frenos ABS",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "242085",
+                                     "name": "Con ABS",
+                                     "results": 52469
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "HAS_AIR_CONDITIONING",
+                          "name": "Aire acondicionado",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "242085",
+                                     "name": "Con aire acondicionado",
+                                     "results": 51863
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "HAS_ALARM",
+                          "name": "Alarma",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "242085",
+                                     "name": "Con alarma",
+                                     "results": 13236
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "HAS_POWER_DOOR_LOCKS",
+                          "name": "Cierre centralizado de puertas",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "242085",
+                                     "name": "Con cierre centralizado",
+                                     "results": 6368
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "HAS_POWER_WINDOWS",
+                          "name": "Cristales eléctricos",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "242085",
+                                     "name": "Con levanta vidrios eléctrico",
+                                     "results": 22206
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "KILOMETERS",
+                          "name": "Kilómetros",
+                          "type": "range",
+                          "values": [
+                                     {
+                                     "id": "0km-0km",
+                                     "name": "0 Km",
+                                     "results": 3291
+                                     },
+                                     {
+                                     "id": "1km-10000km",
+                                     "name": "1 a 10000 Km",
+                                     "results": 15291
+                                     },
+                                     {
+                                     "id": "10000km-50000km",
+                                     "name": "10000 a 50000 Km",
+                                     "results": 25700
+                                     },
+                                     {
+                                     "id": "50000km-*",
+                                     "name": "Más de 50000 Km",
+                                     "results": 51388
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "STEERING",
+                          "name": "Dirección",
+                          "type": "STRING",
+                          "values": [
+                                     {
+                                     "id": "370874",
+                                     "name": "Hidráulica",
+                                     "results": 54073
+                                     },
+                                     {
+                                     "id": "370873",
+                                     "name": "Asistida",
+                                     "results": 8638
+                                     },
+                                     {
+                                     "id": "405719",
+                                     "name": "Eléctrica",
+                                     "results": 5061
+                                     },
+                                     {
+                                     "id": "370875",
+                                     "name": "Mecánica",
+                                     "results": 1354
+                                     },
+                                     {
+                                     "id": "398267",
+                                     "name": "Asistida",
+                                     "results": 35
+                                     },
+                                     {
+                                     "id": "398268",
+                                     "name": "Hidráulica",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "398269",
+                                     "name": "Mecánica",
+                                     "results": 11
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "TRANSMISSION",
+                          "name": "Transmisión",
+                          "type": "STRING",
+                          "values": [
+                                     {
+                                     "id": "370876",
+                                     "name": "Automática",
+                                     "results": 41716
+                                     },
+                                     {
+                                     "id": "370877",
+                                     "name": "Manual",
+                                     "results": 26187
+                                     },
+                                     {
+                                     "id": "396993",
+                                     "name": "Manual",
+                                     "results": 2067
+                                     },
+                                     {
+                                     "id": "1244809",
+                                     "name": "Automática secuencial",
+                                     "results": 297
+                                     },
+                                     {
+                                     "id": "378323",
+                                     "name": "Semi-automática",
+                                     "results": 178
+                                     },
+                                     {
+                                     "id": "398270",
+                                     "name": "Automática",
+                                     "results": 59
+                                     },
+                                     {
+                                     "id": "396994",
+                                     "name": "Secuencial",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "403616",
+                                     "name": "Mecánica",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "370878",
+                                     "name": "Secuencial",
+                                     "results": 11
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "VEHICLE_BODY_TYPE",
+                          "name": "Tipo",
+                          "type": "STRING",
+                          "values": [
+                                     {
+                                     "id": "452758",
+                                     "name": "Sedán",
+                                     "results": 20258
+                                     },
+                                     {
+                                     "id": "452759",
+                                     "name": "SUV",
+                                     "results": 14864
+                                     },
+                                     {
+                                     "id": "479344",
+                                     "name": "Hatchback",
+                                     "results": 10562
+                                     },
+                                     {
+                                     "id": "452749",
+                                     "name": "Coupé",
+                                     "results": 7533
+                                     },
+                                     {
+                                     "id": "452756",
+                                     "name": "Pick-Up",
+                                     "results": 3873
+                                     },
+                                     {
+                                     "id": "452755",
+                                     "name": "Van",
+                                     "results": 2245
+                                     },
+                                     {
+                                     "id": "452748",
+                                     "name": "Convertible",
+                                     "results": 1841
+                                     },
+                                     {
+                                     "id": "452753",
+                                     "name": "Minivan",
+                                     "results": 451
+                                     },
+                                     {
+                                     "id": "452760",
+                                     "name": "Vagoneta",
+                                     "results": 380
+                                     },
+                                     {
+                                     "id": "452750",
+                                     "name": "Furgoneta",
+                                     "results": 368
+                                     },
+                                     {
+                                     "id": "452761",
+                                     "name": "Crossover",
+                                     "results": 142
+                                     },
+                                     {
+                                     "id": "452754",
+                                     "name": "Todo terreno",
+                                     "results": 130
+                                     },
+                                     {
+                                     "id": "452751",
+                                     "name": "Camión ligero",
+                                     "results": 130
+                                     },
+                                     {
+                                     "id": "452752",
+                                     "name": "Monovolumen",
+                                     "results": 11
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "VEHICLE_YEAR",
+                          "name": "Año",
+                          "type": "range",
+                          "values": [
+                                     {
+                                     "id": "2018-2018",
+                                     "name": "2018",
+                                     "results": 4574
+                                     },
+                                     {
+                                     "id": "2017-2017",
+                                     "name": "2017",
+                                     "results": 10931
+                                     },
+                                     {
+                                     "id": "2016-2016",
+                                     "name": "2016",
+                                     "results": 10420
+                                     },
+                                     {
+                                     "id": "2015-2015",
+                                     "name": "2015",
+                                     "results": 8923
+                                     },
+                                     {
+                                     "id": "2014-2014",
+                                     "name": "2014",
+                                     "results": 8103
+                                     },
+                                     {
+                                     "id": "2013-2013",
+                                     "name": "2013",
+                                     "results": 8186
+                                     },
+                                     {
+                                     "id": "2012-2012",
+                                     "name": "2012",
+                                     "results": 7105
+                                     },
+                                     {
+                                     "id": "2011-2011",
+                                     "name": "2011",
+                                     "results": 5156
+                                     },
+                                     {
+                                     "id": "2010-2010",
+                                     "name": "2010",
+                                     "results": 4800
+                                     },
+                                     {
+                                     "id": "2009-2009",
+                                     "name": "2009",
+                                     "results": 5370
+                                     },
+                                     {
+                                     "id": "2008-2008",
+                                     "name": "2008",
+                                     "results": 5014
+                                     },
+                                     {
+                                     "id": "2007-2007",
+                                     "name": "2007",
+                                     "results": 4693
+                                     },
+                                     {
+                                     "id": "2006-2006",
+                                     "name": "2006",
+                                     "results": 3588
+                                     },
+                                     {
+                                     "id": "2005-2005",
+                                     "name": "2005",
+                                     "results": 3314
+                                     },
+                                     {
+                                     "id": "2004-2004",
+                                     "name": "2004",
+                                     "results": 2281
+                                     },
+                                     {
+                                     "id": "2003-2003",
+                                     "name": "2003",
+                                     "results": 2364
+                                     },
+                                     {
+                                     "id": "2002-2002",
+                                     "name": "2002",
+                                     "results": 2067
+                                     },
+                                     {
+                                     "id": "2001-2001",
+                                     "name": "2001",
+                                     "results": 1556
+                                     },
+                                     {
+                                     "id": "2000-2000",
+                                     "name": "2000",
+                                     "results": 1936
+                                     },
+                                     {
+                                     "id": "1999-1999",
+                                     "name": "1999",
+                                     "results": 903
+                                     },
+                                     {
+                                     "id": "1998-1998",
+                                     "name": "1998",
+                                     "results": 998
+                                     },
+                                     {
+                                     "id": "1997-1997",
+                                     "name": "1997",
+                                     "results": 689
+                                     },
+                                     {
+                                     "id": "1996-1996",
+                                     "name": "1996",
+                                     "results": 677
+                                     },
+                                     {
+                                     "id": "1995-1995",
+                                     "name": "1995",
+                                     "results": 499
+                                     },
+                                     {
+                                     "id": "1994-1994",
+                                     "name": "1994",
+                                     "results": 570
+                                     },
+                                     {
+                                     "id": "1993-1993",
+                                     "name": "1993",
+                                     "results": 1152
+                                     },
+                                     {
+                                     "id": "1992-1992",
+                                     "name": "1992",
+                                     "results": 415
+                                     },
+                                     {
+                                     "id": "1991-1991",
+                                     "name": "1991",
+                                     "results": 273
+                                     },
+                                     {
+                                     "id": "1990-1990",
+                                     "name": "1990",
+                                     "results": 368
+                                     },
+                                     {
+                                     "id": "1989-1989",
+                                     "name": "1989",
+                                     "results": 166
+                                     },
+                                     {
+                                     "id": "1988-1988",
+                                     "name": "1988",
+                                     "results": 130
+                                     },
+                                     {
+                                     "id": "1987-1987",
+                                     "name": "1987",
+                                     "results": 95
+                                     },
+                                     {
+                                     "id": "1986-1986",
+                                     "name": "1986",
+                                     "results": 95
+                                     },
+                                     {
+                                     "id": "1985-1985",
+                                     "name": "1985",
+                                     "results": 154
+                                     },
+                                     {
+                                     "id": "1984-1984",
+                                     "name": "1984",
+                                     "results": 166
+                                     },
+                                     {
+                                     "id": "1983-1983",
+                                     "name": "1983",
+                                     "results": 118
+                                     },
+                                     {
+                                     "id": "1982-1982",
+                                     "name": "1982",
+                                     "results": 106
+                                     },
+                                     {
+                                     "id": "1981-1981",
+                                     "name": "1981",
+                                     "results": 83
+                                     },
+                                     {
+                                     "id": "1980-1980",
+                                     "name": "1980",
+                                     "results": 190
+                                     },
+                                     {
+                                     "id": "1979-1979",
+                                     "name": "1979",
+                                     "results": 106
+                                     },
+                                     {
+                                     "id": "1978-1978",
+                                     "name": "1978",
+                                     "results": 106
+                                     },
+                                     {
+                                     "id": "1977-1977",
+                                     "name": "1977",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "1976-1976",
+                                     "name": "1976",
+                                     "results": 71
+                                     },
+                                     {
+                                     "id": "1975-1975",
+                                     "name": "1975",
+                                     "results": 190
+                                     },
+                                     {
+                                     "id": "1974-1974",
+                                     "name": "1974",
+                                     "results": 130
+                                     },
+                                     {
+                                     "id": "1973-1973",
+                                     "name": "1973",
+                                     "results": 71
+                                     },
+                                     {
+                                     "id": "1972-1972",
+                                     "name": "1972",
+                                     "results": 71
+                                     },
+                                     {
+                                     "id": "1971-1971",
+                                     "name": "1971",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "1970-1970",
+                                     "name": "1970",
+                                     "results": 106
+                                     },
+                                     {
+                                     "id": "1969-1969",
+                                     "name": "1969",
+                                     "results": 83
+                                     },
+                                     {
+                                     "id": "1968-1968",
+                                     "name": "1968",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "1967-1967",
+                                     "name": "1967",
+                                     "results": 59
+                                     },
+                                     {
+                                     "id": "1966-1966",
+                                     "name": "1966",
+                                     "results": 71
+                                     },
+                                     {
+                                     "id": "1965-1965",
+                                     "name": "1965",
+                                     "results": 71
+                                     },
+                                     {
+                                     "id": "1964-1964",
+                                     "name": "1964",
+                                     "results": 47
+                                     },
+                                     {
+                                     "id": "1963-1963",
+                                     "name": "1963",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "1962-1962",
+                                     "name": "1962",
+                                     "results": 35
+                                     },
+                                     {
+                                     "id": "1961-1961",
+                                     "name": "1961",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "1960-1960",
+                                     "name": "1960",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "1955-1955",
+                                     "name": "1955",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "1954-1954",
+                                     "name": "1954",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "1952-1952",
+                                     "name": "1952",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "1951-1951",
+                                     "name": "1951",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "1950-1950",
+                                     "name": "1950",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "1947-1947",
+                                     "name": "1947",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "1946-1946",
+                                     "name": "1946",
+                                     "results": 23
+                                     },
+                                     {
+                                     "id": "1937-1937",
+                                     "name": "1937",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "1926-1926",
+                                     "name": "1926",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "1900-1900",
+                                     "name": "1900",
+                                     "results": 23
+                                     }
+                                     ]
+                          }
+                          ]
+}

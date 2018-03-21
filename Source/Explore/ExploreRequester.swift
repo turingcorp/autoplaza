@@ -13,23 +13,45 @@ class ExploreRequester:ExploreRequesterProtocol {
     
     func loadMotors(
         configuration:SearchConfiguration,
-        success:@escaping(([MotorProtocol]) -> ()),
-        error:@escaping((Error) -> ())) {
+        onSuccess:@escaping(([MotorProtocol]) -> ()),
+        onError:@escaping((Error) -> ())) {
         DispatchQueue.global(qos:DispatchQoS.QoSClass.background).async { [weak self] in
-            self?.loadMotorsInBackground(configuration:configuration, success:success, error:error)
+            self?.loadMotorsInBackground(configuration:configuration, onSuccess:onSuccess, onError:onError)
         }
     }
     
     private func loadMotorsInBackground(
         configuration:SearchConfiguration,
-        success:@escaping(([MotorProtocol]) -> ()),
-        error:@escaping((Error) -> ())) {
+        onSuccess:@escaping(([MotorProtocol]) -> ()),
+        onError:@escaping((Error) -> ())) {
         let request:URLRequest = ExploreRequester.factoryRequest(configuration:configuration)
         let task:URLSessionDataTask = self.session.dataTask(
-        with:request) { (data:Data?, response:URLResponse?, error:Error?) in
-            
+        with:request) { [weak self] (data:Data?, response:URLResponse?, error:Error?) in
+            let motors:[MotorProtocol]?
+            do {
+                try motors = self?.motorsRequestResponse(data:data, error:error)
+            } catch let error {
+                onError(error)
+                return
+            }
+            if let motors:[MotorProtocol] = motors {
+                onSuccess(motors)
+            }
         }
         task.resume()
+    }
+    
+    private func motorsRequestResponse(data:Data?, error:Error?) throws -> [MotorProtocol] {
+        if let error:Error = error {
+            throw error
+        }
+        guard
+            let data:Data = data
+        else {
+            throw ErrorLocal.noDataReceived
+        }
+        let motors:[MotorProtocol] = try self.parser.parse(data:data)
+        return motors
     }
 }
 

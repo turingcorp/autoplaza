@@ -3,7 +3,7 @@ import Foundation
 
 class MockDatabase_SearchConfiguration:DatabaseProtocol {
     func loadSearchConfiguration(completion:@escaping((SearchConfiguration) -> ())) {
-        let configuration:SearchConfiguration = SearchConfiguration.factoryBasic()
+        let configuration:SearchConfiguration = SearchConfiguration.factoryBaseConfiguration()
         completion(configuration)
     }
 }

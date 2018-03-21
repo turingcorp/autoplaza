@@ -1,7 +1,7 @@
 import Foundation
 
 extension SearchConfiguration {
-    class func factoryBasic() -> SearchConfiguration {
+    class func factoryBaseConfiguration() -> SearchConfiguration {
         return SearchConfiguration()
     }
 }

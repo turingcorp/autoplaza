@@ -4,7 +4,7 @@ class Explore {
     var searchConfiguration:SearchConfiguration
     
     init() {
-        self.searchConfiguration = SearchConfiguration.factoryBasic()
+        self.searchConfiguration = SearchConfiguration.factoryBaseConfiguration()
     }
     
     func loadSearchConfiguration(

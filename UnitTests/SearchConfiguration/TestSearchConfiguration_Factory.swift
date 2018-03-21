@@ -6,7 +6,7 @@ class TestSearchConfiguration_Factory:XCTestCase {
     
     override func setUp() {
         super.setUp()
-        self.configuration = SearchConfiguration.factoryBasic()
+        self.configuration = SearchConfiguration.factoryBaseConfiguration()
     }
     
     func testInit() {

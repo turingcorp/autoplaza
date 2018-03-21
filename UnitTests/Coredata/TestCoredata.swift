@@ -49,11 +49,8 @@ class TestCoredata:XCTestCase {
         self.startExpectation()
         
         self.create(entityType:CoredataSearchConfiguration.self) { [weak self] in
-            self?.updateContext()
-            self?.load(
-            entityType:CoredataSearchConfiguration.self) { [weak self] (entities:[CoredataSearchConfiguration]) in
-                XCTAssertEqual(entities.count, 1, "Incorrect amount of entities loaded")
-                self?.expect?.fulfill()
+            self?.save { [weak self] in
+                self?.validateAfterUpdatingContext()
             }
         }
         
@@ -86,5 +83,14 @@ class TestCoredata:XCTestCase {
     
     private func save(completion:@escaping(() -> ())) {
         self.coredata.save(completion:completion)
+    }
+    
+    private func validateAfterUpdatingContext() {
+        self.updateContext()
+        self.load(
+        entityType:CoredataSearchConfiguration.self) { [weak self] (entities:[CoredataSearchConfiguration]) in
+            XCTAssertEqual(entities.count, 1, "Incorrect amount of entities loaded")
+            self?.expect?.fulfill()
+        }
     }
 }

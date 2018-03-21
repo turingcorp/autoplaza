@@ -7,19 +7,19 @@ class TestCoredata_SearchConfiguration:XCTestCase {
     private var bundle:Bundle!
     private var expect:XCTestExpectation?
     private struct Constants {
-        static let expectationWait:TimeInterval = 0.5
+        static let expectationWait:TimeInterval = 500
     }
     
     override func setUp() {
-        super.setUp()
         self.bundle = Bundle(for:TestCoredata.self)
         let context:NSManagedObjectContext = Coredata.factoryContext(bundle:bundle)
         self.coredata = Coredata(context:context)
+        super.setUp()
     }
     
     override func tearDown() {
-        super.tearDown()
         Coredata.removeStoreIn(bundle:self.bundle)
+        super.tearDown()
     }
     
     func testInit() {

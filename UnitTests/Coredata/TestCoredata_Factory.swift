@@ -11,6 +11,7 @@ class TestCoredata_Factory:XCTestCase {
             return FileManager.default.fileExists(atPath:dataURL.path)
         }
     }
+    
     override func setUp() {
         super.setUp()
         self.bundle = Bundle(for:TestCoredata_Factory.self)
@@ -41,5 +42,12 @@ class TestCoredata_Factory:XCTestCase {
     func testFactoryFetchRequest() {
         let fetchRequest:NSFetchRequest? = Coredata.factoryFetchRequest()
         XCTAssertNotNil(fetchRequest, "Failed to factory fetch request")
+    }
+    
+    func testFactorySqliteFile() {
+        let suffix:String = UUID().uuidString
+        let file:String = Coredata.factorySqliteFile(bundle:self.bundle, suffix:suffix)
+        XCTAssertNotNil(file, "Failed to factory sqlite file name")
+        XCTAssertTrue(file.contains(suffix), "Failed to append suffix to sqlite name")
     }
 }

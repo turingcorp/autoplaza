@@ -80,6 +80,7 @@
 		DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AF205EB87400071EFC /* FavouritesController.swift */; };
 		DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B1205EB88200071EFC /* FiltersController.swift */; };
 		DA7A19B5205EB8A400071EFC /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19B4205EB8A400071EFC /* GuideController.swift */; };
+		DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +173,7 @@
 		DA7A19AF205EB87400071EFC /* FavouritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesController.swift; sourceTree = "<group>"; };
 		DA7A19B1205EB88200071EFC /* FiltersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersController.swift; sourceTree = "<group>"; };
 		DA7A19B4205EB8A400071EFC /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
+		DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Remove.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -398,6 +400,7 @@
 				DA42567A2060EDE100F89C69 /* Coredata+Constants.swift */,
 				DA4256782060E99F00F89C69 /* Coredata+Factory.swift */,
 				DA66EBCF2061058C0073EE63 /* Coredata+SearchConfiguration.swift */,
+				DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */,
 				DA42568D2061039400F89C69 /* CoredataSearchConfiguration.swift */,
 				DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */,
 			);
@@ -593,6 +596,7 @@
 				DA2DF215205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift in Sources */,
 				DA42567E2060EF1000F89C69 /* Autoplaza.xcdatamodeld in Sources */,
 				DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */,
+				DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */,
 				DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */,
 				DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */,
 				DA4256732060E7D600F89C69 /* Coredata.swift in Sources */,

@@ -11,11 +11,11 @@ extension Coredata {
     }
     
     func loadSearchConfiguration(completion:@escaping((SearchConfiguration) -> ())) {
-        self.loadCoredataSearchConfiguration(found: { [weak self] (configuration:CoredataSearchConfiguration) in
-            self?.searchConfigurationLoaded(configuration:configuration, completion:completion)
-        }, notFound: { [weak self] in
-            self?.createCoredataSearchConfiguration { (configuration:CoredataSearchConfiguration) in
-                self?.searchConfigurationLoaded(configuration:configuration, completion:completion)
+        self.loadCoredataSearchConfiguration(found: { (configuration:CoredataSearchConfiguration) in
+            self.searchConfigurationLoaded(configuration:configuration, completion:completion)
+        }, notFound: {
+            self.createCoredataSearchConfiguration { (configuration:CoredataSearchConfiguration) in
+                self.searchConfigurationLoaded(configuration:configuration, completion:completion)
             }
         })
     }
@@ -47,6 +47,7 @@ extension Coredata {
     private func searchConfigurationLoaded(
         configuration:CoredataSearchConfiguration,
         completion:@escaping((SearchConfiguration) -> ())) {
-        
+        let model:SearchConfiguration = configuration.factoryConfiguration()
+        completion(model)
     }
 }

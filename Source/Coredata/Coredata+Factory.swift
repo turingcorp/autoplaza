@@ -15,14 +15,15 @@ extension Coredata {
         let url:URL = FileManager.default.applicationDirectory.appendingPathComponent(sqliteFile)
         return url
     }
-
-    class func removeStoreIn(bundle:Bundle) {
-        let storeURL:URL = factoryStoreURL(bundle:bundle)
-        if FileManager.default.fileExists(atPath:storeURL.path) {
-            do {
-                try FileManager.default.removeItem(at:storeURL)
-            } catch {}
-        }
+    
+    class func factorySqliteFile(bundle:Bundle, suffix:String = String()) -> String {
+        var sqliteFile:String = factoryIdentifier(bundle:bundle)
+        sqliteFile.append(".")
+        sqliteFile.append(Constants.name)
+        sqliteFile.append(suffix)
+        sqliteFile.append(".")
+        sqliteFile.append(Constants.sqliteExtension)
+        return sqliteFile
     }
     
     class func factoryFetchRequest<Entity:NSManagedObject>() -> NSFetchRequest<Entity> {
@@ -62,15 +63,6 @@ extension Coredata {
             return nil
         }
         return store
-    }
-    
-    private class func factorySqliteFile(bundle:Bundle) -> String {
-        var sqliteFile:String = factoryIdentifier(bundle:bundle)
-        sqliteFile.append(".")
-        sqliteFile.append(Constants.name)
-        sqliteFile.append(".")
-        sqliteFile.append(Constants.sqliteExtension)
-        return sqliteFile
     }
     
     private class func factoryIdentifier(bundle:Bundle) -> String {

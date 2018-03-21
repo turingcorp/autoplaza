@@ -10,22 +10,18 @@ class Coredata:DatabaseProtocol {
     
     func create<Entity:NSManagedObject>(completion:@escaping((Entity) -> ())) {
         self.context.perform {
-            guard
-                let description:NSEntityDescription = self.factoryEntityDescription(name:Entity.name),
-                let entity:Entity = self.insertEntity(description:description) as? Entity
-            else {
-                return
-            }
+            let description:NSEntityDescription = self.factoryEntityDescription(name:Entity.name)
+            let entity:Entity = self.insertEntity(description:description)
             completion(entity)
         }
     }
     
-    private func factoryEntityDescription(name:String) -> NSEntityDescription? {
-        return NSEntityDescription.entity(forEntityName:name, in:self.context)
+    private func factoryEntityDescription(name:String) -> NSEntityDescription {
+        return NSEntityDescription.entity(forEntityName:name, in:self.context)!
     }
     
-    private func insertEntity(description:NSEntityDescription) -> NSManagedObject? {
-        return NSManagedObject(entity:description, insertInto:self.context)
+    private func insertEntity<Entity:NSManagedObject>(description:NSEntityDescription) -> Entity {
+        return NSManagedObject(entity:description, insertInto:self.context) as! Entity
     }
     
     func load<Entity:NSManagedObject>(request:NSFetchRequest<Entity>, completion:@escaping(([Entity]) -> ())) {
@@ -33,12 +29,12 @@ class Coredata:DatabaseProtocol {
             let data:[NSManagedObject]
             do {
                 data = try self.context.fetch(request)
-            } catch {
+            } catch let error {
+                assertionFailure(error.localizedDescription)
                 return
             }
-            if let results:[Entity] = data as? [Entity] {
-                completion(results)
-            }
+            let results:[Entity] = data as! [Entity]
+            completion(results)
         }
     }
     

@@ -1,7 +1,7 @@
 import XCTest
 @testable import autoplaza
 
-class TestMotor:XCTestCase {
+class TestMotorCar:XCTestCase {
     private var motor:MotorCar!
     
     override func setUp() {

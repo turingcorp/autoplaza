@@ -85,7 +85,7 @@
 		DAFAEC9C20624AFD00F10259 /* TestExploreRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */; };
 		DAFAEC9E20624BC100F10259 /* ExploreRequesterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */; };
 		DAFAECA020624BE700F10259 /* ExploreRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */; };
-		DAFAECA320624CFB00F10259 /* TestMotor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA220624CFB00F10259 /* TestMotor.swift */; };
+		DAFAECA320624CFB00F10259 /* TestMotorCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA220624CFB00F10259 /* TestMotorCar.swift */; };
 		DAFAECA620624D3A00F10259 /* MotorCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA520624D3A00F10259 /* MotorCar.swift */; };
 		DAFAECA820624D9A00F10259 /* MotorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA720624D9A00F10259 /* MotorProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -185,7 +185,7 @@
 		DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequester.swift; sourceTree = "<group>"; };
 		DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequesterProtocol.swift; sourceTree = "<group>"; };
 		DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequester.swift; sourceTree = "<group>"; };
-		DAFAECA220624CFB00F10259 /* TestMotor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMotor.swift; sourceTree = "<group>"; };
+		DAFAECA220624CFB00F10259 /* TestMotorCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMotorCar.swift; sourceTree = "<group>"; };
 		DAFAECA520624D3A00F10259 /* MotorCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorCar.swift; sourceTree = "<group>"; };
 		DAFAECA720624D9A00F10259 /* MotorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -503,7 +503,7 @@
 		DAFAECA120624CD000F10259 /* Motor */ = {
 			isa = PBXGroup;
 			children = (
-				DAFAECA220624CFB00F10259 /* TestMotor.swift */,
+				DAFAECA220624CFB00F10259 /* TestMotorCar.swift */,
 			);
 			path = Motor;
 			sourceTree = "<group>";
@@ -685,7 +685,7 @@
 				DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */,
 				DAFAEC9C20624AFD00F10259 /* TestExploreRequester.swift in Sources */,
 				DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */,
-				DAFAECA320624CFB00F10259 /* TestMotor.swift in Sources */,
+				DAFAECA320624CFB00F10259 /* TestMotorCar.swift in Sources */,
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,
 				DAFAEC982062439700F10259 /* TestCoredata_Remove.swift in Sources */,

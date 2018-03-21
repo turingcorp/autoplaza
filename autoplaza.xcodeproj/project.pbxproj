@@ -90,6 +90,8 @@
 		DAFAECA820624D9A00F10259 /* MotorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA720624D9A00F10259 /* MotorProtocol.swift */; };
 		DAFAECAA2062511900F10259 /* TestExploreRequester_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECA92062511900F10259 /* TestExploreRequester_Factory.swift */; };
 		DAFAECAC206252AB00F10259 /* ExploreRequester+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECAB206252AB00F10259 /* ExploreRequester+Factory.swift */; };
+		DAFAECB0206259C500F10259 /* TestExploreRequesterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECAF206259C500F10259 /* TestExploreRequesterParser.swift */; };
+		DAFAECB220625B2F00F10259 /* ExploreRequesterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAECB120625B2F00F10259 /* ExploreRequesterParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +194,8 @@
 		DAFAECA720624D9A00F10259 /* MotorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorProtocol.swift; sourceTree = "<group>"; };
 		DAFAECA92062511900F10259 /* TestExploreRequester_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequester_Factory.swift; sourceTree = "<group>"; };
 		DAFAECAB206252AB00F10259 /* ExploreRequester+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExploreRequester+Factory.swift"; sourceTree = "<group>"; };
+		DAFAECAF206259C500F10259 /* TestExploreRequesterParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequesterParser.swift; sourceTree = "<group>"; };
+		DAFAECB120625B2F00F10259 /* ExploreRequesterParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequesterParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,6 +384,7 @@
 				DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */,
 				DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */,
 				DAFAECA92062511900F10259 /* TestExploreRequester_Factory.swift */,
+				DAFAECAF206259C500F10259 /* TestExploreRequesterParser.swift */,
 				DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */,
 			);
 			path = Explore;
@@ -486,6 +491,7 @@
 				DAFAEC9D20624BC100F10259 /* ExploreRequesterProtocol.swift */,
 				DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */,
 				DAFAECAB206252AB00F10259 /* ExploreRequester+Factory.swift */,
+				DAFAECB120625B2F00F10259 /* ExploreRequesterParser.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -645,6 +651,7 @@
 				DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */,
 				DAFAECAC206252AB00F10259 /* ExploreRequester+Factory.swift in Sources */,
 				DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */,
+				DAFAECB220625B2F00F10259 /* ExploreRequesterParser.swift in Sources */,
 				DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */,
 				DA4256732060E7D600F89C69 /* Coredata.swift in Sources */,
 				DA4256712060E75B00F89C69 /* DatabaseProtocol.swift in Sources */,
@@ -709,6 +716,7 @@
 				DA4256842060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift in Sources */,
 				DA40B85D205FB39500CFF383 /* TestExplore.swift in Sources */,
 				DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */,
+				DAFAECB0206259C500F10259 /* TestExploreRequesterParser.swift in Sources */,
 				DA2DF227205E9B9600A50D77 /* TestStructureNavigatorViewButton.swift in Sources */,
 				DA140AC4205E76E400451711 /* TestApplication.swift in Sources */,
 				DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */,

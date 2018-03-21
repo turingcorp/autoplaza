@@ -18,12 +18,17 @@ class TestExplore:XCTestCase {
     func testInit() {
         XCTAssertNotNil(self.explore, "Failed to load explore")
         XCTAssertNotNil(self.explore.requester, "Failed to load requester")
+        XCTAssertNotNil(self.explore.motors, "Failed to load motors")
     }
     
     func testLoadSearchConfiguration() {
         self.startExpectation()
         self.loadSearchConfiguration()
         self.waitExpectation()
+    }
+    
+    func testMotors() {
+        XCTAssertEqual(self.explore.motors.count, 0, "There should be 0 motors")
     }
     
     private func startExpectation() {

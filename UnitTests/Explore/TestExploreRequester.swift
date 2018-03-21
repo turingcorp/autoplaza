@@ -3,13 +3,43 @@ import XCTest
 
 class TestExploreRequester:XCTestCase {
     private var requester:ExploreRequester!
+    private var configuration:SearchConfiguration!
+    private var expect:XCTestExpectation?
+    private struct Constants {
+        static let waitingForExpectation:TimeInterval = 0.5
+    }
     
     override func setUp() {
         super.setUp()
         self.requester = ExploreRequester()
+        self.configuration = SearchConfiguration.factoryBaseConfiguration()
     }
     
     func testInit() {
         XCTAssertNotNil(self.requester, "Failed to load requester")
+    }
+    
+    func testLoadMotors() {
+        self.startExpectation()
+        
+        self.loadMotors { [weak self] in
+            self?.expect?.fulfill()
+        }
+        
+        self.waitExpectation()
+    }
+    
+    private func startExpectation() {
+        self.expect = expectation(description:"Waiting for expectation")
+    }
+    
+    private func waitExpectation() {
+        waitForExpectations(timeout:Constants.waitingForExpectation) { (error:Error?) in }
+    }
+    
+    private func loadMotors(completion:@escaping(() -> ())) {
+        self.requester.loadMotors(configuration:self.configuration, success: { (motors:[MotorProtocol]) in
+            completion()
+        }, error: { (error:Error) in })
     }
 }

@@ -1,11 +1,12 @@
 import Foundation
 
 class ExploreRequesterParser:JsonParserProtocol {
-    typealias Model = SearchResponse
     let pagingParser:ExploreRequesterParserPaging
+    let resultsParser:ExploreRequesterParserResults
     
     init() {
         self.pagingParser = ExploreRequesterParserPaging()
+        self.resultsParser = ExploreRequesterParserResults()
     }
     
     func parse(data:Data) throws -> SearchResponse {

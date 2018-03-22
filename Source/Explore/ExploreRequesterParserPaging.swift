@@ -1,6 +1,6 @@
 import Foundation
 
-class ExploreRequesterParserPaging {
+class ExploreRequesterParserPaging:JsonSubparserProtocol {
     private struct Constants {
         static let root:String = "paging"
         static let offset:String = "offset"

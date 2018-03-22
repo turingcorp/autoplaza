@@ -74,7 +74,6 @@
 		DA42567B2060EDE100F89C69 /* Coredata+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42567A2060EDE100F89C69 /* Coredata+Constants.swift */; };
 		DA42567E2060EF1000F89C69 /* Autoplaza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA42567C2060EF1000F89C69 /* Autoplaza.xcdatamodeld */; };
 		DA4256802060F23C00F89C69 /* SearchConfiguration+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42567F2060F23C00F89C69 /* SearchConfiguration+Factory.swift */; };
-		DA4256822060F25000F89C69 /* TestSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256812060F25000F89C69 /* TestSearchConfiguration_Factory.swift */; };
 		DA4256842060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */; };
 		DA4256862060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256852060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift */; };
 		DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */; };
@@ -86,7 +85,6 @@
 		DA66EBCE206104DD0073EE63 /* TestCoredata_SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EBCD206104DD0073EE63 /* TestCoredata_SearchConfiguration.swift */; };
 		DA66EBD02061058C0073EE63 /* Coredata+SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EBCF2061058C0073EE63 /* Coredata+SearchConfiguration.swift */; };
 		DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BCD20600FEB00DF1BAB /* ExploreView.swift */; };
-		DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */; };
 		DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */; };
 		DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AD205EB84A00071EFC /* ExploreController.swift */; };
 		DA7A19B0205EB87400071EFC /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A19AF205EB87400071EFC /* FavouritesController.swift */; };
@@ -191,7 +189,6 @@
 		DA42567A2060EDE100F89C69 /* Coredata+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Constants.swift"; sourceTree = "<group>"; };
 		DA42567D2060EF1000F89C69 /* Autoplaza.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Autoplaza.xcdatamodel; sourceTree = "<group>"; };
 		DA42567F2060F23C00F89C69 /* SearchConfiguration+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchConfiguration+Factory.swift"; sourceTree = "<group>"; };
-		DA4256812060F25000F89C69 /* TestSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA4256832060F34900F89C69 /* TestExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
 		DA4256852060F39E00F89C69 /* ExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
 		DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
@@ -203,7 +200,6 @@
 		DA66EBCD206104DD0073EE63 /* TestCoredata_SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata_SearchConfiguration.swift; sourceTree = "<group>"; };
 		DA66EBCF2061058C0073EE63 /* Coredata+SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+SearchConfiguration.swift"; sourceTree = "<group>"; };
 		DA730BCD20600FEB00DF1BAB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
-		DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
 		DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfiguration.swift; sourceTree = "<group>"; };
 		DA7A19A6205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA7A19A7205EA2DF00071EFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableNavigation.strings; sourceTree = "<group>"; };
@@ -331,7 +327,6 @@
 				DAFAECA120624CD000F10259 /* Motor */,
 				DA42566E2060E5F600F89C69 /* Coredata */,
 				DA42566F2060E5F600F89C69 /* Database */,
-				DA730BD02060199A00DF1BAB /* SearchConfiguration */,
 				DA40B84C205F973600CFF383 /* Explore */,
 				DA40B84F205F973600CFF383 /* Favourites */,
 				DA40B84E205F973600CFF383 /* Filters */,
@@ -547,15 +542,6 @@
 				DA3F566720638E9E00A164DE /* SearchPaging.swift */,
 			);
 			path = Search;
-			sourceTree = "<group>";
-		};
-		DA730BD02060199A00DF1BAB /* SearchConfiguration */ = {
-			isa = PBXGroup;
-			children = (
-				DA730BD1206019A700DF1BAB /* TestSearchConfiguration.swift */,
-				DA4256812060F25000F89C69 /* TestSearchConfiguration_Factory.swift */,
-			);
-			path = SearchConfiguration;
 			sourceTree = "<group>";
 		};
 		DA7A19AA205EB83800071EFC /* Favourites */ = {
@@ -802,7 +788,6 @@
 				DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */,
 				DA3F566D206392A300A164DE /* TestSearchConfiguration_Factory.swift in Sources */,
 				DA1412CB20629E2D00C3EE3D /* MockURLSessionExplore.swift in Sources */,
-				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
 				DAFAECAA2062511900F10259 /* TestExploreRequester_Factory.swift in Sources */,
@@ -821,7 +806,6 @@
 				DA1412DA2062AFEA00C3EE3D /* JSonMocker.swift in Sources */,
 				DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */,
 				DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */,
-				DA4256822060F25000F89C69 /* TestSearchConfiguration_Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

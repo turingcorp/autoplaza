@@ -49,6 +49,7 @@ class TestExploreRequesterParserPaging:XCTestCase {
         } catch {
             return
         }
+        print(self.dictionarySuccess)
         XCTAssertEqual(paging.total, Constants.total, "Total not parsed properly")
         XCTAssertEqual(paging.limit, Constants.limit, "Limit not parsed properly")
         XCTAssertEqual(paging.offset, Constants.offset, "Offset not parsed properly")

@@ -60,6 +60,8 @@
 		DA3F566D206392A300A164DE /* TestSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */; };
 		DA3F566F206395B200A164DE /* TestSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566E206395B200A164DE /* TestSearchResponse.swift */; };
 		DA3F5671206395F800A164DE /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F5670206395F800A164DE /* SearchResponse.swift */; };
+		DA3F567320639BC500A164DE /* ExploreRequesterParserPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F567220639BC500A164DE /* ExploreRequesterParserPaging.swift */; };
+		DA3F567520639C2A00A164DE /* TestExploreRequesterParserPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F567420639C2A00A164DE /* TestExploreRequesterParserPaging.swift */; };
 		DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B850205F974200CFF383 /* TestGuideController.swift */; };
 		DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */; };
 		DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */; };
@@ -177,6 +179,8 @@
 		DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA3F566E206395B200A164DE /* TestSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchResponse.swift; sourceTree = "<group>"; };
 		DA3F5670206395F800A164DE /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		DA3F567220639BC500A164DE /* ExploreRequesterParserPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequesterParserPaging.swift; sourceTree = "<group>"; };
+		DA3F567420639C2A00A164DE /* TestExploreRequesterParserPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequesterParserPaging.swift; sourceTree = "<group>"; };
 		DA40B850205F974200CFF383 /* TestGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGuideController.swift; sourceTree = "<group>"; };
 		DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorView+Configuration.swift"; sourceTree = "<group>"; };
 		DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
@@ -467,6 +471,7 @@
 				DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */,
 				DAFAECA92062511900F10259 /* TestExploreRequester_Factory.swift */,
 				DAFAECAF206259C500F10259 /* TestExploreRequesterParser.swift */,
+				DA3F567420639C2A00A164DE /* TestExploreRequesterParserPaging.swift */,
 				DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */,
 				DA1412CA20629E2D00C3EE3D /* MockURLSessionExplore.swift */,
 				DA1412CC20629FB200C3EE3D /* MockURLSessionDataTaskExplore.swift */,
@@ -569,6 +574,7 @@
 				DAFAEC9F20624BE700F10259 /* ExploreRequester.swift */,
 				DAFAECAB206252AB00F10259 /* ExploreRequester+Factory.swift */,
 				DAFAECB120625B2F00F10259 /* ExploreRequesterParser.swift */,
+				DA3F567220639BC500A164DE /* ExploreRequesterParserPaging.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -762,6 +768,7 @@
 				DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */,
 				DA2DF205205E81F000A50D77 /* StructureController+Navigator.swift in Sources */,
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
+				DA3F567320639BC500A164DE /* ExploreRequesterParserPaging.swift in Sources */,
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
 				DA63F840206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift in Sources */,
 				DA4256802060F23C00F89C69 /* SearchConfiguration+Factory.swift in Sources */,
@@ -813,6 +820,7 @@
 				DA140AC4205E76E400451711 /* TestApplication.swift in Sources */,
 				DA1412DA2062AFEA00C3EE3D /* JSonMocker.swift in Sources */,
 				DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */,
+				DA3F567520639C2A00A164DE /* TestExploreRequesterParserPaging.swift in Sources */,
 				DA140ABD205E6A4700451711 /* TestStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

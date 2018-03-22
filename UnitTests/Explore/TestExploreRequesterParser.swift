@@ -22,6 +22,7 @@ class TestExploreRequesterParser:XCTestCase {
     
     func testInit() {
         XCTAssertNotNil(self.parser, "Failed to load parser")
+        XCTAssertNotNil(self.parser.pagingParser, "Parser doesn't have a paging parser")
         XCTAssertNotNil(self.json, "Failed to load json mock")
     }
     

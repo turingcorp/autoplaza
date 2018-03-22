@@ -92,6 +92,10 @@
 		DA4594C02063D342006BC114 /* SearchSortPriceAscending.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594BF2063D342006BC114 /* SearchSortPriceAscending.swift */; };
 		DA4594C22063D39B006BC114 /* TestSearchSortPriceDescending.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594C12063D39B006BC114 /* TestSearchSortPriceDescending.swift */; };
 		DA4594C42063D3F2006BC114 /* SearchSortPriceDescending.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594C32063D3F2006BC114 /* SearchSortPriceDescending.swift */; };
+		DA4594C62063D645006BC114 /* TestFiltersItemConditionNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594C52063D645006BC114 /* TestFiltersItemConditionNew.swift */; };
+		DA4594C82063D6A5006BC114 /* FiltersItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594C72063D6A5006BC114 /* FiltersItemProtocol.swift */; };
+		DA4594CA2063D6C3006BC114 /* FiltersItemConditionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594C92063D6C3006BC114 /* FiltersItemConditionProtocol.swift */; };
+		DA4594CC2063D6E3006BC114 /* FiltersItemConditionNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */; };
 		DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */; };
 		DA63F840206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */; };
 		DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */; };
@@ -220,6 +224,10 @@
 		DA4594BF2063D342006BC114 /* SearchSortPriceAscending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSortPriceAscending.swift; sourceTree = "<group>"; };
 		DA4594C12063D39B006BC114 /* TestSearchSortPriceDescending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchSortPriceDescending.swift; sourceTree = "<group>"; };
 		DA4594C32063D3F2006BC114 /* SearchSortPriceDescending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSortPriceDescending.swift; sourceTree = "<group>"; };
+		DA4594C52063D645006BC114 /* TestFiltersItemConditionNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFiltersItemConditionNew.swift; sourceTree = "<group>"; };
+		DA4594C72063D6A5006BC114 /* FiltersItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemProtocol.swift; sourceTree = "<group>"; };
+		DA4594C92063D6C3006BC114 /* FiltersItemConditionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemConditionProtocol.swift; sourceTree = "<group>"; };
+		DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemConditionNew.swift; sourceTree = "<group>"; };
 		DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoredataSearchConfiguration+Factory.swift"; sourceTree = "<group>"; };
 		DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration.swift; sourceTree = "<group>"; };
@@ -513,6 +521,7 @@
 		DA40B84E205F973600CFF383 /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				DA4594C52063D645006BC114 /* TestFiltersItemConditionNew.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -610,6 +619,9 @@
 			isa = PBXGroup;
 			children = (
 				DA7A19B1205EB88200071EFC /* FiltersController.swift */,
+				DA4594C72063D6A5006BC114 /* FiltersItemProtocol.swift */,
+				DA4594C92063D6C3006BC114 /* FiltersItemConditionProtocol.swift */,
+				DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -756,6 +768,7 @@
 			files = (
 				DAFAECA820624D9A00F10259 /* MotorProtocol.swift in Sources */,
 				DA730BD420601A3100DF1BAB /* SearchConfiguration.swift in Sources */,
+				DA4594CA2063D6C3006BC114 /* FiltersItemConditionProtocol.swift in Sources */,
 				DA2DF223205E9AC200A50D77 /* StructureNavigatorView+Constants.swift in Sources */,
 				DAFAEC9E20624BC100F10259 /* ExploreRequesterProtocol.swift in Sources */,
 				DA2DF21B205E82B500A50D77 /* ExtensionString.swift in Sources */,
@@ -766,6 +779,7 @@
 				DAFAECA620624D3A00F10259 /* MotorCar.swift in Sources */,
 				DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */,
 				DA1412D02062A63600C3EE3D /* ErrorLocal.swift in Sources */,
+				DA4594C82063D6A5006BC114 /* FiltersItemProtocol.swift in Sources */,
 				DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */,
 				DAFAECAC206252AB00F10259 /* ExploreRequester+Factory.swift in Sources */,
 				DA3F56612063899600A164DE /* JsonParserProtocol.swift in Sources */,
@@ -801,6 +815,7 @@
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
 				DA3F567320639BC500A164DE /* ExploreRequesterParserPaging.swift in Sources */,
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
+				DA4594CC2063D6E3006BC114 /* FiltersItemConditionNew.swift in Sources */,
 				DA63F840206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift in Sources */,
 				DA4256802060F23C00F89C69 /* SearchConfiguration+Factory.swift in Sources */,
 				DA2DF214205E82B500A50D77 /* ExtensionUIView+LayoutHeight.swift in Sources */,
@@ -829,6 +844,7 @@
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,
 				DA3F566B2063925100A164DE /* TestSearchConfiguration.swift in Sources */,
+				DA4594C62063D645006BC114 /* TestFiltersItemConditionNew.swift in Sources */,
 				DAFAEC982062439700F10259 /* TestCoredata_Remove.swift in Sources */,
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA42568A2060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift in Sources */,

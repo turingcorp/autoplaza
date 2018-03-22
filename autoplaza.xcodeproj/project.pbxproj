@@ -85,6 +85,9 @@
 		DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */; };
 		DA42568A2060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4256892060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift */; };
 		DA42568E2061039400F89C69 /* CoredataSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42568D2061039400F89C69 /* CoredataSearchConfiguration.swift */; };
+		DA4594B82063CF1F006BC114 /* SearchSortProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594B72063CF1F006BC114 /* SearchSortProtocol.swift */; };
+		DA4594BA2063CF46006BC114 /* TestSearchSortRelevance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594B92063CF46006BC114 /* TestSearchSortRelevance.swift */; };
+		DA4594BC2063D005006BC114 /* SearchSortRelevance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594BB2063D005006BC114 /* SearchSortRelevance.swift */; };
 		DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */; };
 		DA63F840206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */; };
 		DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */; };
@@ -206,6 +209,9 @@
 		DA4256872060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExploreSearchConfigurationLoader.swift; sourceTree = "<group>"; };
 		DA4256892060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDatabase_SearchConfiguration.swift; sourceTree = "<group>"; };
 		DA42568D2061039400F89C69 /* CoredataSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataSearchConfiguration.swift; sourceTree = "<group>"; };
+		DA4594B72063CF1F006BC114 /* SearchSortProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSortProtocol.swift; sourceTree = "<group>"; };
+		DA4594B92063CF46006BC114 /* TestSearchSortRelevance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchSortRelevance.swift; sourceTree = "<group>"; };
+		DA4594BB2063D005006BC114 /* SearchSortRelevance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSortRelevance.swift; sourceTree = "<group>"; };
 		DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoredataSearchConfiguration+Factory.swift"; sourceTree = "<group>"; };
 		DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration.swift; sourceTree = "<group>"; };
@@ -464,6 +470,7 @@
 				DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */,
 				DA3F566520638E5400A164DE /* TestSearchPaging.swift */,
 				DA3F566E206395B200A164DE /* TestSearchResponse.swift */,
+				DA4594B92063CF46006BC114 /* TestSearchSortRelevance.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -557,6 +564,8 @@
 				DA42567F2060F23C00F89C69 /* SearchConfiguration+Factory.swift */,
 				DA3F566720638E9E00A164DE /* SearchPaging.swift */,
 				DA3F5670206395F800A164DE /* SearchResponse.swift */,
+				DA4594B72063CF1F006BC114 /* SearchSortProtocol.swift */,
+				DA4594BB2063D005006BC114 /* SearchSortRelevance.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -770,6 +779,7 @@
 				DA140AB5205E65A000451711 /* Application.swift in Sources */,
 				DA2DF21A205E82B500A50D77 /* ExtensionNSManagedObject.swift in Sources */,
 				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
+				DA4594B82063CF1F006BC114 /* SearchSortProtocol.swift in Sources */,
 				DA3F5671206395F800A164DE /* SearchResponse.swift in Sources */,
 				DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */,
 				DA2DF219205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift in Sources */,
@@ -790,6 +800,7 @@
 				DA140AD4205E805B00451711 /* StructureNavigatorView.swift in Sources */,
 				DA2DF225205E9B1C00A50D77 /* StructureNavigatorViewButton.swift in Sources */,
 				DA42568E2061039400F89C69 /* CoredataSearchConfiguration.swift in Sources */,
+				DA4594BC2063D005006BC114 /* SearchSortRelevance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,6 +821,7 @@
 				DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */,
 				DA3F566D206392A300A164DE /* TestSearchConfiguration_Factory.swift in Sources */,
 				DA1412CB20629E2D00C3EE3D /* MockURLSessionExplore.swift in Sources */,
+				DA4594BA2063CF46006BC114 /* TestSearchSortRelevance.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
 				DAFAECAA2062511900F10259 /* TestExploreRequester_Factory.swift in Sources */,

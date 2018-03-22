@@ -88,6 +88,8 @@
 		DA4594B82063CF1F006BC114 /* SearchSortProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594B72063CF1F006BC114 /* SearchSortProtocol.swift */; };
 		DA4594BA2063CF46006BC114 /* TestSearchSortRelevance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594B92063CF46006BC114 /* TestSearchSortRelevance.swift */; };
 		DA4594BC2063D005006BC114 /* SearchSortRelevance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594BB2063D005006BC114 /* SearchSortRelevance.swift */; };
+		DA4594BE2063D280006BC114 /* TestSearchSortPriceAscending.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594BD2063D280006BC114 /* TestSearchSortPriceAscending.swift */; };
+		DA4594C02063D342006BC114 /* SearchSortPriceAscending.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594BF2063D342006BC114 /* SearchSortPriceAscending.swift */; };
 		DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */; };
 		DA63F840206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */; };
 		DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */; };
@@ -212,6 +214,8 @@
 		DA4594B72063CF1F006BC114 /* SearchSortProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSortProtocol.swift; sourceTree = "<group>"; };
 		DA4594B92063CF46006BC114 /* TestSearchSortRelevance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchSortRelevance.swift; sourceTree = "<group>"; };
 		DA4594BB2063D005006BC114 /* SearchSortRelevance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSortRelevance.swift; sourceTree = "<group>"; };
+		DA4594BD2063D280006BC114 /* TestSearchSortPriceAscending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchSortPriceAscending.swift; sourceTree = "<group>"; };
+		DA4594BF2063D342006BC114 /* SearchSortPriceAscending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSortPriceAscending.swift; sourceTree = "<group>"; };
 		DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoredataSearchConfiguration+Factory.swift"; sourceTree = "<group>"; };
 		DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration.swift; sourceTree = "<group>"; };
@@ -471,6 +475,7 @@
 				DA3F566520638E5400A164DE /* TestSearchPaging.swift */,
 				DA3F566E206395B200A164DE /* TestSearchResponse.swift */,
 				DA4594B92063CF46006BC114 /* TestSearchSortRelevance.swift */,
+				DA4594BD2063D280006BC114 /* TestSearchSortPriceAscending.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -566,6 +571,7 @@
 				DA3F5670206395F800A164DE /* SearchResponse.swift */,
 				DA4594B72063CF1F006BC114 /* SearchSortProtocol.swift */,
 				DA4594BB2063D005006BC114 /* SearchSortRelevance.swift */,
+				DA4594BF2063D342006BC114 /* SearchSortPriceAscending.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -772,6 +778,7 @@
 				DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */,
 				DA140ABF205E736D00451711 /* StructureItemProtocol.swift in Sources */,
 				DA4256792060E99F00F89C69 /* Coredata+Factory.swift in Sources */,
+				DA4594C02063D342006BC114 /* SearchSortPriceAscending.swift in Sources */,
 				DA40B859205FAA1100CFF383 /* StructureController+Selectors.swift in Sources */,
 				DA7A19B5205EB8A400071EFC /* GuideController.swift in Sources */,
 				DA66EBD02061058C0073EE63 /* Coredata+SearchConfiguration.swift in Sources */,
@@ -834,6 +841,7 @@
 				DA40B85D205FB39500CFF383 /* TestExplore.swift in Sources */,
 				DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */,
 				DA3F566F206395B200A164DE /* TestSearchResponse.swift in Sources */,
+				DA4594BE2063D280006BC114 /* TestSearchSortPriceAscending.swift in Sources */,
 				DAFAECB0206259C500F10259 /* TestExploreRequesterParser.swift in Sources */,
 				DA2DF227205E9B9600A50D77 /* TestStructureNavigatorViewButton.swift in Sources */,
 				DAAD4A852062B3B6003E0FCB /* TestJsonMocker.swift in Sources */,

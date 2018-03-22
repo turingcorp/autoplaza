@@ -310,7 +310,7 @@
 				DAFAECA420624D3100F10259 /* Motor */,
 				DA42566C2060E5EB00F89C69 /* Coredata */,
 				DA42566A2060E5EB00F89C69 /* Database */,
-				DA730BCF2060199100DF1BAB /* SearchConfiguration */,
+				DA730BCF2060199100DF1BAB /* Search */,
 				DA140AB3205E659300451711 /* Application */,
 				DA7A19B3205EB89900071EFC /* Guide */,
 				DA7A19AB205EB83800071EFC /* Explore */,
@@ -437,7 +437,6 @@
 			children = (
 				DA3F56602063899600A164DE /* JsonParserProtocol.swift */,
 				DA3F5662206389FA00A164DE /* JsonParserProtocol+Defaults.swift */,
-				DA3F566720638E9E00A164DE /* SearchPaging.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -445,7 +444,6 @@
 		DA3F566420638E4600A164DE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				DA3F566520638E5400A164DE /* TestSearchPaging.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -455,6 +453,7 @@
 			children = (
 				DA3F566A2063925100A164DE /* TestSearchConfiguration.swift */,
 				DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */,
+				DA3F566520638E5400A164DE /* TestSearchPaging.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -540,13 +539,14 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
-		DA730BCF2060199100DF1BAB /* SearchConfiguration */ = {
+		DA730BCF2060199100DF1BAB /* Search */ = {
 			isa = PBXGroup;
 			children = (
 				DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */,
 				DA42567F2060F23C00F89C69 /* SearchConfiguration+Factory.swift */,
+				DA3F566720638E9E00A164DE /* SearchPaging.swift */,
 			);
-			path = SearchConfiguration;
+			path = Search;
 			sourceTree = "<group>";
 		};
 		DA730BD02060199A00DF1BAB /* SearchConfiguration */ = {

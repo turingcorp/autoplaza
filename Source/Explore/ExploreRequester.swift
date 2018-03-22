@@ -13,7 +13,7 @@ class ExploreRequester:ExploreRequesterProtocol {
     
     func loadMotors(
         configuration:SearchConfiguration,
-        onSuccess:@escaping(([MotorProtocol]) -> ()),
+        onSuccess:@escaping((SearchResponse) -> ()),
         onError:@escaping((Error) -> ())) {
         DispatchQueue.global(qos:DispatchQoS.QoSClass.background).async { [weak self] in
             self?.loadMotorsInBackground(configuration:configuration, onSuccess:onSuccess, onError:onError)
@@ -22,26 +22,26 @@ class ExploreRequester:ExploreRequesterProtocol {
     
     private func loadMotorsInBackground(
         configuration:SearchConfiguration,
-        onSuccess:@escaping(([MotorProtocol]) -> ()),
+        onSuccess:@escaping((SearchResponse) -> ()),
         onError:@escaping((Error) -> ())) {
         let request:URLRequest = ExploreRequester.factoryRequest(configuration:configuration)
         let task:URLSessionDataTask = self.session.dataTask(
         with:request) { [weak self] (data:Data?, response:URLResponse?, error:Error?) in
-            let motors:[MotorProtocol]?
+            let response:SearchResponse?
             do {
-                try motors = self?.motorsRequestResponse(data:data, error:error)
+                try response = self?.motorsRequestResponse(data:data, error:error)
             } catch let error {
                 onError(error)
                 return
             }
-            if let motors:[MotorProtocol] = motors {
-                onSuccess(motors)
+            if let response:SearchResponse = response {
+                onSuccess(response)
             }
         }
         task.resume()
     }
     
-    private func motorsRequestResponse(data:Data?, error:Error?) throws -> [MotorProtocol] {
+    private func motorsRequestResponse(data:Data?, error:Error?) throws -> SearchResponse {
         if let error:Error = error {
             throw error
         }
@@ -50,10 +50,7 @@ class ExploreRequester:ExploreRequesterProtocol {
         else {
             throw ErrorLocal.noDataReceived
         }
-        let motors:[MotorProtocol] = try self.parser.parse(data:data)
-        return motors
+        let response:SearchResponse = try self.parser.parse(data:data)
+        return response
     }
 }
-
-
-// https://api.mercadolibre.com/sites/MLM/search?category=1743&limit=1&offset=0

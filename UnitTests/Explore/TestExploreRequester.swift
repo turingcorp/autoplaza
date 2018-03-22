@@ -43,7 +43,7 @@ class TestExploreRequester:XCTestCase {
     }
     
     private func loadMotors(completion:@escaping(() -> ())) {
-        self.requester.loadMotors(configuration:self.configuration, onSuccess: { (motors:[MotorProtocol]) in
+        self.requester.loadMotors(configuration:self.configuration, onSuccess: { (response:SearchResponse) in
             completion()
         }, onError: { (error:Error) in })
     }

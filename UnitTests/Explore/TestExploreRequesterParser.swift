@@ -32,13 +32,13 @@ class TestExploreRequesterParser:XCTestCase {
         XCTAssertThrowsError(try self.parser.parse(data:self.jsonEmptyDictionary), "Should throw an error")
     }
     
-    func testParseItems() {
-        let items:[MotorProtocol]
+    func testResponsePaging() {
+        let response:SearchResponse
         do {
-            try items = self.parser.parse(data:self.json)
+            try response = self.parser.parse(data:self.json)
         } catch {
             return
         }
-        XCTAssertEqual(items.count, 1, "Incorrect number of items parsed")
+        XCTAssertNotNil(response.paging, "Response doesn't have paging")
     }
 }

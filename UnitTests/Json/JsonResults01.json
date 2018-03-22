@@ -1,0 +1,112 @@
+{
+    "results": [
+                {
+                "id": "MLM573494325",
+                "site_id": "MLM",
+                "title": "Spark En Partes Refacciones Originales Piezas Autopartes",
+                "seller": {
+                "id": 33430226,
+                "power_seller_status": "gold",
+                "car_dealer": true,
+                "real_estate_agency": false,
+                "tags": [],
+                "car_dealer_logo": "https://resources.mlstatic.com/classifieds_accounts/MLM_car_dealer/33430226_vip_v2.jpg"
+                },
+                "price": 10000,
+                "currency_id": "MXN",
+                "available_quantity": 1,
+                "sold_quantity": 0,
+                "buying_mode": "classified",
+                "listing_type_id": "gold_premium",
+                "stop_time": "2018-04-28T22:15:03.000Z",
+                "condition": "not_specified",
+                "permalink": "http://vehiculo.mercadolibre.com.mx/MLM-573494325-spark-en-partes-refacciones-originales-piezas-autopartes-_JM",
+                "thumbnail": "http://mlm-s2-p.mlstatic.com/459905-MLM25108916728_102016-I.jpg",
+                "accepts_mercadopago": false,
+                "installments": null,
+                "address": {
+                "state_id": "TUxNUERVUjc3MDc",
+                "state_name": "Durango",
+                "city_id": "TUxNQ0fTTTkxMjE",
+                "city_name": "Gómez Palacio",
+                "area_code": "871",
+                "phone1": "1199507"
+                },
+                "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified"
+                },
+                "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "MX",
+                "name": "Mexico"
+                },
+                "state": {
+                "id": "MX-DUR",
+                "name": "Durango"
+                },
+                "city": {
+                "id": "TUxNQ0fTTTkxMjE",
+                "name": "Gómez Palacio"
+                },
+                "latitude": "",
+                "longitude": ""
+                },
+                "seller_contact": {
+                "contact": "",
+                "other_info": "",
+                "area_code": "871",
+                "phone": "1199507",
+                "area_code2": "",
+                "phone2": null,
+                "email": "",
+                "webpage": ""
+                },
+                "location": {
+                "address_line": "",
+                "zip_code": "",
+                "subneighborhood": null,
+                "neighborhood": {
+                "id": "TUxNQkfTTTY1NjU",
+                "name": "Gómez Palacio Centro"
+                },
+                "city": {
+                "id": "TUxNQ0fTTTkxMjE",
+                "name": "Gómez Palacio"
+                },
+                "state": {
+                "id": "TUxNUERVUjc3MDc",
+                "name": "Durango"
+                },
+                "country": {
+                "id": "MX",
+                "name": "Mexico"
+                },
+                "latitude": "",
+                "longitude": ""
+                },
+                "attributes": [
+                               {
+                               "attribute_group_id": "FIND",
+                               "attribute_group_name": "Ficha técnica",
+                               "id": "VEHICLE_YEAR",
+                               "name": "Año",
+                               "value_id": null,
+                               "value_name": "2015",
+                               "value_struct": null
+                               }
+                               ],
+                "original_price": null,
+                "category_id": "MLM95042",
+                "official_store_id": null,
+                "catalog_product_id": null,
+                "reviews": {}
+                }
+                ]
+}

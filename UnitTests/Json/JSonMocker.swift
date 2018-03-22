@@ -6,6 +6,8 @@ struct JsonMocker {
     static let emptyDictionary:Data? = factoryJson(name:Constants.emptyDictionary)
     static let paging01:Data? = factoryJson(name:Constants.paging01)
     static let pagingError01:Data? = factoryJson(name:Constants.pagingError01)
+    static let results01:Data? = factoryJson(name:Constants.results01)
+    static let resultsError01:Data? = factoryJson(name:Constants.resultsError01)
     
     private struct Constants {
         static let fileExtension:String = "json"
@@ -14,6 +16,8 @@ struct JsonMocker {
         static let emptyDictionary:String = "JsonEmptyDictionary"
         static let paging01:String = "JsonPaging01"
         static let pagingError01:String = "JsonPagingError01"
+        static let results01:String = "JsonResults01"
+        static let resultsError01:String = "JsonResultsError01"
     }
     
     private static func factoryJson(name:String) -> Data? {

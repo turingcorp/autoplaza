@@ -126,6 +126,9 @@
 		DAB14D8A2063F63600C6950F /* TestMotorAttributesItemYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB14D892063F63600C6950F /* TestMotorAttributesItemYear.swift */; };
 		DAB14D8C2063F6B700C6950F /* MotorAttributesItemYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB14D8B2063F6B700C6950F /* MotorAttributesItemYear.swift */; };
 		DAB14D8E2063F6FE00C6950F /* MotorAttributesItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB14D8D2063F6FE00C6950F /* MotorAttributesItemProtocol.swift */; };
+		DAB14D912063F99A00C6950F /* LocalizableMotor.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB14D8F2063F99A00C6950F /* LocalizableMotor.strings */; };
+		DAB14D93206402D500C6950F /* TestMotorAttributesItemBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB14D92206402D500C6950F /* TestMotorAttributesItemBrand.swift */; };
+		DAB14D95206403FC00C6950F /* MotorAttributesItemBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB14D94206403FC00C6950F /* MotorAttributesItemBrand.swift */; };
 		DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */; };
 		DAFAEC982062439700F10259 /* TestCoredata_Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC972062439700F10259 /* TestCoredata_Remove.swift */; };
 		DAFAEC9C20624AFD00F10259 /* TestExploreRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */; };
@@ -276,6 +279,9 @@
 		DAB14D892063F63600C6950F /* TestMotorAttributesItemYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMotorAttributesItemYear.swift; sourceTree = "<group>"; };
 		DAB14D8B2063F6B700C6950F /* MotorAttributesItemYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorAttributesItemYear.swift; sourceTree = "<group>"; };
 		DAB14D8D2063F6FE00C6950F /* MotorAttributesItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorAttributesItemProtocol.swift; sourceTree = "<group>"; };
+		DAB14D902063F99A00C6950F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableMotor.strings; sourceTree = "<group>"; };
+		DAB14D92206402D500C6950F /* TestMotorAttributesItemBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMotorAttributesItemBrand.swift; sourceTree = "<group>"; };
+		DAB14D94206403FC00C6950F /* MotorAttributesItemBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorAttributesItemBrand.swift; sourceTree = "<group>"; };
 		DAFAEC9520623EC000F10259 /* Coredata+Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coredata+Remove.swift"; sourceTree = "<group>"; };
 		DAFAEC972062439700F10259 /* TestCoredata_Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredata_Remove.swift; sourceTree = "<group>"; };
 		DAFAEC9B20624AFD00F10259 /* TestExploreRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequester.swift; sourceTree = "<group>"; };
@@ -350,6 +356,7 @@
 				DA2DF22E205E9F1E00A50D77 /* InfoPlist.strings */,
 				DA2DF231205E9F2A00A50D77 /* LocalizableNavigation.strings */,
 				DA1412D32062A69A00C3EE3D /* LocalizableError.strings */,
+				DAB14D8F2063F99A00C6950F /* LocalizableMotor.strings */,
 				DA42567C2060EF1000F89C69 /* Autoplaza.xcdatamodeld */,
 			);
 			path = Resources;
@@ -682,6 +689,7 @@
 				DA4594DF2063E9DD006BC114 /* TestMotorSeller.swift */,
 				DA4594E32063EB86006BC114 /* TestMotorAddress.swift */,
 				DAB14D892063F63600C6950F /* TestMotorAttributesItemYear.swift */,
+				DAB14D92206402D500C6950F /* TestMotorAttributesItemBrand.swift */,
 			);
 			path = Motor;
 			sourceTree = "<group>";
@@ -695,6 +703,7 @@
 				DA4594E52063EBD0006BC114 /* MotorAddress.swift */,
 				DAB14D8D2063F6FE00C6950F /* MotorAttributesItemProtocol.swift */,
 				DAB14D8B2063F6B700C6950F /* MotorAttributesItemYear.swift */,
+				DAB14D94206403FC00C6950F /* MotorAttributesItemBrand.swift */,
 			);
 			path = Motor;
 			sourceTree = "<group>";
@@ -790,6 +799,7 @@
 				DA140AAB205E64BE00451711 /* README.md in Resources */,
 				DA1412D52062A69A00C3EE3D /* LocalizableError.strings in Resources */,
 				DA140AAA205E64BE00451711 /* LaunchScreen.storyboard in Resources */,
+				DAB14D912063F99A00C6950F /* LocalizableMotor.strings in Resources */,
 				DA2DF21F205E8C8500A50D77 /* brand.xcassets in Resources */,
 				DA2DF233205E9F2A00A50D77 /* LocalizableNavigation.strings in Resources */,
 			);
@@ -868,6 +878,7 @@
 				DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */,
 				DA2DF205205E81F000A50D77 /* StructureController+Navigator.swift in Sources */,
 				DA140ACA205E78B000451711 /* StructureItemExplore.swift in Sources */,
+				DAB14D95206403FC00C6950F /* MotorAttributesItemBrand.swift in Sources */,
 				DA3F567320639BC500A164DE /* ExploreRequesterParserPaging.swift in Sources */,
 				DAB14D8E2063F6FE00C6950F /* MotorAttributesItemProtocol.swift in Sources */,
 				DA140ACC205E7A6600451711 /* Structure+Constants.swift in Sources */,
@@ -898,6 +909,7 @@
 				DA40B85F205FB42B00CFF383 /* TestExploreController.swift in Sources */,
 				DAFAEC9C20624AFD00F10259 /* TestExploreRequester.swift in Sources */,
 				DA4256772060E8F100F89C69 /* TestCoredata_Factory.swift in Sources */,
+				DAB14D93206402D500C6950F /* TestMotorAttributesItemBrand.swift in Sources */,
 				DAFAECA320624CFB00F10259 /* TestMotorCar.swift in Sources */,
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,
@@ -974,6 +986,14 @@
 				DA7A19A7205EA2DF00071EFC /* en */,
 			);
 			name = LocalizableNavigation.strings;
+			sourceTree = "<group>";
+		};
+		DAB14D8F2063F99A00C6950F /* LocalizableMotor.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB14D902063F99A00C6950F /* en */,
+			);
+			name = LocalizableMotor.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

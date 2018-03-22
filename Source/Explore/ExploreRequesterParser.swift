@@ -5,5 +5,6 @@ class ExploreRequesterParser:JsonParserProtocol {
     
     func parse(data:Data) throws -> [MotorProtocol] {
         let json:[String:Any] = try self.getJsonFrom(data:data)
+        return []
     }
 }

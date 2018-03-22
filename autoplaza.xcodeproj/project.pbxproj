@@ -54,6 +54,8 @@
 		DA2DF233205E9F2A00A50D77 /* LocalizableNavigation.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA2DF231205E9F2A00A50D77 /* LocalizableNavigation.strings */; };
 		DA3F56612063899600A164DE /* JsonParserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F56602063899600A164DE /* JsonParserProtocol.swift */; };
 		DA3F5663206389FA00A164DE /* JsonParserProtocol+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F5662206389FA00A164DE /* JsonParserProtocol+Defaults.swift */; };
+		DA3F566620638E5400A164DE /* TestJsonPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566520638E5400A164DE /* TestJsonPaging.swift */; };
+		DA3F566820638E9E00A164DE /* JsonPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566720638E9E00A164DE /* JsonPaging.swift */; };
 		DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B850205F974200CFF383 /* TestGuideController.swift */; };
 		DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */; };
 		DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */; };
@@ -167,6 +169,8 @@
 		DA2DF228205E9D4800A50D77 /* StructureNavigatorViewButton+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorViewButton+Constants.swift"; sourceTree = "<group>"; };
 		DA3F56602063899600A164DE /* JsonParserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParserProtocol.swift; sourceTree = "<group>"; };
 		DA3F5662206389FA00A164DE /* JsonParserProtocol+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JsonParserProtocol+Defaults.swift"; sourceTree = "<group>"; };
+		DA3F566520638E5400A164DE /* TestJsonPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestJsonPaging.swift; sourceTree = "<group>"; };
+		DA3F566720638E9E00A164DE /* JsonPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonPaging.swift; sourceTree = "<group>"; };
 		DA40B850205F974200CFF383 /* TestGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGuideController.swift; sourceTree = "<group>"; };
 		DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorView+Configuration.swift"; sourceTree = "<group>"; };
 		DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
@@ -317,6 +321,7 @@
 		DA140AB1205E64CB00451711 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				DA3F566420638E4600A164DE /* Shared */,
 				DA1412D62062AE5E00C3EE3D /* Json */,
 				DAFAECA120624CD000F10259 /* Motor */,
 				DA42566E2060E5F600F89C69 /* Coredata */,
@@ -427,6 +432,15 @@
 			children = (
 				DA3F56602063899600A164DE /* JsonParserProtocol.swift */,
 				DA3F5662206389FA00A164DE /* JsonParserProtocol+Defaults.swift */,
+				DA3F566720638E9E00A164DE /* JsonPaging.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DA3F566420638E4600A164DE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F566520638E5400A164DE /* TestJsonPaging.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -706,6 +720,7 @@
 				DA2DF21B205E82B500A50D77 /* ExtensionString.swift in Sources */,
 				DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */,
 				DA2DF215205E82B500A50D77 /* ExtensionUIView+LayoutSize.swift in Sources */,
+				DA3F566820638E9E00A164DE /* JsonPaging.swift in Sources */,
 				DA42567E2060EF1000F89C69 /* Autoplaza.xcdatamodeld in Sources */,
 				DAFAECA620624D3A00F10259 /* MotorCar.swift in Sources */,
 				DA7A19B2205EB88200071EFC /* FiltersController.swift in Sources */,
@@ -775,6 +790,7 @@
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
 				DAFAECAA2062511900F10259 /* TestExploreRequester_Factory.swift in Sources */,
+				DA3F566620638E5400A164DE /* TestJsonPaging.swift in Sources */,
 				DA66EBCE206104DD0073EE63 /* TestCoredata_SearchConfiguration.swift in Sources */,
 				DA140AC6205E77B100451711 /* TestStructureController.swift in Sources */,
 				DA140AD0205E7B7D00451711 /* TestStructureItemGuide.swift in Sources */,

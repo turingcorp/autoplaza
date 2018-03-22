@@ -7,4 +7,6 @@ struct ErrorLocal:LocalizedError {
         String.localizedError(key:"Error_noDataReceived"))
     static let malformedServerResponse:ErrorLocal = ErrorLocal(errorDescription:
         String.localizedError(key:"Error_malformedServerResponse"))
+    static let emptyServerResponse:ErrorLocal = ErrorLocal(errorDescription:
+        String.localizedError(key:"Error_emptyServerResponse"))
 }

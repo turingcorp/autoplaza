@@ -1,2 +1,3 @@
 Error_noDataReceived="No data received.";
 Error_malformedServerResponse="Malformed server response.";
+Error_emptyServerResponse="Empty server response.";

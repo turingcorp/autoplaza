@@ -56,6 +56,8 @@
 		DA3F5663206389FA00A164DE /* JsonParserProtocol+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F5662206389FA00A164DE /* JsonParserProtocol+Defaults.swift */; };
 		DA3F566620638E5400A164DE /* TestSearchPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566520638E5400A164DE /* TestSearchPaging.swift */; };
 		DA3F566820638E9E00A164DE /* SearchPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566720638E9E00A164DE /* SearchPaging.swift */; };
+		DA3F566B2063925100A164DE /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566A2063925100A164DE /* TestSearchConfiguration.swift */; };
+		DA3F566D206392A300A164DE /* TestSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */; };
 		DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B850205F974200CFF383 /* TestGuideController.swift */; };
 		DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */; };
 		DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */; };
@@ -171,6 +173,8 @@
 		DA3F5662206389FA00A164DE /* JsonParserProtocol+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JsonParserProtocol+Defaults.swift"; sourceTree = "<group>"; };
 		DA3F566520638E5400A164DE /* TestSearchPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchPaging.swift; sourceTree = "<group>"; };
 		DA3F566720638E9E00A164DE /* SearchPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPaging.swift; sourceTree = "<group>"; };
+		DA3F566A2063925100A164DE /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
+		DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA40B850205F974200CFF383 /* TestGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGuideController.swift; sourceTree = "<group>"; };
 		DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorView+Configuration.swift"; sourceTree = "<group>"; };
 		DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
@@ -321,6 +325,7 @@
 		DA140AB1205E64CB00451711 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				DA3F56692063924100A164DE /* Search */,
 				DA3F566420638E4600A164DE /* Shared */,
 				DA1412D62062AE5E00C3EE3D /* Json */,
 				DAFAECA120624CD000F10259 /* Motor */,
@@ -443,6 +448,15 @@
 				DA3F566520638E5400A164DE /* TestSearchPaging.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		DA3F56692063924100A164DE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F566A2063925100A164DE /* TestSearchConfiguration.swift */,
+				DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		DA40B84C205F973600CFF383 /* Explore */ = {
@@ -781,10 +795,12 @@
 				DAFAECA320624CFB00F10259 /* TestMotorCar.swift in Sources */,
 				DA4256752060E7F100F89C69 /* TestCoredata.swift in Sources */,
 				DA4256882060F51B00F89C69 /* MockExploreSearchConfigurationLoader.swift in Sources */,
+				DA3F566B2063925100A164DE /* TestSearchConfiguration.swift in Sources */,
 				DAFAEC982062439700F10259 /* TestCoredata_Remove.swift in Sources */,
 				DA140AC8205E786400451711 /* TestStructureItemExplore.swift in Sources */,
 				DA42568A2060FBAA00F89C69 /* MockDatabase_SearchConfiguration.swift in Sources */,
 				DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */,
+				DA3F566D206392A300A164DE /* TestSearchConfiguration_Factory.swift in Sources */,
 				DA1412CB20629E2D00C3EE3D /* MockURLSessionExplore.swift in Sources */,
 				DA730BD2206019A700DF1BAB /* TestSearchConfiguration.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,

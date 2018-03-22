@@ -12,4 +12,10 @@ class TestSearchPaging:XCTestCase {
     func testInit() {
         XCTAssertNotNil(self.paging, "Failed to load paging")
     }
+    
+    func testProperties() {
+        XCTAssertNotNil(self.paging.total, "Failed to load total")
+        XCTAssertNotNil(self.paging.offset, "Failed to load offset")
+        XCTAssertNotNil(self.paging.limit, "Failed to load limit")
+    }
 }

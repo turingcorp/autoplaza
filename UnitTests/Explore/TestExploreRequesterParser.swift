@@ -6,6 +6,11 @@ class TestExploreRequesterParser:XCTestCase {
     private var json:Data!
     private var jsonEmpty:Data!
     private var jsonEmptyDictionary:Data!
+    private struct Constants {
+        static let pagingTotal:Int = 110690
+        static let pagingOffset:Int = 33
+        static let pagingLimit:Int = 1
+    }
     
     override func setUp() {
         super.setUp()
@@ -40,5 +45,8 @@ class TestExploreRequesterParser:XCTestCase {
             return
         }
         XCTAssertNotNil(response.paging, "Response doesn't have paging")
+        XCTAssertEqual(response.paging.limit, Constants.pagingLimit, "Limit not parsed properly")
+        XCTAssertEqual(response.paging.offset, Constants.pagingOffset, "Offset not parsed properly")
+        XCTAssertEqual(response.paging.total, Constants.pagingTotal, "Total not parsed properly")
     }
 }

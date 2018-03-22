@@ -1,5 +1,5 @@
 import Foundation
 
-struct JsonPaging {
+struct SearchPaging {
     
 }

@@ -1,12 +1,12 @@
 import XCTest
 @testable import autoplaza
 
-class TestJsonPaging:XCTestCase {
-    private var paging:JsonPaging!
+class TestSearchPaging:XCTestCase {
+    private var paging:SearchPaging!
     
     override func setUp() {
         super.setUp()
-        self.paging = JsonPaging()
+        self.paging = SearchPaging()
     }
     
     func testInit() {

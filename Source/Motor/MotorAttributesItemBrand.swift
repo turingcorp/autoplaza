@@ -1,6 +1,6 @@
 import Foundation
 
-class MotorAttributesItemBrand:MotorAttributesItemProtocol {
+struct MotorAttributesItemBrand:MotorAttributesItemProtocol {
     static let identifier:String = "BRAND"
     let name:String = String.localizableMotor(key:"MotorAttributesItemBrand_name")
     let brand:String
@@ -8,7 +8,7 @@ class MotorAttributesItemBrand:MotorAttributesItemProtocol {
         static let invalidName:String = " "
     }
     
-    required init?(value:String) {
+    init?(value:String) {
         guard
             value.isEmpty == false,
             value != Constants.invalidName

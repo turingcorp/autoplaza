@@ -1,6 +1,6 @@
 import Foundation
 
-class MotorAttributesItemYear:MotorAttributesItemProtocol {
+struct MotorAttributesItemYear:MotorAttributesItemProtocol {
     static let identifier:String = "VEHICLE_YEAR"
     let name:String = String.localizableMotor(key:"MotorAttributesItemYear_name")
     let year:Int
@@ -8,7 +8,7 @@ class MotorAttributesItemYear:MotorAttributesItemProtocol {
         static let minimumYear:Int = 1940
     }
     
-    required init?(value:String) {
+    init?(value:String) {
         guard
             let year:Int = Int(value),
             year >= Constants.minimumYear

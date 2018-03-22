@@ -62,6 +62,8 @@
 		DA3F5671206395F800A164DE /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F5670206395F800A164DE /* SearchResponse.swift */; };
 		DA3F567320639BC500A164DE /* ExploreRequesterParserPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F567220639BC500A164DE /* ExploreRequesterParserPaging.swift */; };
 		DA3F567520639C2A00A164DE /* TestExploreRequesterParserPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F567420639C2A00A164DE /* TestExploreRequesterParserPaging.swift */; };
+		DA3F567720639D6400A164DE /* JsonPaging01.json in Resources */ = {isa = PBXBuildFile; fileRef = DA3F567620639D6400A164DE /* JsonPaging01.json */; };
+		DA3F567B20639DD300A164DE /* JsonPagingError01.json in Resources */ = {isa = PBXBuildFile; fileRef = DA3F567A20639DD300A164DE /* JsonPagingError01.json */; };
 		DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B850205F974200CFF383 /* TestGuideController.swift */; };
 		DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */; };
 		DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */; };
@@ -181,6 +183,8 @@
 		DA3F5670206395F800A164DE /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		DA3F567220639BC500A164DE /* ExploreRequesterParserPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRequesterParserPaging.swift; sourceTree = "<group>"; };
 		DA3F567420639C2A00A164DE /* TestExploreRequesterParserPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExploreRequesterParserPaging.swift; sourceTree = "<group>"; };
+		DA3F567620639D6400A164DE /* JsonPaging01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JsonPaging01.json; sourceTree = "<group>"; };
+		DA3F567A20639DD300A164DE /* JsonPagingError01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JsonPagingError01.json; sourceTree = "<group>"; };
 		DA40B850205F974200CFF383 /* TestGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGuideController.swift; sourceTree = "<group>"; };
 		DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorView+Configuration.swift"; sourceTree = "<group>"; };
 		DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
@@ -412,6 +416,8 @@
 				DA1412D72062AE8600C3EE3D /* JsonRequestSearch01.json */,
 				DAAD4A862062B624003E0FCB /* JsonEmpty.json */,
 				DAAD4A8A2062B6D8003E0FCB /* JsonEmptyDictionary.json */,
+				DA3F567620639D6400A164DE /* JsonPaging01.json */,
+				DA3F567A20639DD300A164DE /* JsonPagingError01.json */,
 				DA1412D92062AFEA00C3EE3D /* JSonMocker.swift */,
 				DAAD4A842062B3B6003E0FCB /* TestJsonMocker.swift */,
 			);
@@ -714,6 +720,8 @@
 			files = (
 				DA1412D82062AE8600C3EE3D /* JsonRequestSearch01.json in Resources */,
 				DAAD4A872062B624003E0FCB /* JsonEmpty.json in Resources */,
+				DA3F567720639D6400A164DE /* JsonPaging01.json in Resources */,
+				DA3F567B20639DD300A164DE /* JsonPagingError01.json in Resources */,
 				DAAD4A8B2062B6D8003E0FCB /* JsonEmptyDictionary.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

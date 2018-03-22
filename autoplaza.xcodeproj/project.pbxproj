@@ -98,6 +98,8 @@
 		DA4594CC2063D6E3006BC114 /* FiltersItemConditionNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */; };
 		DA4594CE2063D84F006BC114 /* TestFiltersItemConditionAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594CD2063D84F006BC114 /* TestFiltersItemConditionAny.swift */; };
 		DA4594D02063D8AF006BC114 /* FiltersItemConditionAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594CF2063D8AF006BC114 /* FiltersItemConditionAny.swift */; };
+		DA4594D22063D921006BC114 /* TestFiltersItemConditionUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594D12063D921006BC114 /* TestFiltersItemConditionUsed.swift */; };
+		DA4594D42063D990006BC114 /* FiltersItemConditionUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594D32063D990006BC114 /* FiltersItemConditionUsed.swift */; };
 		DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */; };
 		DA63F840206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */; };
 		DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */; };
@@ -232,6 +234,8 @@
 		DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemConditionNew.swift; sourceTree = "<group>"; };
 		DA4594CD2063D84F006BC114 /* TestFiltersItemConditionAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFiltersItemConditionAny.swift; sourceTree = "<group>"; };
 		DA4594CF2063D8AF006BC114 /* FiltersItemConditionAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemConditionAny.swift; sourceTree = "<group>"; };
+		DA4594D12063D921006BC114 /* TestFiltersItemConditionUsed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFiltersItemConditionUsed.swift; sourceTree = "<group>"; };
+		DA4594D32063D990006BC114 /* FiltersItemConditionUsed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemConditionUsed.swift; sourceTree = "<group>"; };
 		DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoredataSearchConfiguration+Factory.swift"; sourceTree = "<group>"; };
 		DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration.swift; sourceTree = "<group>"; };
@@ -527,6 +531,7 @@
 			children = (
 				DA4594C52063D645006BC114 /* TestFiltersItemConditionNew.swift */,
 				DA4594CD2063D84F006BC114 /* TestFiltersItemConditionAny.swift */,
+				DA4594D12063D921006BC114 /* TestFiltersItemConditionUsed.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -628,6 +633,7 @@
 				DA4594C92063D6C3006BC114 /* FiltersItemConditionProtocol.swift */,
 				DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */,
 				DA4594CF2063D8AF006BC114 /* FiltersItemConditionAny.swift */,
+				DA4594D32063D990006BC114 /* FiltersItemConditionUsed.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -795,6 +801,7 @@
 				DA2DF207205E825100A50D77 /* StructureController+Constants.swift in Sources */,
 				DA4256732060E7D600F89C69 /* Coredata.swift in Sources */,
 				DA4256712060E75B00F89C69 /* DatabaseProtocol.swift in Sources */,
+				DA4594D42063D990006BC114 /* FiltersItemConditionUsed.swift in Sources */,
 				DA40B85B205FB37800CFF383 /* Explore.swift in Sources */,
 				DA3F5663206389FA00A164DE /* JsonParserProtocol+Defaults.swift in Sources */,
 				DAFAECA020624BE700F10259 /* ExploreRequester.swift in Sources */,
@@ -860,6 +867,7 @@
 				DA1412CB20629E2D00C3EE3D /* MockURLSessionExplore.swift in Sources */,
 				DA4594BA2063CF46006BC114 /* TestSearchSortRelevance.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
+				DA4594D22063D921006BC114 /* TestFiltersItemConditionUsed.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
 				DA4594CE2063D84F006BC114 /* TestFiltersItemConditionAny.swift in Sources */,
 				DAFAECAA2062511900F10259 /* TestExploreRequester_Factory.swift in Sources */,

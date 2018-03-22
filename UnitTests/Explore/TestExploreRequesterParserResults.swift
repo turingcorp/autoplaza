@@ -7,6 +7,9 @@ class TestExploreRequesterParserResults:XCTestCase {
     private var jsonError:Data!
     private var dictionary:[String:Any]!
     private var dictionaryError:[String:Any]!
+    private struct Constants {
+        static let items:Int = 1
+    }
     
     override func setUp() {
         super.setUp()
@@ -37,5 +40,13 @@ class TestExploreRequesterParserResults:XCTestCase {
         XCTAssertNoThrow(try self.parser.parse(json:self.dictionary), "Parser should not throw on parsing")
     }
     
-    
+    func testTotalItemsParsed() {
+        let items:[MotorProtocol]
+        do {
+            try items = self.parser.parse(json:self.dictionary)
+        } catch {
+            return
+        }
+        XCTAssertEqual(items.count, Constants.items, "Invalid number of items parser")
+    }
 }

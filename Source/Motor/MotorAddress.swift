@@ -1,5 +1,5 @@
 import Foundation
 
-class MotorAddress {
+struct MotorAddress {
     
 }

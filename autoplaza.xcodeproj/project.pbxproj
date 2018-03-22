@@ -58,6 +58,8 @@
 		DA3F566820638E9E00A164DE /* SearchPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566720638E9E00A164DE /* SearchPaging.swift */; };
 		DA3F566B2063925100A164DE /* TestSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566A2063925100A164DE /* TestSearchConfiguration.swift */; };
 		DA3F566D206392A300A164DE /* TestSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */; };
+		DA3F566F206395B200A164DE /* TestSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F566E206395B200A164DE /* TestSearchResponse.swift */; };
+		DA3F5671206395F800A164DE /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F5670206395F800A164DE /* SearchResponse.swift */; };
 		DA40B851205F974200CFF383 /* TestGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B850205F974200CFF383 /* TestGuideController.swift */; };
 		DA40B853205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */; };
 		DA40B855205FA62A00CFF383 /* StructureNavigatorViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */; };
@@ -173,6 +175,8 @@
 		DA3F566720638E9E00A164DE /* SearchPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPaging.swift; sourceTree = "<group>"; };
 		DA3F566A2063925100A164DE /* TestSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration.swift; sourceTree = "<group>"; };
 		DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
+		DA3F566E206395B200A164DE /* TestSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchResponse.swift; sourceTree = "<group>"; };
+		DA3F5670206395F800A164DE /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		DA40B850205F974200CFF383 /* TestGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGuideController.swift; sourceTree = "<group>"; };
 		DA40B852205FA06D00CFF383 /* StructureNavigatorView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StructureNavigatorView+Configuration.swift"; sourceTree = "<group>"; };
 		DA40B854205FA62A00CFF383 /* StructureNavigatorViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNavigatorViewTitle.swift; sourceTree = "<group>"; };
@@ -449,6 +453,7 @@
 				DA3F566A2063925100A164DE /* TestSearchConfiguration.swift */,
 				DA3F566C206392A300A164DE /* TestSearchConfiguration_Factory.swift */,
 				DA3F566520638E5400A164DE /* TestSearchPaging.swift */,
+				DA3F566E206395B200A164DE /* TestSearchResponse.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -540,6 +545,7 @@
 				DA730BD320601A3100DF1BAB /* SearchConfiguration.swift */,
 				DA42567F2060F23C00F89C69 /* SearchConfiguration+Factory.swift */,
 				DA3F566720638E9E00A164DE /* SearchPaging.swift */,
+				DA3F5670206395F800A164DE /* SearchResponse.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -750,6 +756,7 @@
 				DA140AB5205E65A000451711 /* Application.swift in Sources */,
 				DA2DF21A205E82B500A50D77 /* ExtensionNSManagedObject.swift in Sources */,
 				DA140AB8205E68A800451711 /* StructureController.swift in Sources */,
+				DA3F5671206395F800A164DE /* SearchResponse.swift in Sources */,
 				DA140AC1205E73B900451711 /* Structure+Factory.swift in Sources */,
 				DA2DF219205E82B500A50D77 /* ExtensionUIView+LayoutVertical.swift in Sources */,
 				DA730BCE20600FEB00DF1BAB /* ExploreView.swift in Sources */,
@@ -799,6 +806,7 @@
 				DA1412CD20629FB200C3EE3D /* MockURLSessionDataTaskExplore.swift in Sources */,
 				DA40B85D205FB39500CFF383 /* TestExplore.swift in Sources */,
 				DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */,
+				DA3F566F206395B200A164DE /* TestSearchResponse.swift in Sources */,
 				DAFAECB0206259C500F10259 /* TestExploreRequesterParser.swift in Sources */,
 				DA2DF227205E9B9600A50D77 /* TestStructureNavigatorViewButton.swift in Sources */,
 				DAAD4A852062B3B6003E0FCB /* TestJsonMocker.swift in Sources */,

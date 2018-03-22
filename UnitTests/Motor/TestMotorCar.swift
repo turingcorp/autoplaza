@@ -12,5 +12,6 @@ class TestMotorCar:XCTestCase {
     func testInit() {
         XCTAssertNotNil(self.motor, "Failed to load motor")
         XCTAssertNotNil(self.motor.seller, "Failed to load seller")
+        XCTAssertNotNil(self.motor.address, "Failed to load address")
     }
 }

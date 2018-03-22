@@ -96,6 +96,8 @@
 		DA4594C82063D6A5006BC114 /* FiltersItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594C72063D6A5006BC114 /* FiltersItemProtocol.swift */; };
 		DA4594CA2063D6C3006BC114 /* FiltersItemConditionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594C92063D6C3006BC114 /* FiltersItemConditionProtocol.swift */; };
 		DA4594CC2063D6E3006BC114 /* FiltersItemConditionNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */; };
+		DA4594CE2063D84F006BC114 /* TestFiltersItemConditionAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594CD2063D84F006BC114 /* TestFiltersItemConditionAny.swift */; };
+		DA4594D02063D8AF006BC114 /* FiltersItemConditionAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4594CF2063D8AF006BC114 /* FiltersItemConditionAny.swift */; };
 		DA63F83E20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */; };
 		DA63F840206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */; };
 		DA66EBCC206103E40073EE63 /* TestCoredataSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */; };
@@ -228,6 +230,8 @@
 		DA4594C72063D6A5006BC114 /* FiltersItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemProtocol.swift; sourceTree = "<group>"; };
 		DA4594C92063D6C3006BC114 /* FiltersItemConditionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemConditionProtocol.swift; sourceTree = "<group>"; };
 		DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemConditionNew.swift; sourceTree = "<group>"; };
+		DA4594CD2063D84F006BC114 /* TestFiltersItemConditionAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFiltersItemConditionAny.swift; sourceTree = "<group>"; };
+		DA4594CF2063D8AF006BC114 /* FiltersItemConditionAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersItemConditionAny.swift; sourceTree = "<group>"; };
 		DA63F83D20623683004E3AD7 /* TestCoredataSearchConfiguration_Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration_Factory.swift; sourceTree = "<group>"; };
 		DA63F83F206236BD004E3AD7 /* CoredataSearchConfiguration+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoredataSearchConfiguration+Factory.swift"; sourceTree = "<group>"; };
 		DA66EBCB206103E40073EE63 /* TestCoredataSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoredataSearchConfiguration.swift; sourceTree = "<group>"; };
@@ -522,6 +526,7 @@
 			isa = PBXGroup;
 			children = (
 				DA4594C52063D645006BC114 /* TestFiltersItemConditionNew.swift */,
+				DA4594CD2063D84F006BC114 /* TestFiltersItemConditionAny.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -622,6 +627,7 @@
 				DA4594C72063D6A5006BC114 /* FiltersItemProtocol.swift */,
 				DA4594C92063D6C3006BC114 /* FiltersItemConditionProtocol.swift */,
 				DA4594CB2063D6E3006BC114 /* FiltersItemConditionNew.swift */,
+				DA4594CF2063D8AF006BC114 /* FiltersItemConditionAny.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -781,6 +787,7 @@
 				DA1412D02062A63600C3EE3D /* ErrorLocal.swift in Sources */,
 				DA4594C82063D6A5006BC114 /* FiltersItemProtocol.swift in Sources */,
 				DAFAEC9620623EC000F10259 /* Coredata+Remove.swift in Sources */,
+				DA4594D02063D8AF006BC114 /* FiltersItemConditionAny.swift in Sources */,
 				DAFAECAC206252AB00F10259 /* ExploreRequester+Factory.swift in Sources */,
 				DA3F56612063899600A164DE /* JsonParserProtocol.swift in Sources */,
 				DA7A19AE205EB84A00071EFC /* ExploreController.swift in Sources */,
@@ -854,6 +861,7 @@
 				DA4594BA2063CF46006BC114 /* TestSearchSortRelevance.swift in Sources */,
 				DA40B857205FA66700CFF383 /* TestStructureNavigatorViewTitle.swift in Sources */,
 				DA140AD2205E7FFB00451711 /* TestStructureNavigatorView.swift in Sources */,
+				DA4594CE2063D84F006BC114 /* TestFiltersItemConditionAny.swift in Sources */,
 				DAFAECAA2062511900F10259 /* TestExploreRequester_Factory.swift in Sources */,
 				DA3F566620638E5400A164DE /* TestSearchPaging.swift in Sources */,
 				DA66EBCE206104DD0073EE63 /* TestCoredata_SearchConfiguration.swift in Sources */,
